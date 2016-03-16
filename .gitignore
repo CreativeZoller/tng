@@ -1,0 +1,6 @@
+*.log
+._*
+.DS_Store
+.Trashes
+Desktop.ini
+new_jekyll/_texts/

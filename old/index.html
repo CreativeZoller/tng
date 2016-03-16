@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Star Trek - A Legújabb Nemzedék &#8482;</TITLE>
+<script language="JavaScript">
+ function click() {
+ if (event.button == 2)
+ {
+ alert('Készítette Zolee Jackoway © 2006');
+ }
+ }
+ document.onmousedown = click;
+</script>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>BODY {
+	SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #333333; SCROLLBAR-SHADOW-COLOR: #333333; SCROLLBAR-3DLIGHT-COLOR: #333333; SCROLLBAR-ARROW-COLOR: #666666; SCROLLBAR-TRACK-COLOR: #000000; SCROLLBAR-DARKSHADOW-COLOR: #333333; BACKGROUND-COLOR: #000000
+}
+</STYLE>
+
+<STYLE type=text/css>A:link {
+	COLOR: #8b99ff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #8b99ff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR>
+</HEAD>
+
+<BODY bgColor=#000000>
+
+<CENTER>
+
+<TABLE cellSpacing=0 cellPadding=1 width=947 bgColor=#333333 border=0>
+<TBODY>
+<TR>
+<TD>
+ <TABLE cellSpacing=0 cellPadding=3 width="100%" bgColor=#000000 border=0><TBODY>
+ <TR>
+ <TD>
+  <TABLE cellSpacing=0 cellPadding=1 width="100%" bgColor=#666666 border=0>
+  <TBODY>
+  <TR>
+  <TD>
+   <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#000000 border=0>
+   <TBODY>
+   <TR>
+   <TD background="pic/header.jpg" height=100>&nbsp;
+   <TR>
+   <TD background="pic/line.jpg" height=1>
+   <TR>
+   <TD>
+   <CENTER><FONT face=arial color=#cccccc size=2><B>
+   <A href="index_a.html" 
+      target=content>Index</A> :: 
+   <A href="adatok.html" 
+      target=content>Adatok</A> :: 
+   <A href="infok.html" 
+      target=content>Errõl-Arról</A> :: 
+   <A href="forum.html" 
+      target=content>Fórum</A> :: 
+   <A href="credit.html" 
+      target=content>Készítõk</A></B>
+   </FONT></CENTER>
+   <TR>
+   <TD background="pic/line.jpg" height=1>
+   <TR>
+   <TD>
+    <TABLE cellSpacing=0 cellPadding=5 width="100%" bgColor=#000000 border=0>
+    <TBODY>
+    <TR>
+    <TD vAlign=bottom><FONT face=arial color=#cccccc size=2>
+..:: 
+ <body onLoad="goforit()">
+ <script>
+ var dayarray=new Array("Vasárnap","Hétfõ","Kedd","Szerda","Csütörtök","Péntek","Szombat")
+ var montharray=new  Array("Január","Február","Március","Április","Május","Június","Július","Augusztus","Szeptember","Október"," November","December")
+
+ function getthedate(){
+ var mydate=new Date()
+ var year=mydate.getYear()
+ if (year < 1000)
+ year+=1900
+ var day=mydate.getDay()
+ var month=mydate.getMonth()
+ var daym=mydate.getDate()
+ if (daym<10)
+ daym="0"+daym
+ var hours=mydate.getHours()
+ var minutes=mydate.getMinutes()
+ var seconds=mydate.getSeconds()
+ var dn="De"
+ if (hours>=12)
+ dn="Du"
+ if (hours>12){
+ hours=hours-12
+ }
+ if (hours==0)
+ hours=12
+ if (minutes<=9)
+ minutes="0"+minutes
+ if (seconds<=9)
+ seconds="0"+seconds
+ var cdate="<small><font color='cccccc' face='Arial'><b>"+dayarray[day]+",  "+montharray[month]+" "+daym+", "+year+" | "+hours+":"+minutes+":"+seconds+" "+dn
+ +"</b></font></small>"
+ if (document.all)
+ document.all.clock.innerHTML=cdate
+ else
+ document.write(cdate)
+ }
+ if (!document.all)
+ getthedate()
+ function goforit(){
+ if (document.all)
+ setInterval("getthedate()",1000)
+ }
+ </script>
+ <span id="clock">
+ </span>
+&nbsp;::..
+    </FONT></TR>
+    </TBODY>
+    </TABLE>
+   <TR>
+   <TD background="pic/line.jpg" height=1>
+   <TR>
+   <TD>
+    <TABLE cellSpacing=0 cellPadding=3 width="100%" bgColor=#000000 border=0>
+    <TBODY>
+    <TR>
+    <TD>
+    <IFRAME name=content src="index_a.html" frameBorder=0 width="100%" height=450>
+    </IFRAME>
+    <BODY>
+    </BODY>
+    </TR>
+    </TBODY>
+    </TABLE>
+   <TR>
+   <TD background="pic/line.jpg" height=1>
+   <TR>
+   <TD>
+    <TABLE cellSpacing=0 cellPadding=5 width="100%" bgColor=#000000 border=0>
+    <TBODY>
+    <TR>
+    <TD>
+    <FONT face=arial color=#cccccc size=2>
+     © The Newest Generation 2001-2006. A "Star Trek" és kapcsolatos elnevezések
+     a <A href="http://www.paramount.com/">Paramount Pictures</A> bejegyzett védjegyei.
+     Ez az oldal teljesen non-profit célokból mûködik. A rajta lévõ adatokat, képeket a
+     szerzõk elõzetes írásbeli engedélye nélkül tilos felhasználni.
+    </FONT>
+    </TR>
+    </TBODY>
+    </TABLE>
+   </TR>
+   </TBODY>
+   </TABLE>
+  </TR>
+  </TBODY>
+  </TABLE>
+ </TR>
+ </TBODY>
+ </TABLE>
+</TR>
+</TBODY>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
