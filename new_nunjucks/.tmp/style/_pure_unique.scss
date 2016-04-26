@@ -1,0 +1,18 @@
+//== Block overwrites
+.is-center {
+  text-align: center;
+}
+
+.l-box {
+  padding: 1em;
+}
+//== Element overwrites
+
+//== Module overwrites
+
+//== Query overwrites
+@media screen and (max-width: 48em) {
+  .pure-hidden-xs {
+    display: none;
+  }
+}

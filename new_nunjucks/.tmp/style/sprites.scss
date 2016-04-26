@@ -1,0 +1,129 @@
+$Type-2: -0 -0 161px 83px;
+$janeway-shuttle: -0 -83px 358px 98px;
+$delta-flyer: -0 -181px 358px 99px;
+$TR-116: -0 -280 339px 102px;
+$starfield: -0 -382px 875px 112px;
+$starchart: -0 -494px 680 152px;
+$glory-plakett: -0 -646px 208px 158px;
+$command: -0 -804px 175px 175px;
+$ufp: -0 -979px 351px 194px;
+$angel-class-logo: -0 -1173px 208px 208px;
+$Type-4: -0 -1381px 438px 235px;
+$glory-side: -0 -1616px 3036px 524px;
+$thunderbolts-old: -0 -2140 758px 758px;
+$glory-top: -0 -2898px 3036px 805px;
+$glory-msd: -0 -3703px 3346px 950;
+$glory-bridge: -0 -4653px 690 964px;
+
+.tng {
+  display: inline-block;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 3);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 4);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 1);
+  $sprite-offset-y: nth($sprite, 2);
+  background-position: $sprite-offset-x $sprite-offset-y;
+}
+
+.tng-Type-2 {
+  @include sprite-position($Type-2);
+  @include sprite-width($Type-2);
+  @include sprite-height($Type-2);
+}
+.tng-janeway-shuttle {
+  @include sprite-position($janeway-shuttle);
+  @include sprite-width($janeway-shuttle);
+  @include sprite-height($janeway-shuttle);
+}
+.tng-delta-flyer {
+  @include sprite-position($delta-flyer);
+  @include sprite-width($delta-flyer);
+  @include sprite-height($delta-flyer);
+}
+.tng-TR-116 {
+  @include sprite-position($TR-116);
+  @include sprite-width($TR-116);
+  @include sprite-height($TR-116);
+}
+.tng-starfield {
+  @include sprite-position($starfield);
+  @include sprite-width($starfield);
+  @include sprite-height($starfield);
+}
+.tng-starchart {
+  @include sprite-position($starchart);
+  @include sprite-width($starchart);
+  @include sprite-height($starchart);
+}
+.tng-glory-plakett {
+  @include sprite-position($glory-plakett);
+  @include sprite-width($glory-plakett);
+  @include sprite-height($glory-plakett);
+}
+.tng-command {
+  @include sprite-position($command);
+  @include sprite-width($command);
+  @include sprite-height($command);
+}
+.tng-ufp {
+  @include sprite-position($ufp);
+  @include sprite-width($ufp);
+  @include sprite-height($ufp);
+}
+.tng-angel-class-logo {
+  @include sprite-position($angel-class-logo);
+  @include sprite-width($angel-class-logo);
+  @include sprite-height($angel-class-logo);
+}
+.tng-Type-4 {
+  @include sprite-position($Type-4);
+  @include sprite-width($Type-4);
+  @include sprite-height($Type-4);
+}
+.tng-glory-side {
+  @include sprite-position($glory-side);
+  @include sprite-width($glory-side);
+  @include sprite-height($glory-side);
+}
+.tng-thunderbolts-old {
+  @include sprite-position($thunderbolts-old);
+  @include sprite-width($thunderbolts-old);
+  @include sprite-height($thunderbolts-old);
+}
+.tng-glory-top {
+  @include sprite-position($glory-top);
+  @include sprite-width($glory-top);
+  @include sprite-height($glory-top);
+}
+.tng-glory-msd {
+  @include sprite-position($glory-msd);
+  @include sprite-width($glory-msd);
+  @include sprite-height($glory-msd);
+}
+.tng-glory-bridge {
+  @include sprite-position($glory-bridge);
+  @include sprite-width($glory-bridge);
+  @include sprite-height($glory-bridge);
+}
+
+@mixin sprite($sprite) {
+  background-image: url('../images/sprite.png');
+  @include sprite-position($sprite);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+

@@ -1,0 +1,8 @@
+{% set gaCode = 'XXXXX-Y' %}
+{% block goan %}
+		<script>
+			window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+			ga('create','UA-{{ gaCode }}','auto');ga('send','pageview')
+		</script>
+		<script src="https://www.google-analytics.com/analytics.js" async="async" defer="defer"></script>
+{% endblock %}

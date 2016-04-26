@@ -1,0 +1,34 @@
+{% block metatags %}
+		<!-- Basic metatags -->
+		<meta name="language" content="hu-hu"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta charset="utf-8"/>
+		<meta name="contact" content="zoltan.belicza@gmail.com"/>
+		<meta name="author" content="Belicza Zoltán"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content="{{ description }}"/>
+		<meta name="keywords" content="{{ keywords }}"/>
+		<meta name="robots" content="index, follow"/>
+		<!-- Facebook OG Metatags -->
+		<meta property="fb:app_id" content=""/>
+		<meta property="og:title" content="{{ title }}"/>
+		<meta property="og:description" content="{{ description }}"/>
+		<meta property="og:site_name" content="{{ title }}"/>
+		<meta property="og:type" content="website"/>
+		{#<meta property="og:url" content="{{ host }}/{{ page }}"/>#}
+		{#<meta property="og:image" content="{{ host }}{{ assets }}images/logo.png"/>#}
+		<!-- Twitter OG Metatags -->
+		<meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:site" content="@project"/>
+		<meta name="twitter:title" content="{{ title }}"/>
+		<meta name="twitter:description" content="{{ description }}"/>
+		<!-- Schema.org Metatags -->
+		<meta itemprop="name" content="{{ title }}"/>
+		<meta itemprop="description" content="{{ description }}"/>
+		{#<!-- Favicon -->
+		<link rel="shortcut icon" href="{{ assets }}images/favicon/favicon.ico" type="image/x-icon"/>
+		<link rel="icon" type="image/png" sizes="192x192"  href="{{ assets }}images/android-icon-192x192.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ assets }}images/favicon/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="96x96" href="{{ assets }}images/favicon/favicon-96x96.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ assets }}images/favicon/favicon-16x16.png"/>#}
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Szereplõk' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, szereplõk' %}
+{% set style = ['main', 'pure', 'animate'] %}
+{% set activePage = 'datas' %}
+
+{% set activeSubPage = 'crewmembers' %}
+{# {% set activeMenus = (navigations.datas["main"], "crewmembers", navigations.datas["crewmembers"]) %} #}
+{% set activeCrumbs = breadcrumbs["crewmembers"] %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu(navigations.datas["main"], "crewmembers", navigations.datas["crewmembers"], activeSubPage) }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
+							<h2 class="content-subhead">Szereplõk</h2>
+							<p>
+								A USS.Glory legénysége, mely különbözõ fajokból áll (Ember, Bajori, Vulkáni, Klingon). Ismerd meg a történet szereplõinek háttértörténetét, jellemrajzát.
+							</p>
+						</article>
+
+{% endblock %}

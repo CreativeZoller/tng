@@ -1,0 +1,29 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Idõvonal' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, idõvonal' %}
+{% set style = ['main', 'pure', 'animate'] %}
+{% set activePage = 'datas' %}
+
+{% set activeSubPage = 'timeline' %}
+{# {% set activeMenus = (navigations.datas["main"], "timeline", navigations.datas["timeline"]) %} #}
+{% set activeCrumbs = breadcrumbs["timeline"] %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu(navigations.datas["main"], "timeline", navigations.datas["timeline"], activeSubPage) }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
+							<h2 class="content-subhead">Idõvonal</h2>
+							<p>
+								Egy kis időrendi áttekintést enged ez a rész a Holdralépéstől egész a USS.Glory csillaghajó pusztulásáig.
+							</p>
+						</article>
+
+{% endblock %}

@@ -1,0 +1,62 @@
+{% macro genContent(contentData) %}
+						{% for contentEntries in contentData %}
+							{% if contentEntries.type == 'text' %}
+							{% if contentEntries.title %}<h3>{{ contentEntries.title }}</h3>{% endif %}
+							{% if contentEntries.subTitle %}<h4>{{ contentEntries.subTitle }}</h4>{% endif %}
+							{% if contentEntries.content %}
+							<p>
+								{{ contentEntries.content }}
+							</p>
+							{% endif %}
+							{% elif contentEntries.type == 'quote' %}
+							<blockquote>
+								<p>{{ contentEntries.content }}</p>
+								<footer>— {{ contentEntries.author }}</footer>
+							</blockquote>
+							{% elif contentEntries.type == 'list' %}
+							{% if contentEntries.title %}<h3>{{ contentEntries.title }}</h3>{% endif %}
+							<p>
+								{{ contentEntries.heading }}
+							</p>
+							<ul>
+							{% for items in contentEntries.listItems%}
+								<li>{{ items.content }}</li>
+							{% endfor %}
+							</ul>
+							{% elif contentEntries.type == 'table' %}
+							{% if contentEntries.title %}<h3>{{ contentEntries.title }}</h3>{% endif %}
+								{% if contentEntries.subType == 'dl' %}
+								{% for item in contentEntries.dl %}
+								<dl>
+									<dt>{{ item.dt }}</dt>
+									<dd>{{ item.dd }}</dd>
+								</dl>
+								{% endfor %}
+								{% elif contentEntries.subType == 'tr' %}
+								<table>
+								{% for item in contentEntries.tr %}
+									<tr>
+									{% if item.header == 'true' %}
+										{% for key, value in item.cells %}
+										<th>{{ value }}</th>
+										{% endfor %}
+									{% else %}
+										{% for key, value in item.cells %}
+										<td>{{ value }}</td>
+										{% endfor %}
+									{% endif %}
+									</tr>
+								{% endfor %}
+								</table>
+								{% endif %}
+							{% elif contentEntries.type == 'image' %}
+							{% for item in contentEntries.images %}
+								{% if activeSubPage != '' %}
+								<img src="../{{ item.src }}" width="100%" height="100%" alt="{{ item.alt }}" class="pure-u-md-{{ item.size }}" />
+								{% else %}
+								<img src="../{{ item.src }}" width="100%" height="100%" alt="{{ item.alt }}" class="pure-u-md-{{ item.size }}" />
+								{% endif %}
+							{% endfor %}
+							{% endif %}
+						{% endfor %}
+{% endmacro %}

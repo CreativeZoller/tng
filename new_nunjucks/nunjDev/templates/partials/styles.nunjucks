@@ -1,0 +1,10 @@
+{% block styles %}
+	{% for css in style %}
+		{% if activeSubPage != '' %}
+		<link rel="stylesheet" href="../style/{{ css }}.css" />
+		{% else %}
+		<link rel="stylesheet" href="style/{{ css }}.css" />
+		{% endif %}
+		{# <script src="{{ assets }}javascript/{{script}}.js" async defer></script> #}
+	{% endfor %}
+{% endblock %}

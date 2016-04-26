@@ -1,0 +1,28 @@
+{
+  "name": "tng_nunjucks",
+  "description": "Old TNG website recreated with modern techniques",
+  "main": "gulpfile.js",
+  "authors": [
+    "Zoltan Belicza"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "tng",
+    "nunjucks",
+    "gulp",
+    "compass",
+    "sass",
+    "testing"
+  ],
+  "homepage": "https://github.com/CreativeZoller/tng",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "tests"
+  ],
+  "dependencies": {
+    "animate-sass": "^0.6.6",
+    "purecss-sass": "0.6.0+1"
+  }
+}

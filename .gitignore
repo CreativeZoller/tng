@@ -3,4 +3,8 @@
 .DS_Store
 .Trashes
 Desktop.ini
-new_jekyll/_texts/
+new_jekyll
+new_nunjucks/dist
+new_nunjucks/node_modules
+new_nunjucks/bower_components
+new_nunjucks/TODO.md

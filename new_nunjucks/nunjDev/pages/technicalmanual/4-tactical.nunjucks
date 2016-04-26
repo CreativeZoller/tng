@@ -1,0 +1,29 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+{% import "nunjDev/templates/macros/bigContents.nunjucks" as bigContent %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Hajóadatok: Taktikai rendszerek' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, idõvonal, taktikai, rendszerek' %}
+{% set style = ['main', 'pure', 'animate', 'manual'] %}
+{% set activePage = 'datas' %}
+
+{% set activeSubPage = '4-tactical' %}
+{# {% set activeMenus = (navigations.datas["main"], "technicalmanual", navigations.datas["technicalmanual"]) %} #}
+{% set activeCrumbs = breadcrumbs["4-tactical"] %}
+{% set techData = contents.technicalmanual[activeSubPage] %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu(navigations.datas["main"], "technicalmanual", navigations.datas["technicalmanual"], activeSubPage) }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
+							<h2 class="content-subhead">Technikai leírás: Taktikai Rendszerek</h2>
+							{{ bigContent.genContent(techData) }}
+						</article>
+
+{% endblock %}

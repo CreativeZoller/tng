@@ -1,0 +1,16 @@
+{% block mainNav %}
+				<header class="header l-box is-center">
+					<div class="home-menu pure-menu pure-menu-horizontal">
+						<div id="logo" class="pure-menu-heading">Your Site Image</div>
+						<nav class="pure-menu-list">
+							{% for key, value in navigations["mainNavigation"] %}
+							{% if activeSubPage != '' %}
+							<li class="pure-menu-item {%if activePage == key %}pure-menu-selected{% endif %}"><a href="../{{ key }}.html" title="{{ value }}" class="">{{ value }}</a></li>
+							{% else %}
+							<li class="pure-menu-item {%if activePage == key %}pure-menu-selected{% endif %}"><a href="{{ key }}.html" title="{{ value }}" class="">{{ value }}</a></li>
+							{% endif %}
+							{% endfor %}
+						</nav>
+					</div>
+				</header>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Idõvonal: 2188 - 2379' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, idõvonal, 2188, 2379' %}
+{% set style = ['main', 'pure', 'animate', 'timeline'] %}
+{% set activePage = 'datas' %}
+
+{% set activeSubPage = 'to-boldly-go' %}
+{# {% set activeMenus = (navigations.datas["main"], "timeline", navigations.datas["timeline"]) %} #}
+{% set activeCrumbs = breadcrumbs["to-boldly-go"] %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu(navigations.datas["main"], "timeline", navigations.datas["timeline"], activeSubPage) }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
+							<h2 class="content-subhead">Idõvonal: 2188 - 2379</h2>
+							<p>
+								Egy kis időrendi áttekintést enged ez a rész a Holdralépéstől egész a USS.Glory csillaghajó pusztulásáig.
+							</p>
+							<hr />
+							<ol class="content-timeline">
+								{% for entry in contents.timeline["to-boldly-go"] %}
+								<li>
+									<time>{{ entry.date }}</time>
+									<span>{{ entry.event }}</span>
+								</li>
+								{% endfor %}
+							</ol>
+						</article>
+
+{% endblock %}

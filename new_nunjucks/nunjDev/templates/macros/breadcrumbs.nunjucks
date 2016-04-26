@@ -1,0 +1,15 @@
+{% macro genCrumbs(location) %}
+							<ol class="breadcrumb pure-menu-list">
+							{% for key, value in location %}
+							{% if loop.index < loop.length %}
+								{% if activeSubPage != '' %}
+								<li class=""><a href="../{{ key }}.html" class="pure-menu-link">{{ value }}</a></li>
+								{% else %}
+								<li class=""><a href="{{ key }}.html" class="pure-menu-link">{{ value }}</a></li>
+								{% endif %}
+							{% else %}
+								<li class="">{{ value }}</li>
+							{% endif %}
+							{% endfor %}
+							</ol>
+{% endmacro %}

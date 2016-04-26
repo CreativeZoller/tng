@@ -1,0 +1,55 @@
+{{#each layouts}}
+{{#each layout.items}}
+${{cssesc meta.name}}: -{{x}}px -{{y}}px {{width}}px {{height}}px;
+{{/each}}
+{{#each sprites}}
+
+{{#if dpi}}
+@media (-webkit-min-device-pixel-ratio: {{ratio}}), (min-resolution: {{dpi}}dpi) {
+{{/if}}
+.{{cssesc ../classname}} {
+  display: inline-block;
+  background-image: url({{escimage url}});
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+{{#if dpi}}
+}
+{{/if}}
+{{/each}}
+
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 3);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 4);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 1);
+  $sprite-offset-y: nth($sprite, 2);
+  background-position: $sprite-offset-x $sprite-offset-y;
+}
+
+{{#each layout.items}}
+.{{cssesc ../classname}}-{{cssesc meta.name}} {
+  @include sprite-position(${{meta.name}});
+  @include sprite-width(${{meta.name}});
+  @include sprite-height(${{meta.name}});
+}
+{{/each}}
+
+{{#each sprites}}
+@mixin sprite($sprite) {
+  background-image: url('{{{escimage url}}}');
+  @include sprite-position($sprite);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+{{/each}}
+
+{{/each}}

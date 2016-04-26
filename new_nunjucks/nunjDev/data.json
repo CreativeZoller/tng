@@ -1,0 +1,1222 @@
+{
+  "contents": {
+    "timeline": {
+      "stormy-beginnings": [{
+        "date": "1969",
+        "event": "Az elsõ Ember a Holdon."
+      }, {
+        "date": "1972",
+        "event": "Az Apolló Program megszületik."
+      }, {
+        "date": "1975",
+        "event": "Az Apollo-Soyuz Tesztprojektek az elsõ közös cselekmények az egyesült Államok és a Szovjetúnió között."
+      }, {
+        "date": "1981",
+        "event": "Az Egyesült Államok fellövi az elsõ ûrsiklót."
+      }, {
+        "date": "1986",
+        "event": "A Challenger ûrsikló 73 másodperccel a felszállás után megsemmisül, a legénység minden tagja szörnyethal. Ez az eset több, mint két évvel vetette vissza az USA ûrprogramját. A Szovjetek elindítják a MIR ûrállomást."
+      }, {
+        "date": "1997",
+        "event": "Föld körüli pályára építenek ûrállomást a NASA/ESA/Japan együttmûködés jegyében, az Oroszok segítségével."
+      }, {
+        "date": "1998",
+        "event": "Nemzetközi program keretében Ember megy a Holdra. A bányász, kutató és egyéb ksiegítõ mûveletek megkezdõdnek."
+      }, {
+        "date": "1999",
+        "event": "A Voyager 6 szondát elindítják a Földrõl. Miután a Naprendszer külsõ bolygóiról végez méréseken, feltételezhetõen egy mini fekete-lyukba 'esik' majd a galaxis túlvégében bukkan fel."
+      }, {
+        "date": "2001",
+        "event": "Az új Milleniumot az Egyesült Föld (az Új Egyesült Nemzetek egy erõsebb változata) és az EFÛ(Egyesült Földi Ûr-Ügynökség) megalakításával ünneplik."
+      }, {
+        "date": "2008",
+        "event": "Az elsõ Emberi jelenlétû Mars-expedíció eléri a vörös bolygót. Ez hónapokon belül többször megismétlõdik, tervszerûen."
+      }, {
+        "date": "2009",
+        "event": "Shaun Geoffrey Christopher õrnagy irányítja az elsõ sikeres emberi Szaturnusz-missziót."
+      }, {
+        "date": "2012",
+        "event": "A Marsbázis 1 elkezdi a csillagközi létformák keresését."
+      }, {
+        "date": "2014",
+        "event": "A külsõ aszteorida-öv elsõ vizsgálatai, tanulmányozásai."
+      }, {
+        "date": "2029",
+        "event": "A Holdbázis észleli az elsõ intelligens, földönkívüliek által sugárzott jelet."
+      }, {
+        "date": "2032",
+        "event": "Az Ares-4 Mars misszió megszakad, mikor a parancsnoki modult elragadja egy graviton ellipszis. Két asztronauta a bolygó felszínén rekedt hetekig, míg a mentõcsapat megnem találta végül õket."
+      }, {
+        "date": "2036-2037",
+        "event": "Az új tér-idõ kutatások lyukakat találnak a relativitás elméletében, melyek lehetõvé teszik a fénynél gyorsabb kommunikációt és utazást is. Bár ez még csak elmélet."
+      }, {
+        "date": "2045",
+        "event": "Az új Egyesült Nemzedek fennállásának 100. évfordulóját ünnepli. Az emberek szerte a Naprendszerben ünnepelik ezt a napot."
+      }, {
+        "date": "2053",
+        "event": "A világszerte egyre gyakoribb konfligtusok összeomlasztják a földi Új Nemzetek Szövetségét. Green õrnagy egy sor taktikai atomrakétát indít útnak, mellyel 600 milliónál is több embert öl meg. Számos nagyváros és nemzeti hivatal szûnik meg létezni. Számos terület a 'nukleáris tél' következményeit szenvedi. Ám mindezekkel ellentétben a legtöbb konfligtus nem világszélességû, hanem helyi érdekeltségû marad. A történelem ezt a sötét idõszakot mégis a Harmadik Világháború-ként emlegeti."
+      }, {
+        "date": "2063",
+        "event": "Zefram Cochrane megcsinálja a Föld elsõ térugrásos utazását. Hajója, a Phoenix egy régi, USA Légiereje által használt Titan rakétán alapszik. Micah Brack és Dr. Lily Sloane segítségével a hajót egy elhagyatott rakétasilóban építették össze, észak Montanában. A Phoenix hajtómûvének mintáját észlelte egy közelben tartózkodó Vulkán kutatóhajó mely irányt változtatott és felvette a kapcsolatot Cochranennel és társaival. Ez az Emberiség történelmének mérföldköve, és a Föld csillagközi korának kezdete."
+      }, {
+        "date": "2066",
+        "event": "Az EFÛP.Enterprise eléri az Alpha Centaurit és a negyedik bolygót benépesítve találja. Kiderül hogy a lakók az õsi Görögök a földrõl, akiket az 'Õrzõk' transzportáltak oda."
+      }, {
+        "date": "2067",
+        "event": "A 'Barátság 1' -t fellövik a Földrõl."
+      }, {
+        "date": "2119",
+        "event": "Zefram Cochrane részt vesz a Warp 5 Komplexum megnyitóján -olyan gyártelep ahol ötös fokozattal haladni bíró térhajtómûveket építenek. Nem sokkal ezután eltûnik és 87 évesen az Alpha Centaurinál nyoma vész."
+      }, {
+        "date": "2121-2122",
+        "event": "Az elsõ közös tudományos projekt a Föld, az Alpha Centauri és a Vulkániak között. A kutatás kifizetõdõnek bizonyul, mikor mindhárom világból kutatószondákat indítanak útnak szerte a világûrbe."
+      }, {
+        "date": "2151",
+        "event": "Elsõ kapcsolatfelvétel a Klingonokkal és a Sulibanokkal. Útnak indul a legelsõ ötös fokozattal utazni tudó hajtómûvel ellátott ûrhajó, az Enterprise (NX-01). Ezután a találkozó után ideiglenes békét köt a két faj. A Csillagflotta új eljárásmódokat dolgoz ki s vezet be ilyen kapcsoaltfelvételi esetekre, nehogy a jövõben elõfordulhassanak hasonló félreértések két nép szándékai között."
+      }, {
+        "date": "2156-2160",
+        "event": "Romulán Háború. A véres ellenségeskedés az Alpha Trianguli Békeszerzõdéssel ért véget. A megegyezést szubtér-rádión közvetítették kvadráns-szerte."
+      }, {
+        "date": "2158",
+        "event": "Feltalálják a Transzportert. Az elv gyakorlati megvalósítása azonban még várat magára."
+      }, {
+        "date": "2161",
+        "event": "Az emberek, Vulkániak, Alpha Centauriak, Tellaritek, Andóriaiak összeülnek Bábelen, hogy megerõsítsék a szövetségük pontjait. Így alakul meg a Bolygók Egyesült Föderációja."
+      }, {
+        "date": "2164",
+        "event": "Megalakul a Csillagflotta Akadémia, hogy az állományokat egységes kiképzésben részesítse mielõtt aktív szolgálatba állnának. Korábban a szövetség minden tagja a saját ûrflottájából adott eme célra."
+      }, {
+        "date": "2164",
+        "event": "Föderációs csillaghajó elsõízben használja a U.S.S. elõtagot (USS- Egyesült Ûrhajózás)."
+      }],
+      "to-boldly-go": [{
+        "date": "2188",
+        "event": "A föderáció tagjainak száma eléri a 100 rendszert."
+      }, {
+        "date": "2217",
+        "event": "A föderáció tagjainak száma eléri a 300 rendszert."
+      }, {
+        "date": "2219",
+        "event": "A transzportertechnológia teljesen biztonságossá válik, sokévnyi kísérletezés és biztonsági módosítás után."
+      }, {
+        "date": "2220",
+        "event": "Az Elsõdleges Irányelv létrehozása, mely a Csillagflotta Elsõszámú Általános Parancsává válik."
+      }, {
+        "date": "2247",
+        "event": "Elveszik a kapcsolat a 'Barátság 1' -el. Utolsó befogott jelei alapján a Delta Kvadráns irányába tartott."
+      }, {
+        "date": "2268",
+        "event": "A Flottaparancsnokságon találkoznak a fõtisztek, és létrejön az Elsõdleges Idõ-Irányelv. Többnapos tárgyalások után az irányelvet a Csillagflotta 157-es Általános Parancsaként jegyzik be."
+      }, {
+        "date": "2293",
+        "event": "A Klingonok Praxis holdja felrobban, ezáltal az energiaforrásukat megszakítva, s katasztrófális veszéllyel fenyegetve az egész birodalmat. Gorkon Kancellár vezetésével, figyelembe véve a helyzet súlyosságát egy követség indul el hogy béketárgyalásokat kezdeményezzenek a föderációval. A kancellár hajóját az Enterprise kíséri a Földhöz, ám az út során megölik a kancellárt. A nyomozások végén, Sulu kapitány segítségével megmentik a békeszerzõdést Khitomeren. Ezáltal a Klingon Birodalom és a Föderáció közti békés idõszak kezdetét veszi."
+      }, {
+        "date": "2300",
+        "event": "A Csillagflotta egyenruha-kitûzõt lecseréli a Kommunikátor, mely egy hasonló kitûzõbe van beépítve. A berendezést rövid idõn belül kommkitûzõként hívják."
+      }, {
+        "date": "2329",
+        "event": "A Duotronik erõsítõket elõször cserélik le izolineáris chipekre, melyeket adattárolóknak és feldolgozó egységeknek használnak."
+      }, {
+        "date": "2347",
+        "event": "A Csillagflotta kitûzõ 60 év után elõször lett módosítva, elliptikus háttér elé helyezve a nyílszerû jelképet."
+      }, {
+        "date": "2352",
+        "event": "A béke új korszaka kezdõdik a Klingon Birodalom és a Bolygók Egyesült Föderációja között, mikor a Narenda 3-on hivatalosan is aláírják a Béke-egyezményt."
+      }, {
+        "date": "2364",
+        "event": "Kapcsolatfelvétel 'Q' -val."
+      }, {
+        "date": "2367",
+        "event": "A Wolf 359-es csata. Egyetlen Borg Kocka több mint negyven Csillagflottahajót pusztított el. Több mint 11,000 emberéletet követelt ez a csata. Ez az eset a Csillagflotta eddigi legnagyobb katasztrófájának bizonyult."
+      }, {
+        "date": "2369",
+        "event": "A Kardassziai Unió elhagyja a Bajort a 40 évnyi megszállás után. A Föderáció a segítségét ajánlja a Bajornak az újjáépítésben. A Bajor elfogadja a segítséget."
+      }, {
+        "date": "2369",
+        "event": "A Csillagflotta felfedezi az elsõ, stabil féregjáratot, mely a Bajori rendszerbõl egészen a Gamma Kvadránsig vezet, közel 70.000 fényévnyi távolságba."
+      }, {
+        "date": "2370",
+        "event": "A Föderáció felveszi a kapcsolatot a Dominiummal a Gamma Kvadránsban. Az eset katasztrófális hibának bizonyul késõbb."
+      }, {
+        "date": "2371",
+        "event": "A Csillagflotta kitûzõ ismét megváltozik, ezúttal a háttér cserélõdik le s kissé nyúlik a nyílszerû jelkép."
+      }, {
+        "date": "2371",
+        "event": "A USS.Voyager (NCC-74656) Kathryn Janeway parancsnoksága alatt útnak indul. Hónapokkal késõbb a Delta Kvadránsban ragad, mintegy 75.000 fényévnyire egy intergalaktikus élõlény, a 'Gondozó' miatt."
+      }, {
+        "date": "2371",
+        "event": "Sisko parancsnok kérésére a kísérleti USS.Defiant csillaghajót a Deep space 9 ûrállomáshoz vezénylik. A Romulánokkal kötött új egyezmény alapján a Dominium elleni védekezéshez a Csillagflottával megosztják álcázóberendezéseik felépítését. Ez az álcázó telepítve lett a Defiantre is."
+      }, {
+        "date": "2371",
+        "event": "A Voyager egy Emberek által lakott bolygót fedez fel, melyet egy Briori nevû faj uralt korábban. A felszín alatt több sztázisban lévõ Embert is találtak, akiket a földrõl raboltak el az 1930-as években. Köztük az elsõ nõi pilóta is, Amélia Earhart."
+      }, {
+        "date": "2372",
+        "event": "A Klingon Birodalom megszállja a Kardassziai Uniót, hatalmas területeket elfoglalva. Mikor a Föderáció a Kardassziaiak megsegítése mellett dönt, a Klingonok megszegik a Khitomeri Egyezményt, és ideiglenesen megszûnik a Föderációs-Klingon Szövetség."
+      }, {
+        "date": "2372",
+        "event": "A USS.Enterprise (NCC-1701-E) Jean-Luc Picard kapitány parancsnkosága alatt elindul útjára. Worf parancsnokhelyettes kivételével a korábbi Enterprise minden fõtizstjét erre az új hajóra helyezték át."
+      }, {
+        "date": "2373",
+        "event": "A Borg megindítja második invázióját a Föderációs ûrbe. A Borg Kockát Föderációs flotta semmisíti meg Föld körüli pályáján."
+      }, {
+        "date": "2373",
+        "event": "A Dominium magához csatolja a Kardassziai Uniót, ezzel vetve meg lábát és szerezve hatalmas elõnyt az Alfa Kvadránsban. A Dominiumi Háború kezdetét veszi, mikor Jem'Hadar és Kardassziai erõk támadják meg a Deep Space 9, Föderációs ûrállomást."
+      }, {
+        "date": "2373-2374",
+        "event": "A Voyager csillaghajó megérkezik a Borg által uralt ûrbe, és felfedezi hogy épp harcban áll egy még nála is erõsebb fajjal. Ez a faj egy alternatív kontíniumból támad és a Borg nem jelent kihívást számára. A 8472-es Faj legyõzése, és a Borg ûrön való biztonságos áthaladás reményében Janeway kapitány egyezségre lép a Kollektívával. Ezután új tagja lesz a legénységnek, egy ex-Borg, Hét Kilenced, emberi nevén Annika Hansen."
+      }, {
+        "date": "2374",
+        "event": "Miután rájön hogy a Dominium cselszövéssel hátba akarta támadni õt, a Romulán Birodalom fegyveres szövetségre lép a Dominium ellen, mely a Föderációval való ideiglenes eggyüttmûködéssel jár."
+      }, {
+        "date": "2375",
+        "event": "A Voyager csillaghajó legénysége megtervezi és megépíti az elsõ delta Kompot."
+      }, {
+        "date": "2375",
+        "event": "A Breen Konföderáció szövetségre lép a Dominiummal. Elsõ lépésként egy pusztító támadást intéznek a Csillagflotta Parancsnokság San Franciscoi központja ellen."
+      }, {
+        "date": "2375",
+        "event": "A USS.Defiant megsemmisül a Breen hajók energiaelnyelõ fegyverei miatt. Hetekkel késõbb Sisko kapitány megkapja a USS.Sao Paulo parancsnokságát, és átnevezi Defiantre."
+      }, {
+        "date": "2375",
+        "event": "A Föderáció, a Klingonok és a Romulánok egy végsõ támadást indítanak Kardasszia ellen hogy legyõzzék a Dominium erõit. A támadás majdnem vereséggel végzõdik, ám mikor a Kardassziai erõk szembe fordulnak az Alapítókkal, fordul a kocka. A csata alatt Odo meggyõzi a bolygón lévõ alakváltót, hogy képesek a szilárdakkal békében együtt élni, s így az alakváltó kiadja a parancsot a Dominium erõinek visszabonulására. Ezzel véget ér a Dominiumi háború."
+      }, {
+        "date": "2376",
+        "event": "A Bajori szerzõdéskötéssel a Dominiumi Háború hivatalosan is lezárul. Minden bolygó a Kardassziai Unión belül függetlennek nyílvánítatik. Minden Kardassziai kolónia megkapja a szabad jogot hogy továbbra is Kardassziai felügyelett alatt maradjon, vagy pedig a Föderáció hatáskörébe tartozhasson mindaddig míg a romokban álló Kardasszia Prime újra nem épül, és képes lesz újra önnállóan igazgatni saját ügyeit."
+      }, {
+        "date": "2376",
+        "event": "Lázadó Jem’Hadar vadászgépek egy csoportja támadja meg a Deep Space 9-t, és elpusztítják a USS.Aldebaran csillaghajót, ezzel egy újabb Dominium-elleni háborút szítva. A Gamma Kvadránsba irányuló ellentámadást megszakítja egy Jem'Hadar katona érkezése, akit Odo hivatalos megfigyelõnek és összekötõnek küldött az állomásra."
+      }, {
+        "date": "2376",
+        "event": "Az Útkeresõ projekten dolgozva Reginald Barclay hadnagy a Csillagflotta Kommunikációs Központjában kidolgoz egy eljárást, melynek segítségével a Csillagflotta kapcsoaltba tud lépni a Voyager csillaghajóval."
+      }, {
+        "date": "2377",
+        "event": "A 'Barátság 1' maradványaira bukkan a Voyager egy halott bolygón."
+      }, {
+        "date": "2377",
+        "event": "A USS.Voyager csillaghajó megtalálja a létezõ hat Borg Tranztéri Csomópont közül az egyiket egy csillagköd belsejében. Röviddel ezután a jövõböl visszautazó Janeway admirális megpróbálja hazajuttatni vele legénységét. Végül a jövõbeli technológiák segítségével egy számítógépvírust juttatnak a Kollektívába, ezáltal elpusztítva a Királynõt és a központi Nexust. Ezzel egyidõben a Voyager a Delta Kvadránsban töltött hét év után hazatér a Földre. A hajó jövõbeli technológiák széles váalsztékával a fedélzetén tér haza, mint például a Kvantumörvény-meghajtás, Transzfázisos torpedók, nanotechnológiai hadviselés, replikált nehézpáncélzat, stb. Ennek köszönhetõen kezdõdik majd el késõbb a Csillagflotta új irányú tervezése."
+      }, {
+        "date": "2379",
+        "event": "Majdnem az egész Romulán Szenátus megsemmisül egy Remusi harcos, Shinzon által vezetett rajtaütés során. A kevés túlélõ Szenátor azt a napot a Birodalom egy új korának hajnalaként emlegeti."
+      }, {
+        "date": "2379",
+        "event": "Bolygóméretû reform-átalakítása után a Bajor végre a Föderáció teljesértékû tagja lesz. Vedek Nimella Rosai segítségével jött létre ez az évek óta várt esemény."
+      }, {
+        "date": "2379",
+        "event": "Kudarcba fullad a második nagy próbálkozás hogy megöljék Martokot, a Klingon Nagytanács vezetõjét. Ezután Martok kiterjeszti a birodalom területét mélyen a Béta Kvadránsba, ezzel megalapozva ama elképzelését, hogy a Klingon Birodalom nem folytatja régi, katonai területfoglaló taktikáját."
+      }, {
+        "date": "2379",
+        "event": "A Deep Space 9 ûrállomás és az Utopia Planitia Föderációs Hajótelep megkezdi együttmûködését a Voyager Fejlesztett Technológia (VFT) projekten."
+      }],
+      "golden-ages": [{
+        "date": "2380",
+        "event": "A Csillagflotta elindítja az Angel-osztályú Csillaghajó tervezési Projektet, mely a Föderációs védelem egy új generációs cirkáló és kutatóhajóját hivatott megtestesíteni."
+      }, {
+        "date": "2380",
+        "event": "A Klingon flottát a Béta Kvadránsba küldik -nagyjából 300 hadihajót- hogy megvizsgálja a Typhon csillagködben idõnként feltûnõ különös idegen hajókat. Egy hajó em tért vissza, így több vizsgálatot nem kezdtek."
+      }, {
+        "date": "2381",
+        "event": "A Föderációs-Romulán békeszerzõdés megkötése a Remuson, ezáltal létrehozva a béke gyenge kapcsát a két, régóta ellenségeskedõ fél között, és megszüntetve az õsi Romulán Háború óta létezõ Semleges Zónát."
+      }, {
+        "date": "2389",
+        "event": "A VFT Projekt 10 éves munkájának eredményeképp megszületett az elsõ olyan hajóosztály, mely ötvözi eme új technológiákat és a Csillagflotta új szabályzatában megkötött feltételeknek is haladéktalanul eleget tesz. Az elsõ ilyen hajó a USS.Glory csillaghajó, mely a flotta legújabb elit-alakulatának, a 'Mennydörgés' osztagnak a hajója lesz rögtön a megépítése után."
+      }, {
+        "date": "2390",
+        "event": "Egy kutatóhajokból álló flotta behatol a Typhon csillagködbe, s kivizsgálja az idegenek jelenlétének okát. A csillagködben talált bolygó fontos információkkal szolgál a Föderációnak, s a többi kvadráns-beli fajnak."
+      }, {
+        "date": "2390",
+        "event": "A USS.Glory megpróbálja a békés kapcsolatfelvételt egy idegen, ellenséges fajjal, Az Elsõkkel. A kapcsolatfelvétel kudarca után a Föderációs Nagytanács súlyos döntést hoz, hadiállapotot rendel el. Innentõl a Glory, és az idõközben elkészülõ ikertestvére is a frontvonalban harcolnak az Elsõk ellen."
+      }, {
+        "date": "2390",
+        "event": "A Dominion és a Bajori milícia csatlakozik a háborúhoz, melyben a többi, legyengült nagyhatalom még nem képes nagy erõkkel részt venni."
+      }, {
+        "date": "2392",
+        "event": "Az idõközben megalakult 'Kék Villámok' elnevezésû elit-flotta a USS.Glory csillaghajó vezetésével mélyen az ellenséges vonalak mögött hajt végre titkos bevetéseket."
+      }, {
+        "date": "2392",
+        "event": "A háború utolsó hónapjaiban az eddig részben elzárkózott Klingon Birodalom is csatlakozik a háborúhoz a Föderáció szövetségeseként."
+      }, {
+        "date": "2393",
+        "event": "Az Elsõk utolsó anyahajójának az elpusztításával, és a Glory pusztulásával az Elsõk az összes fronton fealdják a harcot, a kolóniáik pedig kiürülnek. Az Elsõk a Dredderi békeegyezmény aláírásával visszavonulnak õshazájukba."
+      }, {
+        "date": "2393",
+        "event": "A Vulkán és a Föderáció vezetése egy új, közös kutatóintézet-komplexumot hoz létre a Romulán határ közelében, mely elsõdleges szakterületének az idõn alapuló kutatásokat tekinti."
+      }, {
+        "date": "2393",
+        "event": "A Typhon résnél egy 'emlékmûvet' állítanak az Elsõk elleni, véres háborúnak."
+      }]
+    },
+    "crewmembers": {
+      "zolee-jackoway": {
+        "name": "Zolee Jackoway",
+        "rank": "Kapitány",
+        "race": "Ember",
+        "birthdate": "2365.09.10",
+        "birthplace": "Új Manhattan, Geki kolónia",
+        "parents": "Patrick Jackoway (d.2377), Sarah O'Neil (d.2386)",
+        "siblings": "1 húg",
+        "assignment": "USS.Glory parancsnoksága",
+        "biography": [{
+          "date": "2365.09.10",
+          "event": "Megszületik a Geki, orvosi kolónián"
+          }, {
+          "date": "2380",
+          "event": "Belép a Csillagflotta Akadémiára, majd a 'Mennydörgés' osztag vezetõje lesz"
+          }, {
+          "date": "2387",
+          "event": "Elvégzi az akadémiát, találkozik újdonsült testvérével és megkapja elsõ megbízatását a USS.Challenger csillaghajón"
+          }, {
+          "date": "2389.06.26",
+          "event": "Megkapja hajóját, a USS.Glory csillaghajót; 2 hónappal késõbb elsõ küldetésük keretén belül megtalálják az eltûnt USS.California csillaghajót és megmentik legénységét"
+          }, {
+          "date": "2390.01.20",
+          "event": "Kapcsolatfelvételt kísérel meg az Elsõkkel, majd kudarca után hivatalos tiltakozása ellenére a Föderációs Tanács hadiállapotot rendel el"
+          }, {
+          "date": "2392",
+          "event": "A háború kitörése óta minden csatában részt vevõ USS.Glory csillaghajót és annak kísérõflottáját elnevezik 'Kék Villámok' -nak, és õket küldik az ellenséges területek mélyére"
+          }, {
+          "date": "2393.11.20",
+          "event": "Az Elsõk elleni utolsó ütközetben kiürítteti hajóját és az utolsónak vélt ellenséges anyahajóba vezeti"
+          }, {
+          "date": "2393.11.28",
+          "event": "Bár holttestét nem találták meg, katonai dísszertartással búcsúztatták és a Parancsnokság területén lévõ Prezidio Parkban jelképesen örök nyugalomba helyezték."
+        }]
+        },
+      "big-chu": {
+        "name": "Big Chu",
+        "rank": "Parancsnok",
+        "race": "Ember",
+        "birthdate": "2365.09.03",
+        "birthplace": "San Francisco, Föld",
+        "parents": "George Chu, Eve Ryan",
+        "siblings": "-",
+        "assignment": "USS.Glory elsõtisztje",
+        "biography": [{
+          "date": "2365.09.03",
+          "event": "Megszületik a Csillagflotta San Franciscoi orvosi központjában"
+          }, {
+          "date": "2372",
+          "event": "Vulkáni nevelõszülõkhöz kerül rossz magaviselete miatt"
+          }, {
+          "date": "2380",
+          "event": "Bekerül a Flottaakadémiára, majd a 'Mennydörgés' osztagba is"
+          }, {
+          "date": "2387",
+          "event": "Elvégzi az Akadémiát, majd kivezénylik a USS.Essesiant csillaghajóra"
+          }, {
+          "date": "2388",
+          "event": "Miután az Essesiant csillaghajót leszerelik, a parancsnokságon dolgozik a Vulkán nagykövet oldalán"
+          }, {
+          "date": "2389.06.26",
+          "event": "A USS.Glory fedélzetére vezénylik, ahol elsõtisztként szolgál"
+          }, {
+          "date": "2392",
+          "event": "Az Elsõk elleni háborúban a 'Kék Villámok' elit flotta taktikai parancsnoka lesz"
+          }, {
+          "date": "2393.11.28",
+          "event": "Zolee Jackoway halála után díszbeszédet mond a temetésén"
+        }]
+        },
+      "sandy-murphy": {
+        "name": "Sandy Murphy",
+        "rank": "Parancsnokhelyettes",
+        "race": "Ember",
+        "birthdate": "2367.10.08",
+        "birthplace": "Új Manhattan, Geki kolónia",
+        "parents": "William Murphy (d.2397), Susan Debore",
+        "siblings": "1 öccs",
+        "assignment": "USS.Glory navigációs fõtisztje",
+        "biography": [{
+          "date": "2367.10.08",
+          "event": "Megszületik a Geki, orvosi kolónián"
+          }, {
+          "date": "2382",
+          "event": "Bekerül a Flottaakadémiára, majd tekintettel Zolee Jackowayel való nagyon jó barátságukra, a 'Mennydörgés' osztagba is"
+          }, {
+          "date": "2389",
+          "event": "Elvégzi az Akadémiát, majd próbaidõs hadnagyként a USS.Glory csillaghajó kormányosa lesz"
+          }, {
+          "date": "2390",
+          "event": "Miután kitört az Elsõk elleni háború, Zolee Jackoway parancsára áthelyezték az Atlantis kutatóhajóra, mint elsõtiszt. Ám fél évvel késõbb hivatalosan is kérvényezte visszavételét a Glory legénységének soraiba"
+          }, {
+          "date": "2392",
+          "event": "A USS.Glory csillaghajó másodtisztje"
+          }, {
+          "date": "2393.11.28",
+          "event": "Részt vesz jóbarátja temetésén"
+        }]
+        },
+      "leslie-killer": {
+        "name": "Leslie Killer",
+        "rank": "Hadnagy",
+        "race": "Ember",
+        "birthdate": "2365.10.25",
+        "birthplace": "Moldevy, Tolaris IV kolónia",
+        "parents": "Joey Killer, Betty Montha",
+        "siblings": "-",
+        "assignment": "USS.Glory biztonsági fõtisztje",
+        "biography": [{
+          "date": "2367.10.25",
+          "event": "Megszületik a Tolaris IV kolónián"
+          }, {
+          "date": "2375",
+          "event": "Apja áthelyezése miatt a Földre költöznek, Párizsba"
+          }, {
+          "date": "2380",
+          "event": "Bekerül a Csillagflotta Akadémiára, majd a 'Mennydörgés' osztagba is"
+          }, {
+          "date": "2385",
+          "event": "A Föld-Plútó ûrkompversenyen elsõ helyezést ér el egy olyan kísérleti hajtómûvel, mely késõbb a USS.Glory hajtómûveinek az alapjául szolgál"
+          }, {
+          "date": "2387",
+          "event": "Befejezi az Akadémiát, majd a USS.Challenger csillaghajóra kerül"
+          }, {
+          "date": "2389.06.26",
+          "event": "Átvezénylik a USS.Glory csillaghajóra, ahol biztonsági fõtiszt lesz"
+          }, {
+          "date": "2393.11.28",
+          "event": "A USS.Glory pusztulása után részt vesz volt kapitánya temetésén"
+        }]
+        },
+      "patrick-oconnel": {
+        "name": "Patrick O'Connel",
+        "rank": "Hadnagy",
+        "race": "Ember",
+        "birthdate": "2365.09.17",
+        "birthplace": "Noryden, Tanari 9",
+        "parents": "Jason O'Imre (d.2369), Susan Whiteman (d.2369)",
+        "siblings": "-",
+        "assignment": "USS.Glory fõgépésze",
+        "biography": [{
+          "date": "2367.09.17",
+          "event": "Megszületik a Tanari 9 gépészeti kutatókolónián"
+          }, {
+          "date": "2369",
+          "event": "A bolygót ért Romulán támadás során a bolygó szinte egész támadása meghalt, Miles a Földre került nevelõszülõkhöz"
+          }, {
+          "date": "2380",
+          "event": "Bekerül a Csillagflotta Akadémiára, majd a 'Mennydörgés' osztagba is"
+          }, {
+          "date": "2387",
+          "event": "Befejezi az Akadémiát, majd két évet még a Földön tölt, hogy tökéletesítse korábbi terveit"
+          }, {
+          "date": "2389.06.26",
+          "event": "Átvezénylik a USS.Glory csillaghajóra, ahol régi társaival kerül össze újra"
+          }, {
+          "date": "2392",
+          "event": "Az Elsõkkel folytatott háború alatt felfedezte azt az Álcázó technológiát, mellyel kilehet védeni az ellenség szenzorait"
+          }, {
+          "date": "2393.11.28",
+          "event": "A USS.Glory pusztulása után részt vesz jó barátja temetésén"
+        }]
+        },
+      "abby-both": {
+        "name": "Abby Both",
+        "rank": "Hadnagy",
+        "race": "Félig Vulkán, Félig Ember",
+        "birthdate": "2366.10.23",
+        "birthplace": "Új Vulcan",
+        "parents": "Apja ismeretlen, Sandra Woodard (d.2386)",
+        "siblings": "-",
+        "assignment": "USS.Glory tanácsadója",
+        "biography": [{
+          "date": "2366.10.23",
+          "event": "Megszületik a Vulkán anyabolygón"
+          }, {
+          "date": "2381",
+          "event": "Belép a Csillagflotta Akadémiára"
+          }, {
+          "date": "2388",
+          "event": "Befejezi az Akadémiát, majd egy évig az Utopia Planitia hajótelepen segédkezik egy új hajóosztály megépítésében"
+          }, {
+          "date": "2389.06.26",
+          "event": "Áthelyezik az újonnan elkészült USS.Glory csillaghajóra, ahol a 'Mennydörgés' osztaggal kerül össze"
+          }, {
+          "date": "2390",
+          "event": "Segédkezik az Elsõkkel való békés kapcsolatfelvételnél, sikertelensége után egy zavarószenzor kifejlesztésén dolgozik"
+          }, {
+          "date": "2393.11.28",
+          "event": "Beszédet mond kapitánya temetésén, Spock nagykövet híres beszédeibõl idézve"
+        }]
+        },
+      "kowlor": {
+        "name": "Kowlor",
+        "rank": "Hadnagy",
+        "race": "Klingon",
+        "birthdate": "2364.09.30",
+        "birthplace": "Qo'Nos",
+        "parents": "Ya'akow (d.2374), Anyja ismeretlen",
+        "siblings": "-",
+        "assignment": "USS.Glory orvosi fõtisztje",
+        "biography": [{
+          "date": "2364.09.30",
+          "event": "Megszületik a Klingon anyabolygón"
+          }, {
+          "date": "2374",
+          "event": "Apjával a Földre költöznek"
+          }, {
+          "date": "2381",
+          "event": "Belép a Flottaakadémiára, majd az Orvosi Akadémia hallgatója lesz s a 'Mennydörgés' nevû osztag tagja"
+          }, {
+          "date": "2387",
+          "event": "Elvégzi az Akadémiát, s megkezdi praktizációját"
+          }, {
+          "date": "2389.06.26",
+          "event": "Áthelyezik a USS.Glory csillaghajóra, ahol õ lesz az orvosi fõtiszt"
+          }, {
+          "date": "2393.11.28",
+          "event": "A hajó pusztulása után részt vesz kapitánya s egyben barátja temetésén"
+        }]
+        },
+      "nicolas-martin": {
+        "name": "Nicolás Martin",
+        "rank": "Hadnagy",
+        "race": "Ember",
+        "birthdate": "2365.10.30",
+        "birthplace": "Ismeretlen",
+        "parents": "Igazi szülei ismeretlenek, James Verov nevelõapa",
+        "siblings": "-",
+        "assignment": "USS.Glory mûveleti fõtisztje",
+        "biography": [{
+          "date": "2365.10.30",
+          "event": "Feltehetõ születésének ideje, késõbb ismeretlen okokból eltûnt, majd évek múlva bukkant elõ újra"
+          }, {
+          "date": "2370",
+          "event": "James Verov kapitány a Kitara szektor egyik bolygóján talált rá, majd a Csillagflotta Orvosi Központjába vitte. Ezután örökbe fogadta az árvát"
+          }, {
+          "date": "2381",
+          "event": "Belép az Akadémiára, és beválasztják a 'Mennydörgés' osztagba is"
+          }, {
+          "date": "2387.06.26",
+          "event": "Elvégzi az Akadémiát, majd nevelõapja mellett szolgál a USS.Rode-Ireland csillaghajón"
+          }, {
+          "date": "2389.06.26",
+          "event": "Áthelyezik a USS.Glory csillaghajóra, s a hajó pusztulásáig õ lesz a mûveleti fõtiszt"
+        }]
+        },
+      "samuel-karlsson": {
+        "name": "Samuel Karlsson",
+        "rank": "Hadnagy",
+        "race": "Bajori",
+        "birthdate": "2365.10.21",
+        "birthplace": "Kendra tartomány, Bajor",
+        "parents": "Abraham Sabee, Eve Neyra (d.2386)",
+        "siblings": "1 nõvér",
+        "assignment": "USS.Glory tudományos fõtisztje",
+        "biography": [{
+          "date": "2365.10.21",
+          "event": "Megszületik a Bajori Kendra tartományban"
+          }, {
+          "date": "2371",
+          "event": "Szüleivel a Földre költözik"
+          }, {
+          "date": "2380",
+          "event": "Belép az Akadémiára, és beválasztják a 'Mennydörgés' osztagba is"
+          }, {
+          "date": "2387.06.26",
+          "event": "Elvégzi az Akadémiát, majd a Csillagflotta Kommunikációs Központjában dolgozik"
+          }, {
+          "date": "2389.06.26",
+          "event": "Áthelyezik a USS.Glory fedélzetére, ahol jóbarátja parancsnoksága alatt szolgál"
+          }, {
+          "date": "2393.11.28",
+          "event": "A USS.Glory pusztulása után részt vesz Zolee Jackoway temetésén"
+        }]
+      }
+      },
+    "technicalmanual": {
+      "intro": [{
+        "type": "text",
+        "content": "A XXIV. század alkonyán többéves tervezés, fejlesztés, kísérletezés után egy vadonatúj urhajó indul útjára, fedélzetén friss legénységével. A hajó magába ötvözi a Prometheus osztály sebességét, a Voyager által hazahozott technológiákat, illetve a Sovereign osztály erosségét."
+      }, {
+        "type": "quote",
+        "content": "A Flottaparancsnokság vezetése egyöntetu határozata alapján engedélyt adunk a 87325-985 számú projekthez, s elrendeljük annak azonnali megkezdését. A projekt Alfa prioritást kapott, ebbol kifolyólag szigorúan titkos. A projekt intervalluma maximum 10 év.",
+        "author": "Kathryn Janeway admirális, Csillagido: 55927.23"
+      }],
+      "1-introduction": [{
+        "type": "text",
+        "title": "1.1: Általános áttekintés",
+        "content": "Az ismert galaxis örökre megváltozott a Dominiumi Háború után. Nem kívánt szövetségek szövõdtek, nagyhatalmak születtek s buktak el. A látszólag már misztikus beavatkozások hatására az egész dolog egy agyrémmé kezdett változni. A föderáció egész jól viselte a háborút, leszámítva a Breen erõk San Francisco ellen irányuló, pusztító támadását. A Csillagflotta megtanult egy fontos leckét: erõsíteni kell a védelmükön. Miután eltûnt a támadás minden nyoma, megkétszerezték a jobb katonai kísérletekbe fektetett energiájukat. A Dominium megállítása utáni idõkben a Föderációnak számos határ-vitája volt különbözõ hatalmakkal, akik mind megpróbáltak kivenni egy részt a Föderáció területébõl. Shinzon támadása után, melyben megpróbálta a USS.Enterprise-E csillaghajót és a Földet is elpusztítani, egy régóta várt szövetség alakult. Béke a Romulán Birodalommal. Miután a Delta Kvadránsból hazatért USS.Voyager csillaghajó adatait részletesen átnézték, a Csillagflotta tudósai rájöttek, a terület megtartása és kiterjesztése a hajók sebességén múlik, az új meghajtórendszeren. Hamarosan tisztává vált a flottavezetés számára, hogy az új technológiákkal felszerelt hajók sokkal messzebb tudnak jutni sokkal kevesebb idõ alatt, és sokkal erõsebbek, hatékonyabbak mai társaiknál. Ezért az elsõ három ilyen hajó elkészítése után megalakították a Kék Villámok nevû elit flottát, melynek feladata volt a Föderáció távoli pontjaiban lévõ polgárok és érdekeltségek védelme. Az Angyal Osztályú Projekt volt az elsõ lépés, hogy az új technológiával felszerelt csillaghajókat építsenek. Ez volt az elsõ olyan hajóosztály, mely minden korábbinál sikeresebbnek bizonyult. Ez volt a Föderáció új korszakának uttörõ hajóosztálya."
+        }, {
+        "type": "list",
+        "title": "1.2: Általános feladatok az Angyal osztályhoz",
+        "heading": "A Csilagflotta 1349.2 számú taktikai direktívájának és a Csillagflotta 1140.1 számú kutató és védelmi direktívájának eleget téve a következõ elvárások születtek az Angyal Osztályú Csillaghajó Tervezéi Projekthez.",
+        "listItems": [{
+          "content": "Lecserélje a Sovereign, Defiant és Prometheus osztályú csillaghajókat, mint a Föderáció mélyûri védelmét biztosító erõket."
+          }, {
+          "content": "Biztosítsa a Föderáció biztonságát az ellenségekkel szemben, gyors beavatkozást hajthasson létre bárhol a Kvantumörvény Meghajtás segítségével."
+          }, {
+          "content": "Egy mozgó 'bemutatóterepet' biztosítson a Voyager által hazahozott új technológiáknak s azok fejlesztéseinek, a VFT Projekt végtermékeinek."
+          }, {
+          "content": "Szemmel tarthassa a Föderáció külsõ régióiban a Föderációs Politikát."
+        }]
+        }, {
+        "type": "text",
+        "title": "1.3: Fejlesztés és építés",
+        "content": "Az Angyal projekt még 2374 végén, másfél évvel a Dominiumi Háború vége elõtt kezdõdött. Ám helyette az Achilles osztály valósult meg. A háború után újra elõvették a terveket, majd Shinzon támadása után világossá vált az Angyal osztály szükségessége. A projekt számos buktatót rejtett magában, amivel szerencsése a flottatudósok elõre számoltak. A legtöbb buktatót a meghajtás és fegyverzet okozta. A Csillagflotta K&F osztálynak rengeteg dolga akadt a legmodernebb fegyverzetek ötvözésével, ahogy a kvantumörvény-meghajtás adaptációjával is az eddigi meghajtórendszerbe. Az építkezések teljes titoktartás mellett indultak be 2383-ban az Utopia Planitia legújabb dokkjában, ahol az elsõ két prototípust (a Glory, és ikertestvére az Explorer) a legmodernebb felszerelések és egy különleges, válogatott csapat segítette megalkotni. Számos módosítást eszközöltek menet közben az eredeti tervekhez képest. Ilyen volt például a hajtómûgondolák kiépítése is: egy hibrid gondola. Több éves kemény munka eredményeképp készült el az Angyal osztály elsõ prototípusa, a USS.Glory. A USS.Glory (NX-82691) építése ténylegesen 2387-ben indult be az Utopia Planitia egyik vadonat új ikerdokkjában, ahol a hajó ikertestvérét, a USS.Explorer (NX-88175) csillaghajót is elkezdték építeni fél évvel késõbb. 2389-ben a Glory végre elkészült, s két hónappal késõbb elkezdte hódító útját. Elsõ útja a Naprendszeren belül indult, majd a végén a cél az Alfa Kentauri volt. Az út során letesztelték a hajó vadonatúj Kvantumörvény-meghajtóit is. A flottatudósok egyetlen hátrányt állapítottak meg ezzel az utazási móddal kapcsolatban. A Kvantumörvény egyszerre 14 órán keresztül képes csak mûködni, különben a térmag egyensúlya megbomlik, mely az egész hajó robbanásához vezethet. A hajó hivatalosan kutatóhajó. Nem hivatalosan egy hadihajó és egy kutatólabor kombinációja. A hajó az Achilles-osztály micro-kvantumtorpedóit és fejlesztett manõverezõ-hajtómûveit örökölte. Emellett fel lett szerelve egy erõteljes, fejlesztett modulációs pajzsrendszerrel, zavaródeflektorral, és pár hibrid-rendszerrel is. Ilyen például a Prometheus osztály térhajtómûve és a vadiúj kvantumörvény-mag egyesítése, továbbá az eddig megszokott deflektortányér helyett egy teljesen új, kvantumörvény-utazáshoz elengedhetetlen fejlesztés is. A jól megszokott deflektortányért lecserélték egy különleges, nyolcszögekbõl álló felületre, így téve lehetõve a legpontosabb fáziskorrekciók létrehozását utazás közben. Továbbá ebbe a szerkezetbe telepítették a zavaró deflektort is, melyet szintén az Achilles osztálynál alkalmaztak elõször. A hajó taktikai részét a 2db, XII-es osztályú fézersor, 2db pulzusfézer, valamint 6db új generációs torpedóállás képviseli. Emellett az egész hajótestet 28cm vastag ablatív-páncéllal erõsítették meg. A Glory 2389 Júniusában indult el elsõ útjára. Az ikertestvére, az Explorer még 7 hónapra volt az indulástól. Ennek egyik oka, hogy a Glory építését felgyorsították egyes felsõbb utasítások hatására."
+        }, {
+        "type": "table",
+        "title": "1.4: Fõ adatok",
+        "subType": "dl",
+        "dl": [{
+          "dt": "Típus",
+          "dd": "Könnyûcirkáló"
+          }, {
+          "dt": "Méretek",
+          "dd": "Hossz: 440.26 méter, Szélesség: 160.89 méter, Magasság: 97.35 méter, Fedélzetek: 17"
+          }, {
+          "dt": "Súly",
+          "dd": "2.015.000 metrikus tonna"
+          }, {
+          "dt": "Legénység",
+          "dd": "12 fõtiszt, 31 tiszt, 135 közlegény, 1200 fõs evakuációs limit"
+          }, {
+          "dt": "Energia ellátás",
+          "dd": "1db 9.500 Cochranes kvantumindukciós-mag a négy hajtómûgondolának, 12db IX-es osztályú impulzusfúziós reaktor"
+          }, {
+          "dt": "Sebesség",
+          "dd": "8.200 m/s2 (impulzus sebesség), 9.3-as fokozat (cirkáló sebesség), 9.8-as fokozat (maximum), 9.9997-es fokozat 22 órán át, fénysebesség kb 3.4 milliomodszorosa (kvantumörvény-hajtómû)"
+          }, {
+          "dt": "Fegyverzet",
+          "dd": "2db XII-es osztályú nehéz-fézersor, 2db VII-es osztályú pulzusfézer, 6db VIII-as osztályú torpedó gyorsindító-hibrid, 900db kvantum torpedó, 70db transzfázisos torpedó, 30db stinger torpedó"
+          }, {
+          "dt": "Védelem",
+          "dd": "Modulált regeneratív pajzs (2.4 exojoul), Polarizált ablatív páncélzat (28cm)"
+        }]
+        }, {
+        "type": "image",
+        "images": [{
+          "src": "./images/glory-top.jpg",
+          "alt": "Felülnézet",
+          "size": "2-4"
+          }, {
+          "src": "./images/glory-side.jpg",
+          "alt": "Oldalnézet",
+          "size": "2-4"
+          }, {
+          "src": "./images/glory-msd.jpg",
+          "alt": "MSD",
+          "size": "1"
+        }]
+        }, {
+        "type": "table",
+        "title": "1.5: Fedélzetek",
+        "subType": "tr",
+        "tr": [{
+          "header": "true",
+          "cells": {
+            "1": "Fedélzet",
+            "2": "Elsõdleges hajótest",
+            "3": "Gépészet"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "1",
+            "2": "Parancsnoki Híd, Torpedóállás",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "2",
+            "2": "Híd kisegítõ rendszerei, Vésztelepek, Kvantumörvény Érzékelõ, Pulzusfézer, Mentõkabinok",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "3",
+            "2": "Tiszti étkezde, Fõtiszti eligazító, Kapitányi készenléti szoba (iroda), Tiszti szállások, Torpedóraktár, Segédraktér, Mentõkabinok",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "4",
+            "2": "Fõtiszti szállások, Elsõdleges Computermag, Pulzusfézer, Mentõkabinok",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "5",
+            "2": "Tiszti szállások, Fõtiszti szállások, Elsõdleges Computermag, Segédraktér, EV-Légzsilip, Mentõkabinok",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "6",
+            "2": "Tiszti szállások, Fõtiszti szállások, Elsõdleges Computermag, Segédraktér, EV-Légzsilip, Tudományos laborok, Mentõkabinok, Hátsó vonósugár-generátor",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "7",
+            "2": "Tiszti szállások, Fõtiszti szállások, Segédraktér, Elsõdleges Computermag, Gyengélkedõ, Egyes transzporter, Egyes raktér, Fegyverraktár, Biztonsági fõtiszt irodája, Hangár",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "8",
+            "2": "Kisegítõ deflektor, Tiszti szállások, Fõtiszti szállások, Segédraktér, Elsõdleges Computermag, Transzporter, Egyes transzporter, Egyes raktér, Hangár",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "9",
+            "2": "Tiszti szállások, Fõtiszti szállások, Segédraktér, Elsõdleges Computermag, Transzporter, Egyes transzporter, Egyes raktér, Hangár",
+            "3": "-"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "10",
+            "2": "Asztometriai labor, Mûveleti fõtiszt irodája, Elsõ tiszt idorája, Dokkoló portok, Hangár, Étkezde",
+            "3": "ODN/EPS Fõtartályok, Kvantumörvény Fõérzékelõ"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "11",
+            "2": "Fogda, Kvantmörvény-mag, Torpedóraktár, Fõ EPS-vezetékek, Harci Híd",
+            "3": "Deutérium tank, Plazma átömlesztõ vezetékek"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "12",
+            "2": "-",
+            "3": "Szubtér reaktor, Gépészeti fõtiszt irodája, Környezetszabályzó rendszerek, Felsõ utókeverõ kamra, Fõ szerszámraktár, Térhajtómû-Mag injektor, Transzporter"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "13",
+            "2": "-",
+            "3": "Szubtér reaktor, Gépészeti kisegítõ rendszerek, Transzporter, Másodlagos computermag, Deflektor mágneszár-rendszerek, Hátsó vonósugár-generátor"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "14",
+            "2": "-",
+            "3": "Szubtér reaktor, Mentõkabinok, Másodlagos computermag, Torpedóállás, Másodlagos ODN/EPS Tankok, Mentõkabinok"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "15",
+            "2": "-",
+            "3": "Elülsõ vonósugár-generátor, Szubtér reaktor, Torpedóraktár, Plazmarelé vezérlõk, Deutérium (Anyag) fõtartályok, Mentõkabinok"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "16",
+            "2": "-",
+            "3": "Szubtér reaktor, Torpedóraktár, Kisegítõ raktár, Antianyag fõtartályok, Antianyag betöltõ, Mentõkabinok"
+            }
+          }, {
+          "header": "false",
+          "cells": {
+            "1": "17",
+            "2": "-",
+            "3": "Leszállótalpak, Vészrendszer-vezérlõk"
+            }
+          }]
+        }, {
+        "type": "text",
+        "content": "Megjegyzés: Ez a használati leírás mindössze tájékoztató jellegû, nem tekinthetõ teljes-értékû Gépészeti leírásnak. Az itt bemutatott adatok a Csillagflotta Hírszerzés 34-5G pontjának megfelelnek. A bemutatott leírás semmiképp sem vehetõ konkrét fenyegetésnek, ha ellenséges hírszerzés kezébe kerülne. Csillagflotta tisztek kötelesek jelezni feljebbvalóik felé az állomány megtekintésének szándékát, és megfelelõ szintû biztonsági azonosítót kérni!"
+        }
+      ],
+      "2-command-and-control": [{
+        "type": "text",
+        "title": "2.1: Általános áttekintés",
+        "content": "Egy csillaghajó fedélzetén minden rendszer folyamatos mûködése elengedhetetlen a hajó és a legénység túléléséhez. A legfontosabb része azonban minden csillaghajónak mégis a parancsnoki központ. Enélkül a legénység rendezetlen, és bármilyen cél elérése sokkal nehezebb lenne. A legfontosabb jellemzõje, hogy a parancsnoki központ teljesen automatizált. Egy csillaghajón a computer rendszer tart karban számos rendszert, ami folyamatos odafigyelést igényel a hihetetlenül komplex matematikai számítások miatt."
+        }, {
+        "type": "text",
+        "title": "2.2: Vezérlõ Központ",
+        "content": "Egy csillaghajón három terület van, amit parancsnoki központnak használhatnak: A Parancsokni (Hajó-) Híd, ami általában a csészealj-szekció tetején található; a Harci (Másodlagos-) Híd, ami mélyen a hajótörzs belsejében található; illetve a Gépház, ahol a hajó karbantartásáért felelnek. A hajó Gépháza alkalmazható parancsnoki hídként is vészhelyzet esetén."
+        }, {
+        "type": "text",
+        "subTitle": "Hajóhíd"
+        }, {
+        "type": "image",
+        "images": [{
+          "src": "./images/glory-bridge.jpg",
+          "alt": "Hajóhíd",
+          "size": "2-4"
+        }]
+        }, {
+        "type": "text",
+        "content": "A Parancsnoki Hídnak számos 'állomása' van. A Repülésvezérlés (másnéven Kormány) az, ahol a navigációt és a különbözõ manõvereket szabályozzák. A Navigációtol balra található a Mûveleti állomás. Általában egy rangidõs tiszt teljesít itt szolgálatot. Tõle jobbra a Fõ Kilátóernyõ, amin a lefontsoabb dolgokat lehet látni akció közben. A Navigáció mögött található közvetlenül a Parancsnoki Szék. A rangidõs fõtiszt a híd legnagyobb székében foglal helyet. Míg az elsõ tiszt itt a jobb oldali állomásnál tartózkodik. A Parancsnoki szék mögött található állomásnál opcionálisan a hajó tanácsadója, vagy egy különleges vendég foglal helyet. Ez egyben egy másodlagos állomás, ahonnét szinte minden parancsfunkció elérhetõ, ami az összes többirõl. A Mûveleti állomástól balra található a Taktikai pult. A hajó összes belsõ biztonsági, és külsõ fegyveres rendszere errõl az állomásról vezérelhetõ. A Taktikai pult a Mûveletivel közösen mûködik harci-riadó esetén. A hajóhíd hátuljában taláható egy MSD kijelzõ, illetve egy holo-interfész, mellyel a harci flottákat lehet egyszerûen irányítani harc közben. Itt egyben egy gépészeti kijelzõ is helyet kapott. Jobbra található a Gépészeti állomás. Itt található egy kissebb változata a hátul lévõ kijelzõnek. Továbbá itt található a Kvantumörvény-hajtómû állapotkijelzõje is, és innét tudják csak kezelni. A Gépészeti pulttól jobbra található a Tudományos állomás. Itt végezhetõ el minden mérés, melyre repülés közben, vagy vizsgálat közben szükség lehet. A híd hátuljában két ajtó található, melyek a Turbóliftekhez, illetve a Jefferies-csövekhez vezetnek. Innen érhetõ el a hajó többi része. A Harcihíd tervezésileg sokkal szerényebb. A legszükségesebb állomásokkal felszerelve: Navigáció, Mûveleti, Taktikai, Gépészeti. De néhány többfunkciós állomás is aktiválható a hajó aktuális küldetésétõl függõen."
+        }, {
+        "type": "text",
+        "title": "2.3: Részleg Központok"
+        }, {
+        "type": "text",
+        "subTitle": "Fõ Gépház (Kvantumörvény-Mag, Szubtér-reaktor) - Gépészeti Központ",
+        "content": "A Gépház jelképesen a hajó szíve. Itt található a hagyományos elven mûködõ Szubtér Reaktor, illetve a különleges Kvantumörvény Mag. Számos állomás található a kulcsfontosságú rendszerek felügyelésére, karbantartására, diagnosztizálására, s technikai gondjaik megoldására. A fõgépész irodája is a Gépház részlegében található."
+        }, {
+        "type": "text",
+        "subTitle": "Asztrometria (Mûveleti Központ)",
+        "content": "Itt történik a legtöbb küldetési mûvelet és hajómûvelet. Az Asztrometriai Kijelzõ Rendszer is itt található. Továbbá itt található a Mûveleti fõtiszt és az Elsõ tiszt irodája is. A Mûveleti Központ kezeli a hajó összes fõ-mûveletét, mint ahogy a computereket, a mûveleti paneleket a fedélzeten, és küldetések napi frissítését."
+        }, {
+        "type": "text",
+        "subTitle": "Fegyvertár (Biztonsági Központ)",
+        "content": "A Fegyverraktár a Hangár közelében található, kódolt hozzáféréssel. Benne különféle könnyû és nehézfegyverek egész arzenáljával. Mint például a Fézerpuska, a Férepisztoly. Itt található még a Biztonsági fõtiszt irodája is. A biztonsági okok megkövetelik a védekezést az esetleges behatolók ellen, így a fegyvertárban számos különleges, nem Csillagflotta-szabvány fegyver is helyett kapott."
+        }, {
+        "type": "text",
+        "subTitle": "Gyengélkedõ (Orvosi Központ)",
+        "content": "A hajó karbantartása mellett a legénységnek saját magukról is gondoskodni kell. A Gyengélkedõ az a hely, ahol a fertõzéseket, különbözõ betegségeket orvosolják. Számos bioággyal, három sürgõsségi bioággyal, és egy szintézis-laborral, ahol a betegségekre fejlesztik ki a gyógymódokat. Az Orvosi fõtiszt irodája is itt található."
+        }, {
+        "type": "text",
+        "title": "2.4: Számítógéprendszer és Optikai Adatháló",
+        "content": "Az Angyal osztályú csillaghajókon egy darab, Dyson D4 Bioneurálisan bõvített Izolineáris Computermag található, 120 trilliós másodpercenkénti mûveleti sebességgel, és nagyjából 360 terrakvadnyi tárolóképességgel. Öt fedélzeten halad át, és 24 méter átmérõjû. A Dyson D4 a lehetõ legmodernebb computer, amit csillaghajókon alkalmazni lehet. Mégha a legmodernebb Dyson D4 a legmegbízhatóbb computer is, az erõforrásai jelentõsen megcsappannak a hajó karbantartásakor, diagnosztizáláskor. Hogy az ilyen helyzetekben ne maradjon kapacitás nélkül a hajó computermagja, egy másodlagos computermag is található a hajón, a kissebb fajta Dyson D3. Ez a három szintes berendezés nem képes megbírkózni a reaktormag minden napi feladatával, azonban a hajó legtöbb másodlagos rendszerét képes vezérelni, ahogyan a Navigációs, Taktikai és egyéb mûveletek végrehajtásában is segítséget nyújt. Mindkét computermag a a Daystrom LCARS 4.8 -as verzióját használja operációs rendszerként. A két mag kommunikációját, és a fedélzeten lévõ összes terminál egymással való kommunikációját egy hatalmas Optikai Adat Hálózat valósítja meg, mely átszeli az egész hajót. Ennek 12 nagyobb csomója van: 8db a csészealj, és 4db a gépészeti részlegben. Mindegyik képes a fontosabb hajófunkciók ellátására, de elsõsorban általános adattovábbításra alkalmazzák õket."
+      }],
+      "3-propulsion": [{
+        "type": "text",
+        "title": "3.1: Áttekintés",
+        "content": "Mióta az Ötös fokozatú meghajtást feltalálta a XXII. században Dr.Archer és Cochrane, igazából semmilyen nagyobb áttörés nem volt a történelem során. A csillagközi utazás kisléptékû fejlõdésével és a XXIV. század végén a Sovereign osztály megalkotásával a Csillagflotta rájött, hogy elérték a térhajtómûvek sebességének maximumát a 9.99-es sebességgel. Mikor a USS.Voyager hazatért hét éves útjáról a galaxis túlsó végébõl, számos fejlett technológiával tért haza, melyeket az útja során szerzett. Ezek közül talán a leginkább említésre méltó a Kvantumörvény Hajtómû. A Voyager könnyedén tette meg útja egy hetedét ezzel a meghajtással, de mégse használhatta huzamosabb ideig. Hiába gyors, nagyon instabil is egyszerre. A Csillagflotta F&D osztályának majd hat évig tartott elérni azt az állapotot, amikor már huzamosabb ideig stabillá tudják változtatni az örvényt, ám még ekkor is magas a rizikófaktor. Mégha az Angyal osztályú csillaghajókat már ezzel a meghajtással szerelték is fel, a Csillagflotta dolgozik a még biztonságosabb hajtómûvek kifejlesztésén."
+        }, {
+        "type": "text",
+        "title": "3.2: Kvantumörvény Hajtómû",
+        "content": "A Kvantumörvény Hajtómû az elsõ igazi nagy lépés a csillagközi utazásban azóta, hogy a XXII. században feltalálták az Ötös fokozatú térhajtómûvet. Ez lényegében az ûr mélyebb régióiban dolgozik. A folyamat az örvény-indítással kezdõdik, melyet a navigációs deflektor segít. A qvantumörvény egy gondosan fókuszált, irányított térmezõ amit a tér-idõ kontinium qvantum-szintû manipulációjával hoznak létre. Az elve az, hogy a qvantummezõt a deflektortányéron irányítják át, hogy nagyméretû változást hozzon létre a környezõ térgörbületben. Ez egy szubtéri folyosót hoz létre, ami a hajó orra elé vetül ki. Ha a hajó belép a folyosóba, az ott uralkodó erõk hihetetlen sebességre gyorsítják fel. Hogy a hajó rendesen fenntarthassa a qvantumörvényt, folyamatosan módosítania kell a qvantum-mezõt a deflektortányérral. Ezért az Angyal osztályt nyolcszögekbõl álló deflektorral szerelték fel, mely képes ezeknek a bonyolult számításoknak a gyors végrehajtására, s a módosítások szinte azonnali követésére. Másik nagy elõnye, hogy még akor is képes a hajót az örvényben tartani, mikor a deflektor-tányér 60% meghibásodik. A nagy nehézség igazából a hajó örvényben-tartásánál bontakozik ki. Ezt a hajó szubtérmezejének eltorzításával érik el. Olyan szinten elnyújtják a szubtérmezõt a hajó körül, hogy a mezõ eleje a hajó orra elõtt több kilóméterrel van, szinte nanométeres nagyságban, így könnyítve meg a hajó kvantumörvénybe való 'becsúszását'. A hajó mögött mégnagyobb helyet foglal el a szubtérmezõ ilyen torzított formában, biztosítva hogy a hajót semmilyen idegen tárgy nem zavarja meg és veti ki az örvénybõl. Enélkül az eljárás nélkül a hajó mindne örvényutazáskor olyan súlyosan megsértené a szubteret, hogy az használhatatlanná válna akár évekre is. Az örvényben a hajó elméleti sebssége a fénysebesség több milliomodszorosa. Mindenesetre az Angyal osztályú csillaghajók csupán a fénysebesség 3.4 milliomodszorosával képesek haladni. E fölött az örvényben uralkodó erõk darabjaira szakítanák szét a hajót. Összehasonlításképp az elérhetõ legnagyobb térsebessége az Angyal osztálynak a 9.9997 -es fokozat, igaz mindössze pár óra erejéig."
+        }, {
+        "type": "text",
+        "title": "3.3: Térhajtómû",
+        "content": "Habár a Kvantumörvény Hajtómû hihetetlen sebességgel képes a hajót mozgatni, mégis egy ugyanennyire új, s még instabil meghajtási módszer. Éppen ezért továbbra is szükséges a térhajtómû jelenléte minden ûrhajón. Az Angyal osztályú projekt tervezõmérnökei eredetileg egybe szerették volna építeni a két meghajtórendszert, ám annak sikertelensége után inkább a két különálló, ám mégis összekapcsolt rendszert alkották meg, ezt viszont hibrid hajtómûgondolákkal. Így a gondolák energiaszükséglete az örvényutazás közben nem lépi túl a hajó saját energiaellátását. Mindenesetre ez a megoldás a magasabb szubtérfokozatoknál egy egyre erõsödõ anszimmetrikus torzulást hoz létre a hajó szubtérmezejében. Az Utopia Planitia tervezõmérnökei még nem fejezték be a kutatásokat a probléma megoldásán. A hibrid hajtómûgondolák segítenek könnyedén átvállni a kvantumörvényben, illetve a hagyományos szubtérben való utazások közt. Ez az átállás egy fizikai beavatkozást igényel a térhajtómû-gondolák szubtértekercseiben, hogy módosíthassa a szubtérmezõ alakját. Ez az átállás a fõdeflektort is átállítja kvantumörvény-járat nyitására, illetve belépésre, majd pedig kilépésre; illetve csillagközi törmelék eltüntetésére szubtéri utazás esetén. Ez az átállás a hajó rendszereinél mindössze alig 1 percig tart, de ebbõl 35 másodperc csak a szubtértekercsek újraállítása és a fõdeflektor átkalibrálása. Mivel az Angyal osztályt eméletileg hihetetlen nagy sebességekre tervezték, a hajótest szubtérdinamikája olyan sebességet enged meg, mint eddig még egyetlen Csillagflotta hajónál sem. A nagyobb energiagenerálás képességének és az erõsebb szubtértekercseknek, valamint a szinte teljesen tökéletes alaknak köszönhetõen az Angyal osztály képes 9.9997 -es fokozattal haladni 22 órán keresztül, mely a fénysebességnél több mint 18 ezerszer gyorsabb."
+        }, {
+        "type": "text",
+        "title": "3.4: Impulzus Hajtómû",
+        "content": "A hajó impulzushajtómûvei az elérhetõ legjobb gyorsulást teszik lehetõvé. Maximális sebessége a hajónak impulzus hajtómûvekkel 8.200 m/s2. Ezt a mértékû gyorsulást nagymenyiségû antianyag keverésével éri el az impulzus hajtómû. Ez 40% -al csökkenti a reaktorok megterhelését, és könnyebb utazást tesz lehetõvé ezáltal. Az antianyag befecskendezést minimumon tartják, mivel a tényleges utazáshoz maximális energiára van szükség."
+        }, {
+        "type": "text",
+        "title": "3.5: Vészhelyzeti Eljárások",
+        "content": "A Kvantum Indukciós Mag (KIM, másnéven Kvantumörvény Mag) igényli a legnagyobb mennyiségû energiát a hajón. Emellett hatalmas üzemanyagot is igényel, melyet a hajó gépészeti részlegében raktároznak el. A vész esetben kilõhetõ antianyag tartályok ideális megoldást biztosítanak a hajtómûhöz. Ám rendkívül nehéz az újratöltés, ha a tartályok nagy része már üres. Mindegyik tartálynak saját fúziós mikroreaktora van, és egyéni páncélzata, az esetleges robbanások megállítása érdekében. Az Angyal osztály összesen nyolc tartályt igényel, szemben a régebbi reaktorral rendelkezõ hajókkal, melyeknek akár 20-30 tartályra is szükségük volt. Ez az antianyag az üzemanyag még a torpedóknak, és az ûrsiklóknak is. Abban az esetben, ha súlyos hiba lépne fel, a KIM a reaktorral együtt kilõhetõ az ûrbe. Vagy a KIM a reaktor lecsatolásával s kilövésével egyedül még képes biztosítani az energiaigény nagy részét. De az ilyen különválasztás egy irányíthatatlan, katasztrófális kimenetelû robbanást is eredményezhet. Hogyha a Kvantumörvény-Indító meghibásodik az örvény megnyitási folyamatában, a szubtérmezõ elég zavarómezõt generál ahhoz, hogy az azonnali megállásra kényszerítse a hajót, valamint visszatérésre a normál ûrbe. A térhajtómû meghibásodása kvantumörvény utazás közben katasztrófális. A hajót milliónyi darabra tépné a szubtérmezõ több tíztonnás négyzetméterenkénti nyomása. Ezt a nyomást a fejlesztõmérnökök közölték, valós mérésekkel nincs alátámasztva, de a rizikófaktorok lehetõvé teszik ekkora, s ennél még nagyobb nyomások jelenlétét is."
+      }],
+      "4-tactical": [{
+        "type": "text",
+        "title": "4.1: Áttekintés",
+        "content": "A Glory elsõsorban kutatóhajó, így feladata a kutatás, felfedezés, diplomácia. Nem hadihajó, hisz a Csillagflotta maga sem harci egyesülés. Mindenesetre a galaxis hatalmas, telis-tele idegen, nemegyszer ellenséges idegen lényekkel. A hajók általában háromféle védelemmel vannak felszerelve: egy direkt energiafegyverrel, egy egyedi részecskefegyverrel, és egy védelmi rendszerrel. Az Angyal osztály ezen területek legújabb vívmányaival rendelkezik, közülük néhány többfunkciós."
+        }, {
+        "type": "4.2: Fézerek",
+        "title": "A Fézerek idõröl-idõre fejlõdtek a fejlõdés és a fegyvererõsségek változásának hatására az évek folyamán. Htalamas fézersorokat alakítottak ki, javítva a sugár szögét, és összetettségét, valamint kifejlesztették a pulzusfézert is, korrigálva a fézersorok egyes találati hibáit. Ez a Fézersor egy részecske/sugár -fegyver, mely a hajó elsõdleges támadó fegyvere. A hajó több fézersorral van felszerelve, melyek a hajótesten szétszórva találhatóak. Teljes erõsségen egy fézersor képes egy bolygó felszínét is lerombolni. A fézersugár fénysebességgel 'közlekedik', így elméletileg használhatatlan fénysebesség fölött. A Fézer a 'Fázisos Energia Z-egyenirányítás' rövidítése. A maximális hatótávolsága 450.000 kilóméter."
+        }, {
+        "type": "text",
+        "title": "4.3: Torpedók",
+        "content": "A VI-os osztályú (Foton) torpedó az alap távolsági fegyver egy csillaghajón. 2271-ben, a Constituion osztálynál alkalmazták elõször õket, azóta a Csillagflotta minden hajóján alkalmazzák õket. A XXIV. század végére ez a fajta fegyver szinte hatástalanná vált az ellenfelek védekezõ felszerelései ellen, így az Angyal osztálynál elsõízben nem szerelték fel a hajót vele. Helyette Kvantum torpedókkal és transzfázisos torpedókkal biztosították a hajó távolsági fegyverzetét. Emellé a hajót felszerelték egy úgynevezett lopakodó (stinger) technológiájú torpedóellátmánnyal is. Kvantum torpedók: Ezeket a torpedókat a Csillagflotta fejlesztette ki azzal a céllal hogy a régi foton-torpedókat lecserélje velük. 2371-tõl használatosak minden új hajóosztályon. Sokkal nagyobb hatásfokúak, nagyobb távolságban is hatásosak, ám egyetlen gyengéjük, hogy hatástalanok a neutróniummal szemben. Transzfázisos torpedók: A Voyager csillaghajó hozta haza ezeket a jövõ-beli technológiájú fegyvereket. A Csillagflottának hét évébe tellett rájönni a mûködésének teljes elvére s sokszorosítani azt titokban. A transzfázisos torpedó erre a hajóosztályra került fel elõször, kísérleti jelleggel. Ezek a torpedók a Voyager csillaghajó esetében képesek voltak egy-egy Borg kockát is megsemmisíteni. Ezért a hatalmas tûzereje miatt szigorúan titkos találmánynak számít. Stinger torpedók: Hasonló felépítésûek mint a foton illetve kvantum torpedók. Ám megnövelt antianyag/mesterséges kvantumszingularitás -szintel rendelkeznek, továbbá egy komplex mikro érzékelõhálózattal fel vannak szerelve. Kilövéskor a torpedó szenzorai passzív szenzorhullámot sugároznak a célpont felé, így keresve sérülékeny részt. Mikor ezt a részt megtalálta, aktív hullámokat kezd küldeni, mely a becsapódása elõtt három másodpercig tart. Ez a hullám megzavarja az ellenséges célpont pajzsfrekvenciáját és a sajátjához állítja át azt. így a torpedó akadálytalanul átjut a célpont védelmén. Torpedóvetõk: Hat torpedóindító állás található a Glory fedélzetén: kettõ elöl a csészealj-rész alatt, kettõ a törzs tetején a híd mögötti részen, és kettõ a hajó faránál, a hangár alatt. A foton-torpedók 'kis' fegyverek, melyek képesek mozgó célpontot követni. A torpedók robbanóereje a beléjük adagolt antianyag mértékétõl függ. Ezek az indítóállások mindhárom fajta torpedóval felvannak szerelve és a kilövõk is mindhárom kezelésére képesek. A Gloryt felszerelték továbbá új Mikrotorpedó-rendszerrel, mely egy személyi számítógép méretével vetekszik, ám robbanóereje csak kicsit múlja alul 'nagytestvéréét'. Ezek a Mikrotorpedók mûködhetnek sima illetve Kvantum-torpedó módokban is. A Glory képtelen végtelen készleteket szállítani. Így általában csillagbázisokon vagy más feltöltõhelyeken frissítik idõnként a torpedó-készleteket, ami alapesetben: 900db kvantum torpedó, 70db transzfázisos torpedó, 30db stinger torpedó."
+        }, {
+        "type": "text",
+        "title": "4.4: Taktikai Védekezõ Rendszerek",
+        "content": "Az Angyal osztály védelme két fõ részre osztható: pajzsra és páncélzatra. A pajzsok modulált regeneratív pajzsgenerátorokból elõállított erõterekbõl állnak, másodlagos és harmadlagos pajzsrendszerekkel. 2.4 milliárd terrajoul energiát képesek a hajó köré vonni, mielõtt teljesen lemerülnének ezek a generátorok. A polarizált ablatív páncélzat a hajó legfejlettebb technikai újdonsága összes elõdjéhez képest. A 28 centiméter vastag védõborítás A Dominium alappáncéljának egy javított változata. A páncélzat elektromos impulzust juttat magába, így polarizálva az elektromos töltést, hogy a páncél ellen álljon minden energia és részecske-fegyver rombolásának. A védõpajzs egy sor erõtér, melyek megóvják a hajót mind a természeti veszélyektõl, mind az ellenséges támadásoktól. Az erõterek nagyon erõsek és nemcsak pusztán a hajó ellenségektõl való megvédésére szolgálnak. Ezek az erõterek tisztítják meg a hajó útját az ûr-hulladéktól illetve a mikro-aszteoridáktól, melyek magasabb sebességnél való utazáskor a hajó pusztulását is okozhatnák. A hajó fõ-számítógépe képes bármilyen veszély esetén az erõterek aktiválásával reagálni, még mielõtt a legénység reagálhatna. A páncélzat valójában a Voyager által hazahozott replikált nehézpáncélzat egy adaptációja, mivel a tudósok a rendes replikációs eljárást képtelenek voltak eddig utánozni. Így létrehozták a páncélzat egy 'alap' változatát, melyet a Glory külsõ rétegébe építettek, ezzel erõsítve meg lényegesen a hajótest ellenállását."
+        }, {
+        "type": "text",
+        "title": "4.5: Személyi Felszerelések",
+        "content": "A kézifegyverek sokat fejlõdtek az elmúlt években. A kézifegyverek mérete lecsökkkent, erejük drasztikusan megnõtt. A horozható erõtérgenerátorok akár percre elég energiát tudnak termelni vész esetére. Az utóbbi pár évben a Csillagflotta Biztonsági Egységek és a Csillagflotta Haditengerészeti Egységek különválltak kirendeltetésileg. Így az Angyal osztályú csillaghajón az állandó legénység sorai közt már csupán csak biztonsági tiszteket taláhatunk. Az õk, és néha a legénység többi tagja által használt fegyverekrõl található itt rövidebb jellemzés."
+        }, {
+        "type": "image",
+        "images": [{
+          "src": "./images/Type-2.gif",
+          "alt": "Kettes típusú fézerpisztoly",
+          "size": "2-4"
+        }]
+        }, {
+        "type": "text",
+        "content": "Kettes típusú fézerpisztoly: A kettes típus az alapvetõ kézifegyver minden Csillagflotta ûrállomáson és csillaghajón, mivel ideális egyensúlyt teremt erõ és méret között. Jelen típus számos ergonómiai átalakításon és energia-szintezésen esett át. A modell változtatásai magukba foglalnak egy felerõsített szárium-krellid energiacellát, hajlított markolatot, megerõsített újratüzelõ cellát, stb. Az energiacella gyorscserélõ-mezõje az energiát 8.79 x 107 megajoulos maximális töltésen tartja. Az energiacellák a 45 fokban döntött markolatban kaptak helyet, a jobb célzás és kényelmesebb fogás miatt. Az optronikus és energiamanipulációs részben, a lithium-vörösréz újratüzelõ cella meglett erõsítve a hafnium-tritonid szálréteg hozzáadásával, ami 15% -al magasabb plazmanyomást és energianyomást biztosít az újratüzelõ cellában. Kezelõfelülete, és kezelése változatlan maradt."
+        }, {
+        "type": "image",
+        "images": [{
+          "src": "./images/Type-4.gif",
+          "alt": "Négyes osztályú fézerpuska",
+          "size": "2-4"
+        }]
+        }, {
+        "type": "text",
+        "content": "Négyes osztályú fézerpuska: A négyes típus sokkal nagyobb, sokkal hatásosabb fegyver, mint elõdei. Képes fézerenergiát kilõni mindegyik sugárzójából, illetve különbözõ erõsségen és hosszúságon váltakozva lõni. A négyes típusú nehéz-fézerpuska rendelkezik egy sokkal hatásosabb és megbízhatóbb célzórendszerrel, egy erõsebb forgóstabilizátorral, és egy energiavisszacsatolóval. A puska maximum 23-as fokozattal képes tüzelni; egy elég magas, minden hagyományos fézerfokozat fölött álló szinttel. Elsõdlegesen arra a célra tervezték, hogy Zero-G szituációkban használják kissebb ûrkompok ellen, illetve nagyobb területek megtisztításához. A célzóberendezés jobban hasonlít a régebbi fézerpuskákéhoz. Az elsõ modell durániummal bevont fém-merevítést kapott, de ez a teszteken szükségtelennek bizonyult. Ennek a modellnek az erõssége a többi phézerpuskához képest az alkalmazhatóságában rejlik. Három fõ variációja van: Szabvány kivitel (sugár és pulzusos tüzelési mód), Mesterlövész kivitel (sugártüzelõ mód, headsettel és többfázisú távcsõvel felszerelve), valamint Romboló kivitel (pulzusos tüzelõmód, fotongránátvetõvel felszerelve)."
+        }, {
+        "type": "image",
+        "images": [{
+          "src": "./images/TR-116.gif",
+          "alt": "TR-116 lövészpuska",
+          "size": "2-4"
+        }]
+        }, {
+        "type": "text",
+        "content": "TR-116 lövészpuska: A TR-116 egyike a Csillagflotta legfejlettebb és leghalálosabb fegyvereinek, annak ellenére hogy a legalapvetõbb meghajtómódszert használja a tüzeléshez. A fézerek általában nagyon hasznosak, mindamellett rengeteg esetben mikor zavarómezõ mûködik a közelében, a normál fézerek használhatatlanná válnak. A TR-116 prototípusa szimpla kémiai reakciót használva lövi ki a lövedékeket (egy irányított energiasugár helyett helyi erõforrást használ). A Csillagflotta szerint ez a puska egy komoly biztonsági kérdés, mivel a célzórendszere ideális gyilkológéppé teszi õt. Épp ezért ha bármiféle módon megpróbálják replikálni a TR-116 -ot, riasztás érkezik a Csillagflotta biztonsági központjába. A TR-116 alapjaiban véve is pusztító erejû fegyver, de ha kombinálják egy mikro-transzporterrel, akár háromszoros veszélyt is jelenthet. A fegyvert lopakodó módban használva, a headset kijelzi a célt bárhol az állomáson vagy a közeli területen, majd kilõve a lövedéket erõveszteség nélkül transzportálódik 9 centiméterre a célja elé. Ez a mikro-transzporter egy alacsony energiajelet sugároz, amit belehet fogni. Mivel a TR-116 ilyen veszélyes fegyver, szigorúan elvan zárva, és csak két rangidõs tiszt egyszeri engedélyezésével lehet hozzáférni."
+        }, {
+        "type": "text",
+        "title": "4.6: Kék Villámok",
+        "content": "A legfontosabb dolgok egy flotta irányításában a vezérlés, és kommunikáció. Egy elit, csapásmérõ és lopakodó harci különítmény, mint a Kék Villámok, minden eddig ismert flottánál összehangoltabban képes mûködni. Mindez egy különleges megoldásnak köszönhetõ, a Harci Környezet -nek. Ennek különféle változatai vannak, hajóktól függõen. A Glory a vezérlõ modullal rendelkezik, így koordinálva a többi hajót az egységben; míg a többi cirkáló és kísérõhajó végrehajtó modulokkal, hogy fogadhassák a parancsokat azonnal és hogy hasznos információkat juttathassanak a vezérhajónak. A Glory modulja a hídon található, a kapitányi szék mögötti pultnál. Az egészet a hajó elsõ tisztje vezérli, egy személyi holografikus kivetítõ segítségével, amit még a Dominiumi háború idején fedezett fel a Csillagflotta. Ez a berendezés egy vékony led-kijelzõ a szem elõtt, mely különbözõ sugarakkal 3D-s képet képes létrehozni, becsapva az ember érzékeit. Így az elsõ tiszt mintegy ott érzi magát a csata közepén. A vezérlés egy szinaptikus interfész segítségével valósul meg, mellyel az érintett tiszt akár egy egész flottát is saját maga irányíthat, gondolatai segítségével. A parancsokat azonban csakis a hajó kpaitánya adhatja ki. Az elsõ tiszt csak teljesíti õket a Harci Környezetben. Idõnként a vezetõség rangidõs tagjai, admirálisok is részt vesznek ilyen kiképzõ gyakorlatokon, ahol az elsõ tiszt helyett maguk tapasztalhatják meg ezt az élményt. A Glory képes átállítani saját modulját végrehajtóvá, ha testvérhajójával együtt vesznek részt egy ütközetben. Így akár ketten is koordinálhatják a flotta manõvereit, illetve két kissebb flottaként vezérelhetik az egység többi csillaghajóját."
+      }],
+      "5-auxiliary-crafts": [{
+        "type": "text",
+        "title": "5.1: Áttekintés",
+        "content": "Az ûrkompoknak mindig is másodlagos szerepük volt a személyzet szállításában, a transzporterrel szemben. Mindenesetre minden csillaghajó felvan szerelve ezekkel a hasznos, kisméretû jármûvekkel. A transzporterek 2360-70 -es évekbeli fejlõdéseivel egyetemben az ûrkompok, siklók is nagyjából megyegyezõ arányban fejlõdtek. Mára szinte minden modell képes hosszabb-rövidebb csillagközi utakra, néhányuk pedig még a Gloryn használt kvantumörvény-hajtómûvel is felvan szerelve. Természetesen ezek a kompok is kísérleti stádiumban vannak még."
+        }, {
+        "type": "text",
+        "title": "5.2: Angyal osztályú csillaghajó kompjai",
+        "content": "Az Angyal osztályba tartozó Glory csillaghajón két fajta ûrkomp található meg, továbbá néhány 'Utasz' komp is, melyeket évszázadok óta használnak ûrdokkokban hajók építéséhez, javításához."
+        }, {
+        "type": "text",
+        "subTitle": "XVII. osztályú ûrkomp"
+        }, {
+        "type": "image",
+        "images": [{
+          "src": "./images/janeway-shuttle.jpg",
+          "alt": "XVII. osztályú ûrkomp",
+          "size": "2-4"
+        }]
+        }, {
+        "type": "table",
+        "subType": "dl",
+        "dl": [{
+          "dt": "Típus",
+          "dd": "Középtávolságú csillagközi sikló"
+          }, {
+          "dt": "Méretek",
+          "dd": "Hossz: 9.5 méter; Szélesség: 4.45 méter, Magasság: 4.25 méter"
+          }, {
+          "dt": "Súly",
+          "dd": "46.35 metrikus tonna (telepakolva 70.1 metrikus tonna)"
+          }, {
+          "dt": "Legénység",
+          "dd": "2 pilóta, 8 utas"
+          }, {
+          "dt": "Energia ellátás",
+          "dd": "1db 512 Cochranes 3DVa-Anyag/Antianyag reaktor, 6db V-ös osztályú mikrofúziós impulzus-energiamag"
+          }, {
+          "dt": "Sebesség",
+          "dd": "7.5 -ös fokozat, 12.750 km/s2 (maximális impulzussal 35.5 másodpercig), fénysebesség kb 3.4 milliomodszorosa (kvantumörvény-hajtómû)"
+          }, {
+          "dt": "Fegyverzet",
+          "dd": "2db VII-es osztályú fézer emitter, 2db VI-os osztályú torpedó gyorsindító-hibrid, 40db kvantum torpedó, 7db transzfázisos torpedó"
+          }, {
+          "dt": "Védelem",
+          "dd": "Regeneratív pajzsok (95,300 terrajoul); Polarizált ablatív páncélzat (5cm)"
+        }]
+        }, {
+        "type": "text",
+        "content": "A Tizenhetes típusú ûrsikló rengeteg tervezés eredménye. A régi kilences típusú ûrkompok egy erõsen fejlesztett változata, kvantumörvény-utazásra képes hibrid hajtómûvekkel, és a Glorynál is alkalmazott páncél és fegyvertechnológiákkal. Így alkalmas hosszabb-rövidebb ideig tartó csillagközi utakra is. A komp képességei bõvíthetõek a rajta található csatoló-modul kibõvítésével. Így akár a replikált nehézpáncélzat, akár az álcázó technológia a fegyvertárába tartozhat, vagy épp a Harci környezet modul. A Gloryn hat darab ilyen komp található alapba."
+        }, {
+        "type": "text",
+        "subTitle": "Delta komp"
+        }, {
+        "type": "image",
+        "images": [{
+          "src": "./images/delta-flyer.jpg",
+          "alt": "Delta komp",
+          "size": "2-4"
+        }]
+        }, {
+        "type": "table",
+        "subType": "dl",
+        "dl": [{
+          "dt": "Típus",
+          "dd": "Nagytávolságú felderítõ és mélyûrbevetési sikló"
+          }, {
+          "dt": "Méretek",
+          "dd": "Hossz: 21 méter; Szélesség: 12.2 méter, Magasság: 5.3 méter"
+          }, {
+          "dt": "Súly",
+          "dd": "69.4 metrikus tonna (telepakolva 105.7 metrikus tonna)"
+          }, {
+          "dt": "Legénység",
+          "dd": "3 pilóta, 5 utas"
+          }, {
+          "dt": "Energia ellátás",
+          "dd": "1db 849 Cochranes Borg reaktor, 4db V-ös osztályú mikrofúziós impulzus-energiamag"
+          }, {
+          "dt": "Sebesség",
+          "dd": "8.2 -es fokozat, 15.130 km/s2 (maximális impulzussal 40.2 másodpercig)"
+          }, {
+          "dt": "Fegyverzet",
+          "dd": "2db VIII-as osztályú fézer emitter, 2db VI-os osztályú torpedó gyorsindító-hibrid, 20db transzfázisos torpedó, 20db Borg fotonikus torpedó"
+          }, {
+          "dt": "Védelem",
+          "dd": "Unimátrix pajzsok (102,750 terrajoul)"
+        }]
+        }, {
+        "type": "text",
+        "content": "A Delta komp a legfejlettebb hosszútávú ûrkomp a Csillagflotta szolgálatában. Az elsõ darabot a Voyager csillaghajó legénysége építette 2375-ben még a Delta kvadránsban, ötvözve a Csillagflotta technikát Borg részekkel. A Delta komp állítható hajtómûgondolákkal rendelkezik, továbbá saját mentõkabinnal szerelték fel. A Voyager hazatérése után a Delta kompot tömeggyártásra állították eredeti tervei alapján, mivel a flottavezetés igencsak hasznosnak találta, mind kísérõjármûként, mind ûrhajók alapfelszereltségeként."
+      }],
+      "6-crew-support": [{
+        "type": "text",
+        "title": "6.1: Áttekintés",
+        "content": "A legénységnek kell gondoznia, karbantartania, irányítania a csillaghajót, de a legénység sem önellátó. Egy csillaghajónak térre van szüksége, hogy a legénység megfelelõ szolgáltatásokat nyújthasson a legénységének a hosszú küldetések folyamán. A hosszabb volumerû mélyûri-küldetéseknél ez elengedhetetlen. A legénység eme célra létrehozott területei egy Angyal osztályú csillaghajónak mintegy a 25% -át teszik ki. Ilyen például az orvosi szállások, szórakoztató központok, pihenõhelyek, életfenntartás, replikátorok, és majd a rendelkezésre álló terület fele el is van foglalva."
+        }, {
+        "type": "list",
+        "title": "6.2: Legénységi Szállások",
+        "heading": "Fontosságtól függõen a legénységi szállásoknak négy nagy csoportja van: Állandó legénységi, Tiszthelyettesi, Fõriszti, Vendég.",
+        "listItems": [{
+          "content": "Az állandó legénységnek két fõs szobái vannak, kisméretû hálóval, ami egyben nappali is, és egy fürdõvel. Ezek foglalják el a legkevesebb helyet, alig 47 m2 alapterületûek."
+          }, {
+          "content": "A tiszthelyettesek kabinja egy kicsivel nagyobb területû. Egyfõs szobával, amit fal választ el a nappalitól és a fürdõtöl."
+          }, {
+          "content": "Fõtisztektbõl kevés van, mivel nincs sokra szükség egy hajó fedélzetén. Ezért övék a legnagyobb szállások szinte mindegyike. Kétszer nagyobb nappalival és hálóval. Ezek közül kiemelkedik a kapitányi szállás."
+          }, {
+          "content": "A vendégszállások különlegesen fontos személyeknek, idegen delegációk tagjainak és a Csillagflotta magasrangú tisztjeinek vannak fenntartva. Majdnem minden részletben megyegyeznek a fõtiszti szálásokkal."
+        }]
+        }, {
+        "type": "text",
+        "title": "6.3: Orvosi Ellátás",
+        "content": "A gyengélkedõ egy nagyméretû 'központ' a négyes fedélzet csészealj-szekciójának elején. A legmodernebb orvosi felszerelésekkel van felszerelve. Két nagyobb részbõl áll, mindkettõ közvetlenül megközelíthetõ a folyosókról és jeffries-csövekbõl egyaránt. Egyik részében az orvosi fõtiszt irodája és a sürgõsségi kezelõ-részleg, míg másik részében a lábadozó-részleg. Az orvosi labor nem itt található, ellentétben számos eddigi hajóosztálytól. Olyan esetben, mikor a hajónak nagy létszámú sebesültrõl kell gondoskonia (mint például más hajók evakuációja), a fõhangár és a nagyobb rakterek is használhatók betegelszállásolásra. Kissebb sérülések sürgõsségi ellátására a hajón számos elsõsegély állomás található, minden fontosabb ellátmánnyal."
+        }, {
+        "type": "text",
+        "title": "6.4: Szórakozási Lehetõségek",
+        "content": "Az Angyal osztályú csillaghajó habár a legmodernebb harcászati és kutatási felszerelésekkel van felszerelve, ugyanakkor a legnyugtatóbb, legpihentetõbb elfogllatságokat is képes nyújtani legénysége számára. A két darab, utólag kiépített holofedélzeten kívül még a két legénységi étkezde is a szórakozást segíti elõ. Továbbá minden szálláson minimum két darab neurológiai iterfész található. Ez egyfajta 'szegény ember holofedélzete'. Egy kis szerkezet, ami az ember halántékára helyezve generálja le a holoprogramokat. A külömbség a holofedélzethez képest a nagyságán kívül az, hogy míg nagytestvére kézzel fogható 3D objektumokat generál, ez csak az agyban hozza létre az ingert, és hiteti el vele, hogy mindaz valóságos."
+      }],
+      "7-conclusion": [{
+        "type": "text",
+        "title": "7.1: Kék Villámok",
+        "content": "Az Angyal osztály a Kék Villámok (egy különleges elit flotta, melyet az ellenséggel való gyors fellépésre alakítottak) központi hajóosztálya. A Kék Villámokat a Dominiumi Háború utójeleként kifejlesztett VFT projekt technológiáinak bevezetésére és aktív alkalmazására alakították. A Kék Villámok elsõdleges feladata a Föderáció biztonságának biztosítása az új hajóosztályokkal, és az ismert galaxis még jobb megismerése, felfedezése. Másodlagosan pedig a Föderáció területnövelése barátságos fajokkal való szövetségkötésekkel, és az Elsõk elleni háború sorsdöntõ rajtaütéseinek lefojtatása. A Kék Villámok flotta alapvetõen négy hajóosztály hajóiból tevõdik össze. Ezek közé tartozik az Angyal osztályú könnyûcírkáló (ez a flotta vezérosztálya, a harci-környezet vezérmoduljával felszerelve). Emellett három másik osztály képviselteti magát ebben az alakulatban. Az elit flotta tagjai könnyû és nehézcirkálók, felderítõhajók és rombolók lehetnek. Az egyetlen elõírás, hogy egyenlõ arányba szerepeljen minden osztály a hajók számától függetlenül."
+        }, {
+        "type": "text",
+        "subTitle": "Scimitar osztályú Romboló",
+        "content": "Ezt a hajóosztályt a közelharcokhoz tervezték és ellenséges objektumok gyors megközelítésére. Mindezt a már legendássá vált Defiant osztály mintájára, mely az elsõ ilyen osztály volt, még a Dominiumi Háború idején. Kis méretû (a Sovereign, Angyal, stb. oszátlyokhoz képest), fürge és erõsen felfegyverzett. Alapfegyverzete 2db XII-es típusú pulzusfézer, és 8db XII-es típusú fézersor. Ezek a fézerek módosítva lettek, a méggyorsabb sugárvektorváltás érdekében. A védelmet erõsíti még két darab hibrid torpedóvetõ, mely a hajó elején kapott helyet. A Kék villámok hosszútávú tervei között szerepel egy olyan felderítõ osztag létrehozása, mely három-négy Scimitar osztályú hajóbol állna. Emellett pedig egy hét-nyolc cirkálóbol álló 'hátvéd' flotta követné õket. A Scimitar osztály megnövelt gyártás alatt áll, öt hajótelepen gyártják õket Föderáció szerte."
+        }, {
+        "type": "text",
+        "subTitle": "Velantire osztályú Lopakodó",
+        "content": "Habár a Csillagflotta tradicionálisan a nagy hajókban bízik, sokszor mutatkozott meg, hogy nem mindig a nagy hajó a jó választás. Mivel a kissebb hajóknak kevesebb energia szükséges és kisseb legénység, különösen könnyû õke küldetés-specifikussá alakítani, ellentétben a többfunkciós nagyhajókkal. A Velantire osztályú Lopakodó az elsõ olyan hajó a VFT Pojekt elindulása óta, melyet sikerült a Voyager adatbázisában talált jövõbeli Föderációs technológiával felszerelni. A hajó 'hosszú-távú problémamegoldó', melyet a Föderáción belül és kívül bármikor bevethetnek. Elegendõ tûzerõt képvisel ahhoz, hogy helyt álljon egy ütközetben. Mindamellett a hajó limitált mennyiségû vésztartalékokkal is rendelekzik, biztosítva az esetleges középtávú felderítõakciók közbeni ellátását a legénységnek. A Velantire osztályt az Angyal osztály után kezdték el gyártani, eddig megközelítõleg két tucat létezik belõlük."
+        }, {
+        "type": "text",
+        "subTitle": "Griffin osztályú Kutatóhajó",
+        "content": "A Kvantumörvény Hajtómû hihetetlen lehetõséget nyújthat a Tejút felfedezésében. Napjaink szervízben lévõ hajóinál akár harmincszor nagyobb sebességre képesek, mint elõdeik, így a felfedezõhajók könnyebben érhetik el kitûzött uticéljukat. Így a kvantumörvény-hajtómûvel felszerelt kutatóhajók képesek elérni az ûr olyan távoli és felfedezetlen részeire, melyek közelébe eddig sehogy, vagy féreglyukakkal illetve egyéb természetes jelenségek segítségével jutottak el. A Griffin osztályú kutatóhajók az elsõk, melyeket a Csillagflotta a galaxis felfedezésének új korszakában indított végtelen útjukra. A Griffin osztály a tervezés késõi szakaszában jár, mivel történt néhány visszalépés még az Angyal és a Velantire osztály tervezésekor. A prototípus építésének megkezdése nem várható 2394 elejéig. Addig a módosított tervek alapján a gépészmérnökök a kvantumörvény-hajtómû tökéletesítésén dolgoznak, mely segítségével ez a hajóosztály ha útjára indul, minden idõk leggyorsabb kutatóhajója lesz."
+        }, {
+        "type": "text",
+        "title": "7.2: Tervek a jövõre nézve",
+        "content": "A Föderáció drasztikus változásokat él át, hogy jobban tudja megvédeni tagjait a külsõ fenyegetésektõl. Új generációs, fejlett hajótervezés indult meg, melynek egyik eredménye a Kék Villámok, s annak hajóosztályai. De a munkálatok tovább folytatódnak, és a K&F részleg is mindent megtesz azért, hogy egyre tökéletesebb technológiákat állíthassanak elõ a csillaghajók új nemzedéke számára. A hajók gyártása a Csillagflotta szinte minden hajógyárában folyik (Utopia Planitia, Béta Antares, Alfa Antares, 40 Eridani-A, stb...), de biztonsági okokból a legmodernebb hajóosztályokat már a Csillagflotta vadonatúj, és mindezidáig titkos hajótelepén, a Sigma Eridani IV -n gyártják és tesztelik. A négy elített hajóosztály gyorsított gyártásával a Kék Villámok hamarosan minden idõk leghatalmasabb harci különítményévé válhat. Ezzel is erõsítve a Csillagflotta védelmezõ haderõinek sorát. Az Angyal osztálynál reprezentált felszereléseket nem csupán taktikai fölény szerzéséhez lehet kíválóan alkalmazni. A Csillagflotta tudósainak máris tervei vannak egy specializált mélyûri kutatóhajóra, mely a továbbfejlesztett kvantumörvény-hajtómûvel sokkal gyorsabban és távolabb juthat, mint eddig bármilyen csillaghajó. Bár még rengeteg idõre és nyersanyagra van szükség ahhoz, hogy ez a tervezet valósággá válhasson, a vezetés már megállapodott számos nagyválalattal az építkezések lebonyolítása végett. A kvantumörvény-hajtómû kiszélesíti a Csillagflotta kutatóprogramja által keltett remények skáláját. Mindamellett jelenleg ez a meghajtótechnológia még csupán gyerekcipõben jár, s rengeteg idõnek kell még eltelnie ahhoz, hogy felválthassa az eddigi meghajtórendszereket. Mivel a Csillagflotta mindenképp folytatja az átállást, az új technológia nyújtotta elõnyök fejlesztése lett az elsõdleges feladat. Amíg a K&F részleg nem tökéletesíti a jelenleg még kissé labilis meghajtórendszert, minden egyes csillaghajón az impulzus és térhajtómûvek maradnak az elsõdleges meghajtórendszerek. De akárhogy is... Az olyan hajóosztályok megjelenése, melyek csak a Kvantumörvény-hajtómûvel lesznek felszerelve, a közeljövõben biztos várható. Mint a Kék Angyalok vezérosztálya, az Angyal osztály tükrözi a Csillagflotta technológia csúcsát, amint a Föderáció megteszi elsõ lépéseit egy teljesen új korszak felé, a kvantumörvény-hajtómûbe és egyéb fejlett technológiákba fektetve minden reménységét. Mint az összes többi hajóosztály, természetesen az Angyal osztály is idõszakos újítások és javítások alá fog esni, ám az épp aktuális új technológiákkal is bõvülni fog az osztály technikai arzenálja."
+      }],
+      "appendix-a": [{
+        "type": "text",
+        "content": "Ez a szekció a galaxisunk négy kvadránsába lévõ fõbb szövetségesek haderõivel, jelentõsebb hajóosztályaival fogllakozik. Mint egy szövetség tagjai, a Föderáció fajai a legtöbb információt megosztják egymással. Mindezt szabad információs protokollokon és diplomáciai csatornákon keresztül. Ûrhajók specifikációjához az adatokat a Csillagflotta Hírszerzés gyûjti össze az érzékelõnaplókból illetve egyéb szigorúan titkos forrásokból. Mindazonáltal a felsorolt adatok valóságalapja feltételezhetõen nagy. A következõ leírás a legszámottevõbb hajóosztályokat foglalja magába, amiket 2375-ben, a Dominiumi Háború után indítottak. A régebbi osztályok, mint például a Klingon Negh'var-osztályú Romboló, a Romulán D'Deridex-osztályú Harcimadár vagy a Kardassziai Galor-osztályú Cirkáló nincsenek itt felsorolva, s várhatóan nem is lesznek."
+        }, {
+        "type": "text",
+        "title": "A.1: Romulán Csillagbirodalom",
+        "content": "A kapcsolatok a Romulán Birodalommal drasztikus változásokon estek át az elmúlt közel 30 évben. A hidegháború utáni idõktöl, mikor 2364-ben véget ért a Romulán elzártság, a Dominiummal való ideiglenes szövetségkötésen át, egészen a végsõ lecsilapodáshoz, mikor is William Riker kapitány a USS.Titan segítségével 2380-ban segítséget nyújtott, hogy béketárgyalások kezdõdjenek a két fél között. Köszönhetõen napjaink kapcsolatainak (beleértve a két faj közt érvényben lévõ tiszt-csere programot) a Föderáció ma többet tud a Romulánokról és azok hajóiról, mint valaha korábban. Még a legtöbb titkos technológia részleteit is megosztotta a két fél. Ilyen például a nagykapacitású plazmavezeték, illetve a kvantumörvény-hajtómû technológiája."
+        }, {
+        "type": "text",
+        "subTitle": "Valdore osztályú Harcimadár",
+        "content": "A Romulán design filozófiája régóta a vizuális hatásokra épül. Ilyen a szinte örökké rejtett fegyverek, illetve a mintázatok burkolatra való festése. Ilyen az elsõ, 2150-es években gyártott Ragadozómadár is, melynek burkolatára egy valódi ragadozómadár van festve. A XIV. század végére a Birodalom olyan tényekkel nézett szembe, melyek a Dominiumi Háború alatt derültek ki, leginkább a Jem'Hadar erõkkel szemben. Habár a D'deridex osztályú Harcimadár hatékonynak bizonyult a Csillagflotta és Klingon erõkkel szemben, a Dominiumi Háburú alatt, 2374-ben való szövetségük folytán kiderült, hogy ez az osztály nem képes galaxis-szerte helytállni. A Romulán Fõparancsnokság meglátta, hogy hamar cselekedniük kell. Neral prétor parancsot adott a legmodernebb technológiákkal ellátott új hajóosztály megtervezésére, mely méltó utóda lehetne a már öregnek számító D'deridex osztálynak. Az elsietett formatervezés, és nyaktörõ építési munkálatok ellenére is, a Valdore osztály túl késõn készült el ahhoz, hogy bárhogy is részt vehessen a Dominiumi Háborúban, fõleg hogy az elsõ hajót két évvel a háború lezárása után, 2377-ben indították útnak. Mint a Romulán flotta új gyöngyszeme, a Valdore osztály tagjai voltak a kulcsszereplõk, mikor a Rémusi Shinzon átvette a hatalmat 2379-ben. Mikor a lojalisták és a Romulán flotta tagjai megütköztek Shinzon zászlóhajójával, a Scimitarral, a Valdore osztály súlyosan megbukott. A Csillagflotta zászlóshajójával, a Sovereign osztályú USS.Enterprise-E -vel karöltve harcolva, a két Valdore percekkel a csata megkezdése után megbénult. Míg az Enterprise-E képes volt fenntartani majd 20 percen keresztül a folyamatos támadásait, s habár súlyos sérüléseket szenvedett, még így is üzemképes maradt. Ezután az eset után a Fõparancsnokság pánikba esett. Miután bebizonyosodott, hogy legmodernebb hajóosztályuk valójában csak egy jó kinézetû ócskavas, a tervezõmérnökök visszaültek asztalaik mögé, s így tervezték meg a D'vorx osztályú Harcimadarat. A létezõ Valdoreokat alacsony prioritású küldetésekre küldték, és leállították az osztály gyártási folyamatát. Napjainkra alig pár megbízhatóbb darabja maradt szolgálatban."
+        }, {
+        "type": "text",
+        "subTitle": "Lukan osztályú Harcimadár",
+        "content": "Habár a Romulán Birodalom és a Föderáció szövetségesek lettek, a két nagyhatalom közti ellentétek megmaradtak, és a két fél katonai erõi versenyt futnak egymással a technológiai fejlõdés nevében. Miután a Csillagflotta elindította útjára az Angyal osztályt, hatalmas katonai és mobilitási fölényre tett szert, hála részben a kvantumörvény-hajtómûnek is. Ezzel több mint 15-ször gyorsabbá vált a reakcióidejük, mint bármely más szövetséges erõnek a kvadránsban. A Romulánok hozzájutottak a kvantumörvény-meghajtás leírásához egy 2382-es, különleges technológia-megosztási egyezmény aláírásával a Föderációval. Azóta a Romulánok a meghajtórendszer saját verziójának megalkotásán fáradoztak. A prototípus 2388-as sikeres tesztjét követõen a Lukan osztály sorozatgyártása megindult. Tanulva a Valdore osztálynál elkövetett hibáikból, a Romulánok ezúttal nem kapkodtak el semmit. Így 2391 végén, majdnem tíz évvel a hajó terveinek megszületése után szolgálatba állt az elsõ, 500 hajóbol álló flotta. A számos, magasan fejlett technológiai megoldást igénylõ kinézet és felszereltség gondos, precíz munkát rejt. A prototípust teljesen átalakították a flotta elkészültére, így az most a Prétor zászlóshajója. Ez az egyetlen osztály lett felszerelve azzal az újgenerációs lopakodó technológiával, melyet szintén a Föderációval kötött technológiai csereprogram keretében szereztek meg."
+        }, {
+        "type": "text",
+        "title": "A.2: Klingon Birodalom",
+        "content": "Míg a Föderáció kapcsolatai a Romulánokkal az elmúlt 25 évben egyre csak javultak, úgy a Klingonokkal egyre csak romlott. Ez a 2385-ben kitört, Klingon Polgárháborúnak is köszönhetõ, melyben hivatalos kérés ellenére sem nyújtott segítséget a Föderáció. Ám a Klingon Birodalom egymaga nem állt készen megvívni belsõ vitáit, hisz még a Dominiumi Háború 9 éves romjaiból építették csak újra világaikat. A Dominiumi Háború óta a Klingonok megtanulták használni technológiai elõnyeiket, nem úgy mint a múltban. Új designek, új technológiák segítségével a Klingon Nagy Tanács folytatta a már öregnek mondható, ám mégis jól bevállt B'rel osztályú Ragadozómadarak, és a Negh'var osztályú Rombolók gyártását. Habár ezek a hajók komolyan 'túlérettek', a Klingonok próbálják õket olyan hosszú ideig szolgálatban tartani, amennyire csak elhetséges, próbálva kihozni belõlük mindent. A XIV. század végére a Klingon Védelmi Erõk finoman fogalmazva is a 'csillagközi hulladék' szintjére jutottak. Habár a Föderációval kötött technológia-megosztási egyezményt igénybe vették, a Birodalom nem jutott olyan mértékû támogatáshoz, mint azt remélte. A Kvantum-torpedók és a Navion Emitterek technológiáján kívül a Birodalom nem igazán tartott számot semmire (A Klingonok a Kvantumörvény-Hajtómûvet a Khitomeri Egyezmény 2380-as, harmadik kibõvítésekor ostobaságnak tartották. Mindazonáltal a Birodalom nem bír összetettebb hajókat nagy mennyiségben építeni. Sajnálatos módon minden új hajójukat már létezõ, vagy még csak tervezésben lévõ technológiákkal igyekszenek felszerelni). A Reformistákkal vívott súlyos harcok során a Birodalom oda jutott, hogy próbálja megtartani a sajátját. Stabilizálni területei határát, kiiktatva a Reformisták katonai hajóit. Habár a Birodalom hadiflottája még mindig hatalmas, technológiailag rég elévült. Így félõ a védelmük bukása."
+        }, {
+        "type": "text",
+        "subTitle": "Mak'tan osztályú Cirkáló",
+        "content": "Míg a Romulánok és a Föderáció hatalmas léptekkel növelték technológiai fejlõdésüket a 2380-as években, a Klingon Nagy Tanács képtelen volt magához térni. Mikor a Birodalom magához tért, rájött hogy vesztésre áll, s erõket veszít mind szárazföldön, mind az ûrben. A filozófiai és technológiai lemaradásuk lépésre ösztönözte õket. Gowron kancellár uralkodásának utolsó hónapjaiban elkövetett öngyilkos-küldetések százai során megfogyatkozott haderõit Martok kancellár lassan visszaállította. Eközben a Nagy Tanács egy erõteljes, bárhol helytálló hajó fejlesztésébe kezdett. Ezt azonban sokkal nehezebb volt elérni, mint rájönni. Hiába a Föderációtol kapott technikai segítség, a fegyverzet, a meghajtórendszerek, a Birodalom a belsõ konfligtusai hatására egyre több és nagyobb visszalépést élt át a fejlesztésekben. Miután nagy várakozások után elkészültek az új cirkálók elsõ darabjai, a Birodalom úgy döntött, felhagy az addig jól teljesítõ Vor'cha osztályú cirkálók további gyártásával. A Mak'tan osztály határozottan nem egy újabb bukás. Habár messze az eddigi hajóik fölött jár technikailag és fejlettségileg, a Nagy Tanács hozzá fûzött várakozásait alul múlta. A Birodalom úgy döntött, a még szolgálatban lévõ Vor'cha osztályú cirkálókat és az új Mak'tan osztályúakat egy flottába helyezi, s még több kisméretû hajót gyárt, így biztosítva az eddig is megszokott hajóflották sikerességét az ellenségekkel szemben, de elsõízben leginkább a Reformista frakcióval. Napjainkban a Mak'tan elég szép számmal szerepel a Birodalom flottáiban, ám a kritikusok szerint akkor is hiba volt leállítani a régebbi, jól bevállt hajóosztályok gyártását."
+        }, {
+        "type": "text",
+        "subTitle": "K'tari osztályú Ragadozómadár",
+        "content": "A B'rel osztályú Ragadozómadár a legismertebb kinézetû csillaghajó a Klingon Védelmi Erõkön belül. Eredetileg 2282-ben álltak szolgálatba, azóta számos design-fejelsztésen esett át a B'rel osztály. Az évek során a legmozgékonyabb, leg flexibilis romboló-típus lett kvadráns-szerte, s egészen 2379-ig folyamatos gyártás alatt maradt. Sajnálatos módon a Dominumi Háború után a B'rel osztály tagjai kiöregedtek, és a Jem'Hadar erõkkel folytatott harcok vereségei is azt bizonyították, hogy újításra van szükség. A Klingon Nagy Tanács úgy döntött, lecseréli ezt az osztályt a legmodernebb technológiákkal felszerelt, új hajóosztályával, mely a Föderáció Defiant osztályú rombolóival, illetve a Jem'Hadar vadászokkal is könnyen felveszi a versenyt. Az eredmény a K'tari osztályú Ragadozómadár lett: egy hadihajó a jól bevállt megoldásokkal, ugyanakor elsõízben felszerelve a kvantumörvény technológiával. Ez az osztály rendelkezik a Csillagflotta térhajtómûvén alapuló kibõvítésekkel, a megnövelt erejû pulzusos diszruptorokkal, kvantum-torpedókkal és egyéb Föderációs technológiákkal. A tervek befejezésével a Klingonok elindították a hajó termelését. Alig öt év alatt megközelítõleg 450 hajó került ki a hajógyárakból. Azóta a K'tari meghatározó szerepet kapott a Birodalom életében, különösen a Polgárháborúban. Számos reformista képes irányítani az újgenerációs vezérlõkkel ellátott K'tari hajókat, ám leginkább a régi B'rel osztályú hajókat használják. A K'tari osztály kinézeti tervei messze a Birodalom technológiai szintje mögött maradtak, igyekezve a régi hajóformát követni. Így sikerült egy álcát létrehozniuk, mellyel a legmodernebb technológiákat egy öreg hajó palástja mögé rejthetik. Idõközben a Birodalom megoldotta belsõ vitáit, és minden elrabolt K'tari osztályú Ragadozómadár visszakerült a Birodalmi Védelmi Erõk köreibe."
+      }],
+      "appendix-b": [{
+        "type": "text",
+        "content": "Ez a szekció a galaxisunk négy kvadránsába lévõ fõbb szövetségesek haderõivel, jelentõsebb hajóosztályaival fogllakozik. Mint egy szövetség tagjai, a Föderáció fajai a legtöbb információt megosztják egymással. Mindezt szabad információs protokollokon és diplomáciai csatornákon keresztül. Ûrhajók specifikációjához az adatokat a Csillagflotta Hírszerzés gyûjti össze az érzékelõnaplókból illetve egyéb szigorúan titkos forrásokból. Mindazonáltal a felsorolt adatok valóságalapja feltételezhetõen nagy. A következõ leírás a legszámottevõbb hajóosztályokat foglalja magába, amiket 2375-ben, a Dominiumi Háború után indítottak. A régebbi osztályok, mint például a Klingon Negh'var-osztályú Romboló, a Romulán D'Deridex-osztályú Harcimadár vagy a Kardassziai Galor-osztályú Cirkáló nincsenek itt felsorolva, s várhatóan nem is lesznek."
+        }, {
+        "type": "text",
+        "title": "B.1: Romulán Csillagbirodalom",
+        "content": "A kapcsolatok a Romulán Birodalommal drasztikus változásokon estek át az elmúlt közel 30 évben. A hidegháború utáni idõktöl, mikor 2364-ben véget ért a Romulán elzártság, a Dominiummal való ideiglenes szövetségkötésen át, egészen a végsõ lecsilapodáshoz, mikor is William Riker kapitány a USS.Titan segítségével 2380-ban segítséget nyújtott, hogy béketárgyalások kezdõdjenek a két fél között. Köszönhetõen napjaink kapcsolatainak (beleértve a két faj közt érvényben lévõ tiszt-csere programot) a Föderáció ma többet tud a Romulánokról és azok hajóiról, mint valaha korábban. Még a legtöbb titkos technológia részleteit is megosztotta a két fél. Ilyen például a nagykapacitású plazmavezeték, illetve a kvantumörvény-hajtómû technológiája."
+        }, {
+        "type": "text",
+        "subTitle": "Valdore osztályú Harcimadár",
+        "content": "A Romulán design filozófiája régóta a vizuális hatásokra épül. Ilyen a szinte örökké rejtett fegyverek, illetve a mintázatok burkolatra való festése. Ilyen az elsõ, 2150-es években gyártott Ragadozómadár is, melynek burkolatára egy valódi ragadozómadár van festve. A XIV. század végére a Birodalom olyan tényekkel nézett szembe, melyek a Dominiumi Háború alatt derültek ki, leginkább a Jem'Hadar erõkkel szemben. Habár a D'deridex osztályú Harcimadár hatékonynak bizonyult a Csillagflotta és Klingon erõkkel szemben, a Dominiumi Háburú alatt, 2374-ben való szövetségük folytán kiderült, hogy ez az osztály nem képes galaxis-szerte helytállni. A Romulán Fõparancsnokság meglátta, hogy hamar cselekedniük kell. Neral prétor parancsot adott a legmodernebb technológiákkal ellátott új hajóosztály megtervezésére, mely méltó utóda lehetne a már öregnek számító D'deridex osztálynak. Az elsietett formatervezés, és nyaktörõ építési munkálatok ellenére is, a Valdore osztály túl késõn készült el ahhoz, hogy bárhogy is részt vehessen a Dominiumi Háborúban, fõleg hogy az elsõ hajót két évvel a háború lezárása után, 2377-ben indították útnak. Mint a Romulán flotta új gyöngyszeme, a Valdore osztály tagjai voltak a kulcsszereplõk, mikor a Rémusi Shinzon átvette a hatalmat 2379-ben. Mikor a lojalisták és a Romulán flotta tagjai megütköztek Shinzon zászlóhajójával, a Scimitarral, a Valdore osztály súlyosan megbukott. A Csillagflotta zászlóshajójával, a Sovereign osztályú USS.Enterprise-E -vel karöltve harcolva, a két Valdore percekkel a csata megkezdése után megbénult. Míg az Enterprise-E képes volt fenntartani majd 20 percen keresztül a folyamatos támadásait, s habár súlyos sérüléseket szenvedett, még így is üzemképes maradt. Ezután az eset után a Fõparancsnokság pánikba esett. Miután bebizonyosodott, hogy legmodernebb hajóosztályuk valójában csak egy jó kinézetû ócskavas, a tervezõmérnökök visszaültek asztalaik mögé, s így tervezték meg a D'vorx osztályú Harcimadarat. A létezõ Valdoreokat alacsony prioritású küldetésekre küldték, és leállították az osztály gyártási folyamatát. Napjainkra alig pár megbízhatóbb darabja maradt szolgálatban."
+        }, {
+        "type": "text",
+        "subTitle": "Lukan osztályú Harcimadár",
+        "content": "Habár a Romulán Birodalom és a Föderáció szövetségesek lettek, a két nagyhatalom közti ellentétek megmaradtak, és a két fél katonai erõi versenyt futnak egymással a technológiai fejlõdés nevében. Miután a Csillagflotta elindította útjára az Angyal osztályt, hatalmas katonai és mobilitási fölényre tett szert, hála részben a kvantumörvény-hajtómûnek is. Ezzel több mint 15-ször gyorsabbá vált a reakcióidejük, mint bármely más szövetséges erõnek a kvadránsban. A Romulánok hozzájutottak a kvantumörvény-meghajtás leírásához egy 2382-es, különleges technológia-megosztási egyezmény aláírásával a Föderációval. Azóta a Romulánok a meghajtórendszer saját verziójának megalkotásán fáradoztak. A prototípus 2388-as sikeres tesztjét követõen a Lukan osztály sorozatgyártása megindult. Tanulva a Valdore osztálynál elkövetett hibáikból, a Romulánok ezúttal nem kapkodtak el semmit. Így 2391 végén, majdnem tíz évvel a hajó terveinek megszületése után szolgálatba állt az elsõ, 500 hajóbol álló flotta. A számos, magasan fejlett technológiai megoldást igénylõ kinézet és felszereltség gondos, precíz munkát rejt. A prototípust teljesen átalakították a flotta elkészültére, így az most a Prétor zászlóshajója. Ez az egyetlen osztály lett felszerelve azzal az újgenerációs lopakodó technológiával, melyet szintén a Föderációval kötött technológiai csereprogram keretében szereztek meg."
+        }, {
+        "type": "text",
+        "title": "B.2: Klingon Birodalom",
+        "content": "Míg a Föderáció kapcsolatai a Romulánokkal az elmúlt 25 évben egyre csak javultak, úgy a Klingonokkal egyre csak romlott. Ez a 2385-ben kitört, Klingon Polgárháborúnak is köszönhetõ, melyben hivatalos kérés ellenére sem nyújtott segítséget a Föderáció. Ám a Klingon Birodalom egymaga nem állt készen megvívni belsõ vitáit, hisz még a Dominiumi Háború 9 éves romjaiból építették csak újra világaikat. A Dominiumi Háború óta a Klingonok megtanulták használni technológiai elõnyeiket, nem úgy mint a múltban. Új designek, új technológiák segítségével a Klingon Nagy Tanács folytatta a már öregnek mondható, ám mégis jól bevállt B'rel osztályú Ragadozómadarak, és a Negh'var osztályú Rombolók gyártását. Habár ezek a hajók komolyan 'túlérettek', a Klingonok próbálják õket olyan hosszú ideig szolgálatban tartani, amennyire csak elhetséges, próbálva kihozni belõlük mindent. A XIV. század végére a Klingon Védelmi Erõk finoman fogalmazva is a 'csillagközi hulladék' szintjére jutottak. Habár a Föderációval kötött technológia-megosztási egyezményt igénybe vették, a Birodalom nem jutott olyan mértékû támogatáshoz, mint azt remélte. A Kvantum-torpedók és a Navion Emitterek technológiáján kívül a Birodalom nem igazán tartott számot semmire (A Klingonok a Kvantumörvény-Hajtómûvet a Khitomeri Egyezmény 2380-as, harmadik kibõvítésekor ostobaságnak tartották. Mindazonáltal a Birodalom nem bír összetettebb hajókat nagy mennyiségben építeni. Sajnálatos módon minden új hajójukat már létezõ, vagy még csak tervezésben lévõ technológiákkal igyekszenek felszerelni). A Reformistákkal vívott súlyos harcok során a Birodalom oda jutott, hogy próbálja megtartani a sajátját. Stabilizálni területei határát, kiiktatva a Reformisták katonai hajóit. Habár a Birodalom hadiflottája még mindig hatalmas, technológiailag rég elévült. Így félõ a védelmük bukása."
+        }, {
+        "type": "text",
+        "subTitle": "Mak'tan osztályú Cirkáló",
+        "content": "Míg a Romulánok és a Föderáció hatalmas léptekkel növelték technológiai fejlõdésüket a 2380-as években, a Klingon Nagy Tanács képtelen volt magához térni. Mikor a Birodalom magához tért, rájött hogy vesztésre áll, s erõket veszít mind szárazföldön, mind az ûrben. A filozófiai és technológiai lemaradásuk lépésre ösztönözte õket. Gowron kancellár uralkodásának utolsó hónapjaiban elkövetett öngyilkos-küldetések százai során megfogyatkozott haderõit Martok kancellár lassan visszaállította. Eközben a Nagy Tanács egy erõteljes, bárhol helytálló hajó fejlesztésébe kezdett. Ezt azonban sokkal nehezebb volt elérni, mint rájönni. Hiába a Föderációtol kapott technikai segítség, a fegyverzet, a meghajtórendszerek, a Birodalom a belsõ konfligtusai hatására egyre több és nagyobb visszalépést élt át a fejlesztésekben. Miután nagy várakozások után elkészültek az új cirkálók elsõ darabjai, a Birodalom úgy döntött, felhagy az addig jól teljesítõ Vor'cha osztályú cirkálók további gyártásával. A Mak'tan osztály határozottan nem egy újabb bukás. Habár messze az eddigi hajóik fölött jár technikailag és fejlettségileg, a Nagy Tanács hozzá fûzött várakozásait alul múlta. A Birodalom úgy döntött, a még szolgálatban lévõ Vor'cha osztályú cirkálókat és az új Mak'tan osztályúakat egy flottába helyezi, s még több kisméretû hajót gyárt, így biztosítva az eddig is megszokott hajóflották sikerességét az ellenségekkel szemben, de elsõízben leginkább a Reformista frakcióval. Napjainkban a Mak'tan elég szép számmal szerepel a Birodalom flottáiban, ám a kritikusok szerint akkor is hiba volt leállítani a régebbi, jól bevállt hajóosztályok gyártását."
+        }, {
+        "type": "text",
+        "subTitle": "K'tari osztályú Ragadozómadár",
+        "content": "A B'rel osztályú Ragadozómadár a legismertebb kinézetû csillaghajó a Klingon Védelmi Erõkön belül. Eredetileg 2282-ben álltak szolgálatba, azóta számos design-fejelsztésen esett át a B'rel osztály. Az évek során a legmozgékonyabb, leg flexibilis romboló-típus lett kvadráns-szerte, s egészen 2379-ig folyamatos gyártás alatt maradt. Sajnálatos módon a Dominumi Háború után a B'rel osztály tagjai kiöregedtek, és a Jem'Hadar erõkkel folytatott harcok vereségei is azt bizonyították, hogy újításra van szükség. A Klingon Nagy Tanács úgy döntött, lecseréli ezt az osztályt a legmodernebb technológiákkal felszerelt, új hajóosztályával, mely a Föderáció Defiant osztályú rombolóival, illetve a Jem'Hadar vadászokkal is könnyen felveszi a versenyt. Az eredmény a K'tari osztályú Ragadozómadár lett: egy hadihajó a jól bevállt megoldásokkal, ugyanakor elsõízben felszerelve a kvantumörvény technológiával. Ez az osztály rendelkezik a Csillagflotta térhajtómûvén alapuló kibõvítésekkel, a megnövelt erejû pulzusos diszruptorokkal, kvantum-torpedókkal és egyéb Föderációs technológiákkal. A tervek befejezésével a Klingonok elindították a hajó termelését. Alig öt év alatt megközelítõleg 450 hajó került ki a hajógyárakból. Azóta a K'tari meghatározó szerepet kapott a Birodalom életében, különösen a Polgárháborúban. Számos reformista képes irányítani az újgenerációs vezérlõkkel ellátott K'tari hajókat, ám leginkább a régi B'rel osztályú hajókat használják. A K'tari osztály kinézeti tervei messze a Birodalom technológiai szintje mögött maradtak, igyekezve a régi hajóformát követni. Így sikerült egy álcát létrehozniuk, mellyel a legmodernebb technológiákat egy öreg hajó palástja mögé rejthetik. Idõközben a Birodalom megoldotta belsõ vitáit, és minden elrabolt K'tari osztályú Ragadozómadár visszakerült a Birodalmi Védelmi Erõk köreibe."
+      }]
+    }
+  },
+  "navigations": {
+    "mainNavigation": {
+      "home": "Nyitólap",
+      "datas": "Adatok",
+      "about": "Rólunk"
+    },
+    "home": {
+    },
+    "about": {
+    },
+    "datas": {
+      "main": {
+        "timeline": "Idõvonal",
+        "crewmembers": "Szereplõk",
+        "technicalmanual": "Hajóadatok"
+      },
+      "timeline": {
+        "stormy-beginnings": "1969 - 2164",
+        "to-boldly-go": "2188 - 2379",
+        "golden-ages": "2380 - 2393"
+      },
+      "crewmembers": {
+        "zolee-jackoway": "Zolee Jackoway",
+        "big-chu": "Big Chu",
+        "sandy-murphy": "Sandy Murphy",
+        "leslie-killer": "Leslie Killer",
+        "patrick-oconnel": "Patrick O'Connel",
+        "abby-both": "Abby Both",
+        "kowlor": "Kowlor",
+        "nicolas-martin": "Nicolás Martin",
+        "samuel-karlsson": "Samuel Karlsson"
+      },
+      "technicalmanual": {
+        "intro": "Bevezetés",
+        "1-introduction": "Bemutatás",
+        "2-command-and-control": "Vezérlés és szabályozás",
+        "3-propulsion": "Meghajtás",
+        "4-tactical": "Taktikai rendszerek",
+        "5-auxiliary-crafts": "Kisegítõ jármûvek",
+        "6-crew-support": "Létfenntartás",
+        "7-conclusion": "Következtetés",
+        "appendix-a": "Melléklet 1 - Szövetséges erõk",
+        "appendix-b": "Melléklet 2 - Ellenséges erõk"
+      }
+    }
+  },
+  "breadcrumbs": {
+    "timeline": {
+      "datas": "Adatok",
+      "timeline": "Idõvonal"
+    },
+    "stormy-beginnings": {
+      "datas": "Adatok",
+      "timeline": "Idõvonal",
+      "stormy-beginnings": "1969 - 2164"
+    },
+    "to-boldly-go": {
+      "datas": "Adatok",
+      "timeline": "Idõvonal",
+      "to-boldly-go": "2188 - 2379"
+    },
+    "golden-ages": {
+      "datas": "Adatok",
+      "timeline": "Idõvonal",
+      "golden-ages": "2380 - 2393"
+    },
+    "crewmembers": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk"
+    },
+    "zolee-jackoway": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "zolee-jackoway": "Zolee Jackoway"
+    },
+    "big-chu": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "big-chu": "Big Chu"
+    },
+    "sandy-murphy": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "sandy-murphy": "Sandy Murphy"
+    },
+    "leslie-killer": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "leslie-killer": "Leslie Killer"
+    },
+    "patrick-oconnel": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "patrick-oconnel": "Patrick O'Connel"
+    },
+    "abby-both": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "abby-both": "Abby Both"
+    },
+    "kowlor": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "kowlor": "Kowlor"
+    },
+    "nicolas-martin": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "nicolas-martin": "Nicolás Martin"
+    },
+    "samuel-karlsson": {
+      "datas": "Adatok",
+      "crewmembers": "Szereplõk",
+      "samuel-karlsson": "Samuel Karlsson"
+    },
+    "technicalmanual": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok"
+    },
+    "intro": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "intro": "Bevezetés"
+    },
+    "1-introduction": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "1-introduction": "Bemutatás"
+    },
+    "2-command-and-control": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "2-command-and-control": "Vezérlés és szabályozás"
+    },
+    "3-propulsion": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "3-propulsion": "Meghajtás"
+    },
+    "4-tactical": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "4-tactical": "Taktikai rendszerek"
+    },
+    "5-auxiliary-crafts": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "5-auxiliary-crafts": "Kisegítõ jármûvek"
+    },
+    "6-crew-support": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "6-crew-support": "Létfenntartás"
+    },
+    "7-conclusion": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "7-conclusion": "Következtetés"
+    },
+    "appendix-a": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "appendix-a": "Melléklet 1 - Szövetséges erõk"
+    },
+    "appendix-b": {
+      "datas": "Adatok",
+      "technicalmanual": "Hajóadatok",
+      "appendix-b": "Melléklet 2 - Ellenséges erõk"
+    }
+  }
+}

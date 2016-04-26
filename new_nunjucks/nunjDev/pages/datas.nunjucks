@@ -1,0 +1,41 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Adatok' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, adatok' %}
+{% set style = ['main', 'pure', 'animate'] %}
+{% set activePage = 'datas' %}
+
+{% set activeSubPage = activeSubPage | default('') %}
+{% set activeMenus = activeMenus | default(navigations.datas["main"]) %}
+{% set activeCrumbs = activeCrumbs | default('') %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu(activeMenus) }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
+							<h2 class="content-subhead">Adatok</h2>
+							<p>
+								Tudj meg többet A Legújabb Nemzedék (ALN) világáról! A szereplõk életrajzaival, részletes technikai leírással, és egy teljeskörû enciklopédiával az ALN világáról szeretnénk megismertetni kicsit mélyrehatóbban a történetet veletek.
+							</p>
+							<h3 class="content-list-subhead">Idõvonal</h3>
+							<p>
+								Az ALN kronológia egyfajta kiegészítést szolgál a Star Trek idõvonalhoz. Segítséget nyújt az események pontosabb átlátásához. Történelmi szempontból a fontosabb események, és a különbözõ felfedezések tartoznak ide; mint ahogy az ALN szereplõinek fontosabb életpontjai is.
+							</p>
+							<h3 class="content-list-subhead">Szereplõk</h3>
+							<p>
+								A USS.Glory legénysége, mely különbözõ fajokból áll (Ember, Bajori, Vulkáni, Klingon). Ismerd meg a történet szereplõinek háttértörténetét, jellemrajzát.
+							</p>
+							<h3 class="content-list-subhead">Hajóadatok</h3>
+							<p>
+								A Star Trek egyik legnagyobb kihívása mindig is az volt, hogy megmagyarázzuk a benne lévõ technológiákat, megmutassuk az elképesztõ csillaghajók belsejét, mûködését. Ez a rész a USS.Glory -t helyezi a reflektorfénybe, hogy ezáltal többet tudhassunk meg annak mûködésérõl.
+							</p>
+						</article>
+
+{% endblock %}

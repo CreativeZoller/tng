@@ -1,0 +1,31 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Nyitólap' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, nyitólap' %}
+{% set style = ['main', 'pure', 'animate'] %}
+{% set activePage = 'home' %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu() }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							<h2 class="content-subhead">How to use this layout</h2>
+							<p>
+								Üdvözlünk a 'Star Trek - A Legújabb Nemzedék' hivatalos honlapján.
+								Az oldal a 2006-os ugyanilyen nevû weboldal új kiadása.
+							</p>
+							<p>
+								<span class="social social-fork"></span>
+								<span class="social social-github"></span>
+								<span class="social social-twitter"></span>
+								<span class="tng tng-ufp"></span>
+							</p>
+						</article>
+
+{% endblock %}

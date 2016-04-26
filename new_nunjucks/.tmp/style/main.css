@@ -1,0 +1,204 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
+.is-center {
+  text-align: center; }
+
+.l-box {
+  padding: 1em; }
+
+@media screen and (max-width: 48em) {
+  .pure-hidden-xs {
+    display: none; } }
+
+.tng {
+  display: inline-block;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.tng-Type-2 {
+  background-position: 0 0;
+  width: 161px;
+  height: 83px; }
+
+.tng-janeway-shuttle {
+  background-position: 0 -83px;
+  width: 358px;
+  height: 98px; }
+
+.tng-delta-flyer {
+  background-position: 0 -181px;
+  width: 358px;
+  height: 99px; }
+
+.tng-TR-116 {
+  background-position: 0 -280;
+  width: 339px;
+  height: 102px; }
+
+.tng-starfield {
+  background-position: 0 -382px;
+  width: 875px;
+  height: 112px; }
+
+.tng-starchart {
+  background-position: 0 -494px;
+  width: 680;
+  height: 152px; }
+
+.tng-glory-plakett {
+  background-position: 0 -646px;
+  width: 208px;
+  height: 158px; }
+
+.tng-command {
+  background-position: 0 -804px;
+  width: 175px;
+  height: 175px; }
+
+.tng-ufp {
+  background-position: 0 -979px;
+  width: 351px;
+  height: 194px; }
+
+.tng-angel-class-logo {
+  background-position: 0 -1173px;
+  width: 208px;
+  height: 208px; }
+
+.tng-Type-4 {
+  background-position: 0 -1381px;
+  width: 438px;
+  height: 235px; }
+
+.tng-glory-side {
+  background-position: 0 -1616px;
+  width: 3036px;
+  height: 524px; }
+
+.tng-thunderbolts-old {
+  background-position: 0 -2140;
+  width: 758px;
+  height: 758px; }
+
+.tng-glory-top {
+  background-position: 0 -2898px;
+  width: 3036px;
+  height: 805px; }
+
+.tng-glory-msd {
+  background-position: 0 -3703px;
+  width: 3346px;
+  height: 950; }
+
+.tng-glory-bridge {
+  background-position: 0 -4653px;
+  width: 690;
+  height: 964px; }
+
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+/*
+These "../images/retina group" variables are mappings for the naming and pairing of normal and ../images/retina sprites.
+
+The list formatted variables are intended for mixins like `../images/retina-sprite` and `../images/retina-sprites`.
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+/*
+The `../images/retina-sprite` mixin sets up rules and a media query for a sprite/../images/retina sprite.
+  It should be used with a "../images/retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/../images/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include ../images/retina-sprite($icon-home-group);
+}
+*/
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+/*
+The `../images/retina-sprites` mixin generates a CSS rule and media query for ../images/retina groups
+  This yields the same output as CSS ../images/retina template but can be overridden in SCSS
+
+@include ../images/retina-sprites($../images/retina-groups);
+*/
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  font-family: "Open Sans", sans-serif; }
+
+.social {
+  display: block;
+  height: 32px;
+  width: 32px; }
+  .social-fork {
+    background-image: url(../images/retinaSprites.png);
+    background-position: 0 0;
+    width: 32px;
+    height: 32px; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .social-fork {
+        background-image: url(../images/retinaSprites-2x.png);
+        background-size: 64px 64px; } }
+  .social-github {
+    background-image: url(../images/retinaSprites.png);
+    background-position: -32px 0;
+    width: 32px;
+    height: 32px; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .social-github {
+        background-image: url(../images/retinaSprites-2x.png);
+        background-size: 64px 64px; } }
+  .social-twitter {
+    background-image: url(../images/retinaSprites.png);
+    background-position: 0 -32px;
+    width: 32px;
+    height: 32px; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .social-twitter {
+        background-image: url(../images/retinaSprites-2x.png);
+        background-size: 64px 64px; } }

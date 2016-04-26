@@ -1,0 +1,101 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Hajóadatok' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, hajóadatok' %}
+{% set style = ['main', 'pure', 'animate'] %}
+{% set activePage = 'datas' %}
+
+{% set activeSubPage = 'technicalmanual' %}
+{# {% set activeMenus = (navigations.datas["main"], "technicalmanual", navigations.datas["technicalmanual"]) %} #}
+{% set activeCrumbs = breadcrumbs["technicalmanual"] %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu(navigations.datas["main"], "technicalmanual", navigations.datas["technicalmanual"], activeSubPage) }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
+							<h2 class="content-subhead">Technikai leírás</h2>
+							<p>
+								A Star Trek egyik legnagyobb kihívása mindig is az volt, hogy megmagyarázzuk a benne lévõ technológiákat, megmutassuk az elképesztõ csillaghajók belsejét, mûködését. Ez a rész a USS.Glory -t helyezi a reflektorfénybe, hogy ezáltal többet tudhassunk meg annak mûködésérõl.
+							</p>
+							<h4>Tartalom</h4>
+							<ol>
+								<li>Bevezetés</li>
+								<li>A USS.Glory bemutatása
+									<ol>
+										<li>Általános áttekintés</li>
+										<li>Általános feladatok az Angyal osztályhoz</li>
+										<li>Fejlesztés és építés</li>
+										<li>Fõ adatok</li>
+										<li>Fedélzetek</li>
+									</ol>
+								</li>
+								<li>Vezérlõ és Szabályzó rendszerek
+									<ol>
+										<li>Általános áttekintés</li>
+										<li>Vezérlõ Központ</li>
+										<li>Részleg Központok</li>
+										<li>Számítógéprendszer és Optikai Adatháló</li>
+									</ol>
+								</li>
+								<li>Meghajtó Rendszerek
+									<ol>
+										<li>Áttekintés</li>
+										<li>Kvantumörvény Hajtómû</li>
+										<li>Térhajtómû</li>
+										<li>Impulzus Hajtómû</li>
+										<li>Vészhelyzeti Eljárások</li>
+									</ol>
+								</li>
+								<li>Taktikai Rendszerek
+									<ol>
+										<li>Áttekintés</li>
+										<li>Fézerek</li>
+										<li>Torpedók</li>
+										<li>Taktikai Védekezõ Rendszerek</li>
+										<li>Személyi Felszerelések</li>
+										<li>Kék Villámok</li>
+									</ol>
+								</li>
+								<li>Kisegítõ Ûrjármûvek
+									<ol>
+										<li>Áttekintés</li>
+										<li>Angyal osztályú csillaghajó kompjai</li>
+									</ol>
+								</li>
+								<li>Legénységi Kisegítõ Rendszerek
+									<ol>
+										<li>Áttekintés</li>
+										<li>Legénységi Szállások</li>
+										<li>Orvosi Ellátás</li>
+										<li>Szórakozási Lehetõségek</li>
+									</ol>
+								</li>
+								<li>Következtetés
+									<ol>
+										<li>Kék Villámok</li>
+										<li>Tervek a jövõre nézve</li>
+									</ol>
+								</li>
+								<li>Melléklet-1 - Szövetséges Erõk
+									<ol>
+										<li>Romulán Csillagbirodalom</li>
+										<li>Klingon Birodalom</li>
+									</ol>
+								</li>
+								<li>Melléklet-2 - Ellenséges Erõk
+									<ol>
+										<li>Elsõk</li>
+										<li>Whagosh Védelmi Erõk</li>
+									</ol>
+								</li>
+							</ol>
+						</article>
+
+{% endblock %}

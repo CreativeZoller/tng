@@ -1,0 +1,214 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$fork-name: 'fork';
+$fork-x: 0;
+$fork-y: 0;
+$fork-offset-x: 0;
+$fork-offset-y: 0;
+$fork-width: 32px;
+$fork-height: 32px;
+$fork-total-width: 64px;
+$fork-total-height: 64px;
+$fork-image: 'retinaSprites.png';
+$fork: (0, 0, 0, 0, 32px, 32px, 64px, 64px, 'retinaSprites.png', 'fork', );
+$github-name: 'github';
+$github-x: 32px;
+$github-y: 0;
+$github-offset-x: -32px;
+$github-offset-y: 0;
+$github-width: 32px;
+$github-height: 32px;
+$github-total-width: 64px;
+$github-total-height: 64px;
+$github-image: 'retinaSprites.png';
+$github: (32px, 0, -32px, 0, 32px, 32px, 64px, 64px, 'retinaSprites.png', 'github', );
+$twitter-name: 'twitter';
+$twitter-x: 0;
+$twitter-y: 32px;
+$twitter-offset-x: 0;
+$twitter-offset-y: -32px;
+$twitter-width: 32px;
+$twitter-height: 32px;
+$twitter-total-width: 64px;
+$twitter-total-height: 64px;
+$twitter-image: 'retinaSprites.png';
+$twitter: (0, 32px, 0, -32px, 32px, 32px, 64px, 64px, 'retinaSprites.png', 'twitter', );
+$fork-2x-name: 'fork-2x';
+$fork-2x-x: 0;
+$fork-2x-y: 0;
+$fork-2x-offset-x: 0;
+$fork-2x-offset-y: 0;
+$fork-2x-width: 64px;
+$fork-2x-height: 64px;
+$fork-2x-total-width: 128px;
+$fork-2x-total-height: 128px;
+$fork-2x-image: 'retinaSprites-2x.png';
+$fork-2x: (0, 0, 0, 0, 64px, 64px, 128px, 128px, 'retinaSprites-2x.png', 'fork-2x', );
+$github-2x-name: 'github-2x';
+$github-2x-x: 64px;
+$github-2x-y: 0;
+$github-2x-offset-x: -64px;
+$github-2x-offset-y: 0;
+$github-2x-width: 64px;
+$github-2x-height: 64px;
+$github-2x-total-width: 128px;
+$github-2x-total-height: 128px;
+$github-2x-image: 'retinaSprites-2x.png';
+$github-2x: (64px, 0, -64px, 0, 64px, 64px, 128px, 128px, 'retinaSprites-2x.png', 'github-2x', );
+$twitter-2x-name: 'twitter-2x';
+$twitter-2x-x: 0;
+$twitter-2x-y: 64px;
+$twitter-2x-offset-x: 0;
+$twitter-2x-offset-y: -64px;
+$twitter-2x-width: 64px;
+$twitter-2x-height: 64px;
+$twitter-2x-total-width: 128px;
+$twitter-2x-total-height: 128px;
+$twitter-2x-image: 'retinaSprites-2x.png';
+$twitter-2x: (0, 64px, 0, -64px, 64px, 64px, 128px, 128px, 'retinaSprites-2x.png', 'twitter-2x', );
+$spritesheet-width: 64px;
+$spritesheet-height: 64px;
+$spritesheet-image: 'retinaSprites.png';
+$spritesheet-sprites: ($fork, $github, $twitter, );
+$spritesheet: (64px, 64px, 'retinaSprites.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 128px;
+$retina-spritesheet-height: 128px;
+$retina-spritesheet-image: 'retinaSprites-2x.png';
+$retina-spritesheet-sprites: ($fork-2x, $github-2x, $twitter-2x, );
+$retina-spritesheet: (128px, 128px, 'retinaSprites-2x.png', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$fork-group-name: 'fork';
+$fork-group: ('fork', $fork, $fork-2x, );
+$github-group-name: 'github';
+$github-group: ('github', $github, $github-2x, );
+$twitter-group-name: 'twitter';
+$twitter-group: ('twitter', $twitter, $twitter-2x, );
+$retina-groups: ($fork-group, $github-group, $twitter-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

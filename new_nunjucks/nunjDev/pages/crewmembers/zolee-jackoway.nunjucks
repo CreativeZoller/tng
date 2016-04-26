@@ -1,0 +1,49 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Szereplõk: Zolee Jackoway' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, idõvonal, zolee, jackoway' %}
+{% set style = ['main', 'pure', 'animate', 'crew'] %}
+{% set activePage = 'datas' %}
+
+{% set activeSubPage = 'zolee-jackoway' %}
+{# {% set activeMenus = (navigations.datas["main"], "crewmembers", navigations.datas["crewmembers"]) %} #}
+{% set activeCrumbs = breadcrumbs["zolee-jackoway"] %}
+{% set membData = contents.crewmembers[activeSubPage] %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu(navigations.datas["main"], "crewmembers", navigations.datas["crewmembers"], activeSubPage) }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
+							<h2 class="content-subhead">Szereplõk: Zolee Jackoway</h2>
+							<p>
+								A USS.Glory legénysége, mely különbözõ fajokból áll (Ember, Bajori, Vulkáni, Klingon). Ismerd meg a történet szereplõinek háttértörténetét, jellemrajzát.
+							</p>
+							<hr />
+							<dl>
+								<dd>Név</dd><dt>{{ membData.name }}</dt>
+								<dd>Rang</dd><dt>{{ membData.rank }}</dt>
+								<dd>Faj</dd><dt>{{ membData.race }}</dt>
+								<dd>Születési idõ</dd><dt>{{ membData.birthdate }}</dt>
+								<dd>Születési hely</dd><dt>{{ membData.birthplace }}</dt>
+								<dd>Szülõk</dd><dt>{{ membData.parents }}</dt>
+								<dd>Testvérek</dd><dt>{{ membData.siblings }}</dt>
+								<dd>Utolsó megbízatás</dd><dt>{{ membData.assignment }}</dt>
+							</dl>
+							<ol class="content-timeline">
+								{% for entry in membData.biography %}
+								<li>
+									<time>{{ entry.date }}</time>
+									<span>{{ entry.event }}</span>
+								</li>
+								{% endfor %}
+							</ol>
+						</article>
+
+{% endblock %}

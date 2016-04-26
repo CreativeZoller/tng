@@ -1,0 +1,5 @@
+{% block footer %}
+				<footer class="footer l-box is-center">
+					&copy; The Newest Generation 2001-2006. A "Star Trek" és kapcsolatos elnevezések a <a href="paramount.com">Paramount Pictures</a> bejegyzett védjegyei. Ez az oldal teljesen non-profit célokból mûködik. A rajta lévõ adatokat, képeket a szerzõk elõzetes írásbeli engedélye nélkül tilos felhasználni.
+				</footer>
+{% endblock %}

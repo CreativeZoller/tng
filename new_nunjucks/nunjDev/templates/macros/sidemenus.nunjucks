@@ -1,0 +1,54 @@
+{% macro genMenu(pages, item, subpages, active) %}
+
+							<div class="sideMenu {% if pages %}sideMenu-datas{% else %}sideMenu-basic{% endif %}">
+								<div>
+									<span class="sideMenu-header">{% if pages %}Almenü{% else %}Starfleet Academy - Thunderbolts{% endif %}</span>
+									<div id="sideMenu-holder">&nbsp;</div>
+								{% if pages %}
+									<ul class="sideMenu-list">
+								{% if subpages %}
+									{% for key, value in pages %}
+										{% if key == item %}
+										<li class="sideMenu-item sideMenu-item-divided {%if active == key %}sideMenu-item-selected{% endif %}">
+											{% if active %}
+											<a href="../{{ key }}.html" class="pure-menu-link">{{ value }}</a>
+											{% else %}
+											<a href="{{ key }}.html" class="pure-menu-link">{{ value }}</a>
+											{% endif %}
+										</li>
+										{% endif %}
+									{% endfor %}
+									{% for key, value in subpages %}
+										{% if loop.first %}
+										<li class="sideMenu-item sideMenu-item-divided {%if active == key %}sideMenu-item-selected{% endif %}">
+											{% if activeSubPage != '' %}
+											<a href="../{{ item }}/{{ key }}.html" class="pure-menu-link">{{ value }}</a>
+											{% else %}
+											<a href="{{ item }}/{{ key }}.html" class="pure-menu-link">{{ value }}</a>
+											{% endif %}
+										</li>
+										{% else %}
+										<li class="sideMenu-item {%if active == key %}sideMenu-item-selected{% endif %}">
+											<a href="../{{ item }}/{{ key }}.html" class="pure-menu-link">{{ value }}</a>
+										</li>
+										{% endif %}
+									{% endfor %}
+								{% else %}
+									{% for key, value in pages %}
+										{% if loop.first %}
+										<li class="sideMenu-item sideMenu-item-divided">
+											<a href="{{ key }}.html" class="pure-menu-link">{{ value }}</a>
+										</li>
+										{% else %}
+										<li class="sideMenu-item">
+											<a href="{{ key }}.html" class="pure-menu-link">{{ value }}</a>
+										</li>
+										{% endif %}
+									{% endfor %}
+								{% endif %}
+									</ul>
+								{% endif %}
+								</div>
+							</div>
+
+{% endmacro %}

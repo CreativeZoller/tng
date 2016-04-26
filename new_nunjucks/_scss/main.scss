@@ -1,0 +1,40 @@
+// importing fonts
+@import 'fonts';
+
+// importing mixins
+
+
+// importing helpers
+@import 'pure_unique';
+
+// importing gulp-generated scss-files
+@import 'sprites';
+@import 'retinaSprites';
+
+// local definitions
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: $open-sans;
+}
+
+.social {
+  display: block;
+  height: 32px;
+  width: 32px;
+
+  &-fork {
+    @include retina-sprite($fork-group);
+  }
+
+  &-github {
+    @include retina-sprite($github-group);
+  }
+
+  &-twitter {
+    @include retina-sprite($twitter-group);
+  }
+}

@@ -1,0 +1,30 @@
+{% extends "nunjDev/templates/layout.nunjucks" %}
+
+{% import "nunjDev/templates/macros/breadcrumbs.nunjucks" as breadCrumbs %}
+{% import "nunjDev/templates/macros/sidemenus.nunjucks" as aside %}
+
+{% set title = 'Star Trek - A Legújabb Nemzedék :: Rólunk' %}
+{% set description = 'Lorem ipsum dolor sit amet, consectetur.' %}
+{% set keywords = 'legújabb, nemzedék, rólunk' %}
+{% set style = ['main', 'pure', 'animate'] %}
+{% set activePage = 'about' %}
+
+{% block content %}
+
+						<aside class="pure-u-1 pure-u-md-1-4">
+							{{ aside.genMenu() }}
+						</aside>
+						<article class="pure-u-1 pure-u-md-3-4">
+							<h2 class="content-subhead">Rólunk</h2>
+							<p>
+								Az ALN projekt nagyjából 2001 tavaszával indult el útjára, két barát Voyager és DS9 iránti bûvölete által vezérelve. Az idõ folyamán több ember is csatlakozott munkánkhoz és lassan de biztosan tested öltött az ALN univerzuma.
+							</p>
+							<h2 class="content-subhead">Jogi tájékoztatók</h2>
+							<p>
+								A Legújabb Nemzedék (Késõbbiekben csak 'ALN') csapata tudomásul veszi hogy a következõk a Paramount Pictures és a különbözõ Paramount tulajdonú cégek védjegyei:
+								Star Trek, Star Trek: The Next Generation, Star Trek: Deep Space Nine, Star Trek: Voyager, Enterprise, Star Trek: The Motion Picture, Star Trek: The Wrath of Khan, Star Trek: The Search for Spock, Star Trek: The Voyage Home, Star Trek: The Final Frontier, Star Trek: The Undiscovered Country, Star Trek: Generations, Star Trek: First Contact, Star Trek: Insurrection és Star Trek: Nemesis (Késõbbiekben csak "Star Trek munkák").
+								Minden név, rang, megnevezés és regisztrációs szám ami eddig feltûnt Star Trek sorozatokban. Minden egyéb elnevezés, kifejezés, logó, ami Star Trek sorozatokban elõfordult. Az 'ALN' Csapata állítja hogy a weblapon lévõ minden munka 'hivatalos' és a csapattagok által készített. A Magyar Köztársaság, és az Egyesült Amerikki Államok törvényeinek értelmében minden, az 'ALN' csapat által készített munka a saját tulajdonukat képezi, mint 'nem-hivatalos rajongói alkotás'. Az 'ALN' Csapat minden lépést meg fog tenni azért, hogy mûvei védjegye a saját kezében maradjon, s ne forduljon elõ szabálysértés, és a munkákkal való visszaélés.
+							</p>
+						</article>
+
+{% endblock %}
