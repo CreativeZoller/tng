@@ -4,8 +4,11 @@
 .Trashes
 Desktop.ini
 new_jekyll
+new_nunjucks/._*
+new_nunjucks/.DS_Store
 new_nunjucks/dist
 new_nunjucks/_sites
+new_nunjucks/.tmp
 new_nunjucks/node_modules
 new_nunjucks/bower_components
 new_nunjucks/TODO.md

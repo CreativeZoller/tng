@@ -1,3 +1,4 @@
+
 var gulp = require('gulp'),
 	fs = require('fs'),
 	data = require('gulp-data'),
@@ -31,9 +32,69 @@ var gulp = require('gulp'),
 	pngQuant = require('imagemin-pngquant'),
 	uglify = require('gulp-uglify')
 ;
+function browserSyncInit(baseDir, files) {
+	browserSync.instance = browserSync.init(files, {
+		startPath: '/', server: { baseDir: baseDir, index: 'home.html' }, open: true, reloadOnRestart: true
+	});
+}
+function changeEvent(evt) {
+	gulpUtil.log('File', gulpUtil.colors.cyan(evt.path.replace(new RegExp('/.*(?=/./)/'), '')), 'was', gulpUtil.colors.magenta(evt.type));
+}
+
+var basePaths = {
+	root: './',
+	bowerDir: this.root + 'bower_components/',
+	tempDir: this.root + '.tmp/',
+	builDir: this.root + 'dist/',
+	cleanBuild: this.builDir + '**/*',
+	cleanTemp: this.tempDir + '**/*'
+};
+var	nunjPaths = {
+	nunjSrc: basePaths.root + 'nunjDev/templates/',
+	nunjFiles: basePaths.root + 'nunjDev/pages/**/*.+(html|nunjucks)',
+	nunjData: basePaths.root + 'nunjDev/data.json',
+	nunjBuilt: basePaths.root + '_sites/'
+};
+var	htmlPaths = {
+	htmlSrc: nunjPaths.nunjBuilt + '**/*.html'
+};
+var	spritePaths = {
+	spriteSrc: basePaths.root + '_images/*.{gif,jpg,png,svg}',
+	spriteIBuilt: basePaths.tempDir + 'images/',
+	spriteSBuilt: basePaths.tempDir + 'style/',
+	spriteSName: this.spritesSBuilt + 'sprites.scss',
+	retinaSrc: basePaths.root + '_images/sprites-2x/**/*.png',
+	retinafilter: basePaths.root + '_images/sprites-2x/*-2x.png',
+	retinaIName: 'retinaSprites.png',
+	retinaSName: 'retinaSprites.scss',
+	retinaRName: 'retinaSprites-2x.png',
+	imageBuilt: basePaths.builDir + 'images/',
+	imageTemp: this.spriteIBuilt + '*.{gif,jpg,png,svg}',
+	imageBuild: this.imageBuilt + '**/*.*'
+};
+var	stylePaths = {
+	stylesSrc: basePaths.root + '_scss/**/*.scss',
+	stylesTemp: basePaths.tempDir + 'style/',
+	stylesTempFiles: this.stylesTemp + '**/*.scss',
+	stylesTMain: this.stylesTemp + 'main.css'
+};
+var	allowancePaths = {
+	lintSassE: spritePaths.stylesTempFiles,
+	lintPureD: '!' + spritePaths.spriteSBuilt + 'pure.scss',
+	lintAnimateD: '!' + spritePaths.spriteSBuilt + 'animate.scss',
+	lintSpriteD: '!' + spritePaths.spriteSBuilt + 'sprites.scss',
+	lintRetineD: '!' + spritePaths.spriteSBuilt + 'retinaSprites.scss',
+	compSassE: spritePaths.stylesTempFiles,
+	compSpriteD: '!' + spritePaths.spriteSBuilt + 'sprites.scss',
+	compRetinaD: '!' + spritePaths.spriteSBuilt + 'retinaSprites.scss',
+	fixCssE: spritePaths.spriteSBuilt + '*.css',
+	fixCssD: '!' + spritePaths.spriteSBuilt + '*.min.css',
+	fixPureD: '!' + spritePaths.spriteSBuilt + 'pure.css',
+	fixAnimateD: '!' + spritePaths.spriteSBuilt + 'animate.css'
+};
 
 gulp.task('cleanUp', function() {
-	del(['./dist/**/*', './.tmp/**/*']);
+	del([basePaths.cleanBuild, basePaths.cleanTemp]);
 });
 
 gulp.task('bowerSetup', function() { 
@@ -189,7 +250,7 @@ gulp.task('compileSass', function() {
 		})
 		.pipe(gulp.dest('./.tmp/style'));
 });
-
+//////
 gulp.task('cssAutofix', function () {
 	return gulp.src(['./.tmp/style/*.css', '!./.tmp/style/*.min.css', '!./.tmp/style/pure.css', '!./.tmp/style/animate.css'])
 		.pipe(autoPrefixer({
@@ -264,15 +325,7 @@ gulp.task('minifyCss', function () {
 });
 
 
-function browserSyncInit(baseDir, files) {
-	browserSync.instance = browserSync.init(files, {
-		startPath: '/', server: { baseDir: baseDir, index: 'home.html' }, open: true, reloadOnRestart: true
-	});
-}
 
-function changeEvent(evt) {
-    gulpUtil.log('File', gulpUtil.colors.cyan(evt.path.replace(new RegExp('/.*(?=/./)/'), '')), 'was', gulpUtil.colors.magenta(evt.type));
-}
 
 gulp.task('buildDev', function() {
 	runSequence(['cleanUp'], 'nunjucksGenerate', 'checkHtml', 'copyHtml', 'sprites', 'retinaSprites', 'copySass', 'replaceSassPx', 'copyImgs:dev', 'lintSass', 'compileSass', 'replaceSpriteUrl', '3rdPartyCss', 'cssLint:dev', function() {
