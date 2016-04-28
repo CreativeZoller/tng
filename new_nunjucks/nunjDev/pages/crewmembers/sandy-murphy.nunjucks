@@ -22,10 +22,6 @@
 						<article class="pure-u-1 pure-u-md-3-4">
 							{{ breadCrumbs.genCrumbs(activeCrumbs) }}
 							<h2 class="content-subhead">Szereplõk: Sandy Murphy</h2>
-							<p>
-								A USS.Glory legénysége, mely különbözõ fajokból áll (Ember, Bajori, Vulkáni, Klingon). Ismerd meg a történet szereplõinek háttértörténetét, jellemrajzát.
-							</p>
-							<hr />
 							<dl>
 								<dd>Név</dd><dt>{{ membData.name }}</dt>
 								<dd>Rang</dd><dt>{{ membData.rank }}</dt>

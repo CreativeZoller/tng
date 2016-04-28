@@ -42,64 +42,65 @@ function changeEvent(evt) {
 }
 
 var basePaths = {
-	root: './',
-	bowerDir: this.root + 'bower_components/',
-	tempDir: this.root + '.tmp/',
-	builDir: this.root + 'dist/',
-	cleanBuild: this.builDir + '**/*',
-	cleanTemp: this.tempDir + '**/*'
+	bowerDir: './bower_components/',
+	tempDir: './.tmp/',
+	builDir: './dist/',
+	tempFiles: './.tmp/**/*',
+	siteFiles: './_sites/**/*',
+	buildFiles: './dist/**/*'
 };
 var	nunjPaths = {
-	nunjSrc: basePaths.root + 'nunjDev/templates/',
-	nunjFiles: basePaths.root + 'nunjDev/pages/**/*.+(html|nunjucks)',
-	nunjData: basePaths.root + 'nunjDev/data.json',
-	nunjBuilt: basePaths.root + '_sites/'
+	nunjSrc: './nunjDev/templates/',
+	nunjFiles: './nunjDev/pages/**/*.+(html|nunjucks)',
+	nunjData: './nunjDev/data.json',
+	nunjBuilt: './_sites/'
 };
 var	htmlPaths = {
-	htmlSrc: nunjPaths.nunjBuilt + '**/*.html'
+	htmlSrc: './_sites/**/*.html'
 };
 var	spritePaths = {
-	spriteSrc: basePaths.root + '_images/*.{gif,jpg,png,svg}',
-	spriteIBuilt: basePaths.tempDir + 'images/',
-	spriteSBuilt: basePaths.tempDir + 'style/',
-	spriteSName: this.spritesSBuilt + 'sprites.scss',
-	retinaSrc: basePaths.root + '_images/sprites-2x/**/*.png',
-	retinafilter: basePaths.root + '_images/sprites-2x/*-2x.png',
+	spriteSrc: './_images/*.{gif,jpg,png,svg}',
+	spriteIBuilt: './.tmp/images/',
+	spriteSBuilt: './.tmp/style/',
+	spriteSName: './.tmp/style/sprites.scss',
+	retinaSrc: './_images/sprites-2x/**/*.png',
+	retinafilter: './_images/sprites-2x/*-2x.png',
 	retinaIName: 'retinaSprites.png',
 	retinaSName: 'retinaSprites.scss',
 	retinaRName: 'retinaSprites-2x.png',
-	imageBuilt: basePaths.builDir + 'images/',
-	imageTemp: this.spriteIBuilt + '*.{gif,jpg,png,svg}',
-	imageBuild: this.imageBuilt + '**/*.*'
+	imageBuilt: './dist/images/',
+	imageTemp: './.tmp/images/*.{gif,jpg,png,svg}',
+	imageBuild: './dist/images/**/*.*'
 };
 var	stylePaths = {
-	stylesSrc: basePaths.root + '_scss/**/*.scss',
-	stylesTemp: basePaths.tempDir + 'style/',
-	stylesTempFiles: this.stylesTemp + '**/*.scss',
-	stylesTMain: this.stylesTemp + 'main.css'
+	stylesSrc: './_scss/**/*.scss',
+	stylesTemp: './.tmp/style',
+	stylesBuild: './dist/style',
+	stylesTempFiles: './.tmp/style/**/*.scss',
+	stylesTMain: './.tmp/style/main.css'
 };
 var	allowancePaths = {
-	lintSassE: spritePaths.stylesTempFiles,
-	lintPureD: '!' + spritePaths.spriteSBuilt + 'pure.scss',
-	lintAnimateD: '!' + spritePaths.spriteSBuilt + 'animate.scss',
-	lintSpriteD: '!' + spritePaths.spriteSBuilt + 'sprites.scss',
-	lintRetineD: '!' + spritePaths.spriteSBuilt + 'retinaSprites.scss',
-	compSassE: spritePaths.stylesTempFiles,
-	compSpriteD: '!' + spritePaths.spriteSBuilt + 'sprites.scss',
-	compRetinaD: '!' + spritePaths.spriteSBuilt + 'retinaSprites.scss',
-	fixCssE: spritePaths.spriteSBuilt + '*.css',
-	fixCssD: '!' + spritePaths.spriteSBuilt + '*.min.css',
-	fixPureD: '!' + spritePaths.spriteSBuilt + 'pure.css',
-	fixAnimateD: '!' + spritePaths.spriteSBuilt + 'animate.css'
+	lintSassE: './.tmp/style/**/*.scss',
+	lintPureD: '!./.tmp/style/pure.scss',
+	lintAnimateD: '!./.tmp/style/animate.scss',
+	lintSpriteD: '!./.tmp/style/sprites.scss',
+	lintRetineD: '!./.tmp/style/retinaSprites.scss',
+	fixCssE: './.tmp/style/*.css',
+	fixCssD: '!./.tmp/style/*.min.css',
+	fixPureD: '!./.tmp/style/pure.css',
+	fixPureE: './.tmp/style/pure.css',
+	fixAnimateD: '!./.tmp/style/animate.css',
+	fixAnimateE: './.tmp/style/animate.css',
+	fixMinifieD: '!./.tmp/*.min.css'
 };
 
 gulp.task('cleanUp', function() {
-	del([basePaths.cleanBuild, basePaths.cleanTemp]);
+	del([basePaths.buildFiles, basePaths.tempFiles, basePaths.siteFiles]);
 });
 
 gulp.task('bowerSetup', function() { 
 	return bower()
- 		.pipe(gulp.dest('./bower_components/')) 
+ 		.pipe(gulp.dest(basePaths.bowerDir)) 
 		.pipe(bower({ cmd: 'prune'}))
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: bowerSetup', err, {showStack: true});
@@ -107,21 +108,21 @@ gulp.task('bowerSetup', function() { 
 });
 
 gulp.task('nunjucksGenerate', function() {
-	nunjucksRender.nunjucks.configure(['./nunjDev/templates/']);
-	return gulp.src('./nunjDev/pages/**/*.+(html|nunjucks)')
+	nunjucksRender.nunjucks.configure(nunjPaths.nunjSrc);
+	return gulp.src(nunjPaths.nunjFiles)
 		.pipe(data(function() {
-			return JSON.parse(fs.readFileSync('./nunjDev/data.json','utf8'))
+			return JSON.parse(fs.readFileSync(nunjPaths.nunjData,'utf8'))
 		}))
 		.once('data', devTimer.start)
 		.pipe(nunjucksRender())
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: nunjucksGenerate', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./_sites'));
+		.pipe(gulp.dest(nunjPaths.nunjBuilt));
 });
 
 gulp.task('checkHtml', function() {
-	return gulp.src('./_sites/**/*.html')
+	return gulp.src(htmlPaths.htmlSrc)
 		.pipe(htmlHint('.htmlhintrc'))
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: checkHtml', err, {showStack: true});
@@ -129,14 +130,14 @@ gulp.task('checkHtml', function() {
 		.pipe(htmlHint.reporter("htmlhint-stylish")) ;
 });
 gulp.task('copyHtml', function() { 
-	return gulp.src('./_sites/**/*.html') 
+	return gulp.src(htmlPaths.htmlSrc) 
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: copyHtml', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./dist')); 
+		.pipe(gulp.dest(basePaths.builDir)); 
 });
 gulp.task('minifyHtml', function() {
-	return gulp.src('./_sites/**/*.html')
+	return gulp.src(htmlPaths.htmlSrc)
 		.pipe(minifyHtml({
 			removeComments: true,
 			removeCommentsFromCDATA: true,
@@ -150,46 +151,46 @@ gulp.task('minifyHtml', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: minifyHtml', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./dist'));
+		.pipe(gulp.dest(basePaths.builDir));
 });
 gulp.task('sprites', function () {
 	return sprity.src({
-			src: './_images/*.{gif,jpg,png,svg}',
-			style: './.tmp/style/sprites.scss',
+			src: spritePaths.spriteSrc,
+			style: spritePaths.spriteSName,
 			processor: 'sass',
 			prefix: 'tng',
 			template: 'custom.hbs'
 		})
-		.pipe(gulpIf('*.png', gulp.dest('./.tmp/images'), gulp.dest('./.tmp/style')))
+		.pipe(gulpIf('*.png', gulp.dest(spritePaths.spriteIBuilt), gulp.dest(stylePaths.stylesTemp)));
 });
 gulp.task('retinaSprites', function() {
-	var spriteData = gulp.src('./_images/sprites-2x/**/*.png')
+	var spriteData = gulp.src(spritePaths.retinaSrc)
 		.pipe(spriteSmith({
 			algorithm: 'binary-tree',
-			retinaSrcFilter: './_images/sprites-2x/*-2x.png',
-			imgName: 'retinaSprites.png',
-			retinaImgName: 'retinaSprites-2x.png',
-			cssName: 'retinaSprites.scss'
+			retinaSrcFilter: spritePaths.retinafilter,
+			imgName: spritePaths.retinaIName,
+			retinaImgName: spritePaths.retinaRName,
+			cssName: spritePaths.retinaSName
 		}))
-	spriteData.img.pipe(gulp.dest('./.tmp/images'));
-	spriteData.css.pipe(gulp.dest('./.tmp/style'));
+	spriteData.img.pipe(gulp.dest(spritePaths.spriteIBuilt));
+	spriteData.css.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('copyImgs:dev', function() { 
-	return gulp.src(['./_images/*.{gif,jpg,png,svg}', './.tmp/images/*.{gif,jpg,png,svg}']) 
+	return gulp.src([spritePaths.spriteSrc, spritePaths.imageTemp]) 
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: copyImgs:dev', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./dist/images'));
+		.pipe(gulp.dest(spritePaths.imageBuilt));
 });
 gulp.task('copyImgs', function() { 
-	return gulp.src('./_images/*.{gif,jpg,png,svg}') 
+	return gulp.src(spritePaths.spriteSrc) 
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: copyImgs', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./.tmp/images'));
+		.pipe(gulp.dest(spritePaths.spriteIBuilt));
 });
 gulp.task('minifyImgs', function() {
-	return gulp.src('./.tmp/images/**/*.{gif,jpg,png,svg}')
+	return gulp.src(spritePaths.imageTemp)
 		.pipe(imageMin({
 			progressive: true,
 			interlaced: true,
@@ -199,18 +200,18 @@ gulp.task('minifyImgs', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: minifyImgs', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./dist/images'));
+		.pipe(gulp.dest(spritePaths.imageBuilt));
 });
 
 gulp.task('copySass', function() { 
-	return gulp.src('./_scss/**/*.scss') 
+	return gulp.src(stylePaths.stylesSrc) 
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: copySass', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./.tmp/style'));
+		.pipe(gulp.dest(stylePaths.stylesTemp));
 });
 gulp.task('replaceSassPx', function() {
-	return gulp.src('./.tmp/style/**/*.scss')
+	return gulp.src(stylePaths.stylesTempFiles)
 		.pipe(replace({
 			patterns: [{
 				match: /0px/g,
@@ -220,10 +221,10 @@ gulp.task('replaceSassPx', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: replaceSassPx', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./.tmp/style'));
+		.pipe(gulp.dest(stylePaths.stylesTemp));
 });
 gulp.task('replaceSpriteUrl', function() {
-	return gulp.src('./.tmp/style/main.css')
+	return gulp.src(stylePaths.stylesTMain)
 		.pipe(replace({
 			patterns: [{
 				match: /retina/g,
@@ -233,26 +234,26 @@ gulp.task('replaceSpriteUrl', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: replaceSassPx', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./.tmp/style'));
+		.pipe(gulp.dest(stylePaths.stylesTemp));
 });
 gulp.task('lintSass', function() {
-	return gulp.src(['./.tmp/style/**/*.scss', '!./.tmp/style/animate.scss', '!./.tmp/style/pure.scss', '!./.tmp/style/sprites.scss', '!./.tmp/style/retinaSprites.scss'])
+	return gulp.src([stylePaths.stylesTempFiles, allowancePaths.lintAnimateD, allowancePaths.lintPureD, allowancePaths.lintSpriteD, allowancePaths.lintRetineD])
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: lintSass', err, {showStack: true});
 		})
 		.pipe(scssLint({'config': 'lint.yml'}));
 });
 gulp.task('compileSass', function() {
-	return gulp.src(['./.tmp/style/**/*.scss', '!./.tmp/style/sprites.scss', '!./.tmp/style/retinaSprites.scss'])
+	return gulp.src([stylePaths.stylesTempFiles, allowancePaths.lintSpriteD, allowancePaths.lintRetineD])
 		.pipe(sass())
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: compileSass', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./.tmp/style'));
+		.pipe(gulp.dest(stylePaths.stylesTemp));
 });
-//////
+
 gulp.task('cssAutofix', function () {
-	return gulp.src(['./.tmp/style/*.css', '!./.tmp/style/*.min.css', '!./.tmp/style/pure.css', '!./.tmp/style/animate.css'])
+	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixCssD, allowancePaths.fixPureD, allowancePaths.fixAnimateD])
 		.pipe(autoPrefixer({
 			browsers: ['> 10%', 'last 2 Chrome versions', 'last 2 Firefox versions', 'last 2 Opera versions', 'last 2 Safari versions', 'not ie <= 10'],
 			cascade: false
@@ -266,21 +267,21 @@ gulp.task('cssAutofix', function () {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: cssAutofix - cssComb', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./.tmp/style'));
+		.pipe(gulp.dest(stylePaths.stylesTemp));
 });
 gulp.task('cssLint:dev', function() {
-	return gulp.src(['./.tmp/style/*.css', '!./.tmp/style/*.min.css', '!./.tmp/style/pure.css', '!./.tmp/style/animate.css'])
+	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixCssD, allowancePaths.fixPureD, allowancePaths.fixAnimateD])
 		.pipe(cssLint('csslintrc.json'))
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: cssLint:dev', err, {showStack: true});
 		})
 		.pipe(cssLint.reporter('compact'))
-		.pipe(gulp.dest('./dist/style'))
+		.pipe(gulp.dest(stylePaths.stylesBuild))
 		.pipe(notify({ message: "Development build was successful", onLast: true }))
 		.pipe(devTimer);
 });
 gulp.task('cssLint', function() {
-	return gulp.src(['./.tmp/style/*.css', '!./.tmp/style/*.min.css', '!./.tmp/style/pure.css', '!./.tmp/style/animate.css'])
+	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixCssD, allowancePaths.fixPureD, allowancePaths.fixAnimateD])
 		.pipe(cssLint('csslintrc.json'))
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: cssLint', err, {showStack: true});
@@ -288,14 +289,14 @@ gulp.task('cssLint', function() {
 		.pipe(cssLint.reporter('junit-xml'));
 });
 gulp.task('3rdPartyCss', function() {
-	return gulp.src(['./.tmp/style/pure.css', './.tmp/style/animate.css'])
+	return gulp.src([allowancePaths.fixPureE, allowancePaths.fixAnimateE])
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: 3rdPartyCss copy', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./dist/style'))
+		.pipe(gulp.dest(stylePaths.stylesBuild))
 });
 gulp.task('base64Css', function() {
-	return gulp.src(['./.tmp/style/*.css', '!./.tmp/style/*.min.css', '!./.tmp/style/pure.css', '!./.tmp/style/animate.css'])
+	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixCssD, allowancePaths.fixPureD, allowancePaths.fixAnimateD])
 		.pipe(base64({
 			extensions: ['svg', 'png', 'jpg', 'jpeg'],
 			maxImageSize: 20*1024,
@@ -304,10 +305,11 @@ gulp.task('base64Css', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: base64', err, {showStack: true});
 		})
-		.pipe(cssLint.reporter());
+		.pipe(cssLint.reporter())
+		.pipe(gulp.dest(stylePaths.stylesTemp));
 });
 gulp.task('minifyCss', function () {
-	return gulp.src(['./.tmp/style/*.css', '!./.tmp/*.min.css'])
+	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixMinifieD])
 		.pipe(sourceMaps.init())
 		.pipe(minifyCss({
 			keepSpecialComments : 0
@@ -315,16 +317,14 @@ gulp.task('minifyCss', function () {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: minifyCss - minifying', err, {showStack: true});
 		})
-		.pipe(rename({suffix: '.min'}))
+		//.pipe(rename({suffix: '.min'}))
 		.pipe(sourceMaps.write('.'))
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: minifyCss - generating', err, {showStack: true});
 		})
-		.pipe(gulp.dest('./dist/style'))
+		.pipe(gulp.dest(stylePaths.stylesBuild))
 		.pipe(notify({ message: "Deployment build was successful", onLast: true }));
 });
-
-
 
 
 gulp.task('buildDev', function() {
@@ -334,12 +334,11 @@ gulp.task('buildDev', function() {
 });
 
 gulp.task('build', function() {
-	runSequence(['cleanUp'], 'nunjucksGenerate', 'minifyHtml', 'sprites', 'retinaSprites', 'copyImgs', 'minifyImgs', 'copySass', 'compileSass', 'cssAutofix', 'cssLint', '3rdPartyCss', 'base64Css', 'minifyCss', function() {
+	runSequence(['cleanUp'], 'nunjucksGenerate', 'minifyHtml', 'sprites', 'retinaSprites', 'copyImgs', 'minifyImgs', 'copySass', 'compileSass', 'cssAutofix', 'cssLint', 'replaceSpriteUrl', '3rdPartyCss', 'base64Css', 'minifyCss', function() {
 		reload({ stream: true });
 	});
 });
 
 gulp.task('serve', function () {
-	browserSyncInit('./dist/');
+	browserSyncInit(basePaths.builDir);
 });
-
