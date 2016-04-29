@@ -74,13 +74,11 @@ var	spritePaths = {
 };
 var	stylePaths = {
 	stylesSrc: './_scss/**/*.scss',
-	stylesTemp: './.tmp/style',
 	stylesBuild: './dist/style',
 	stylesTempFiles: './.tmp/style/**/*.scss',
 	stylesTMain: './.tmp/style/main.css'
 };
 var	allowancePaths = {
-	lintSassE: './.tmp/style/**/*.scss',
 	lintPureD: '!./.tmp/style/pure.scss',
 	lintAnimateD: '!./.tmp/style/animate.scss',
 	lintSpriteD: '!./.tmp/style/sprites.scss',
@@ -161,7 +159,7 @@ gulp.task('sprites', function () {
 			prefix: 'tng',
 			template: 'custom.hbs'
 		})
-		.pipe(gulpIf('*.png', gulp.dest(spritePaths.spriteIBuilt), gulp.dest(stylePaths.stylesTemp)));
+		.pipe(gulpIf('*.png', gulp.dest(spritePaths.spriteIBuilt), gulp.dest(spritePaths.spriteSBuilt)));
 });
 gulp.task('retinaSprites', function() {
 	var spriteData = gulp.src(spritePaths.retinaSrc)
@@ -208,7 +206,7 @@ gulp.task('copySass', function() { 
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: copySass', err, {showStack: true});
 		})
-		.pipe(gulp.dest(stylePaths.stylesTemp));
+		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('replaceSassPx', function() {
 	return gulp.src(stylePaths.stylesTempFiles)
@@ -221,7 +219,7 @@ gulp.task('replaceSassPx', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: replaceSassPx', err, {showStack: true});
 		})
-		.pipe(gulp.dest(stylePaths.stylesTemp));
+		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('replaceSpriteUrl', function() {
 	return gulp.src(stylePaths.stylesTMain)
@@ -234,7 +232,7 @@ gulp.task('replaceSpriteUrl', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: replaceSassPx', err, {showStack: true});
 		})
-		.pipe(gulp.dest(stylePaths.stylesTemp));
+		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('lintSass', function() {
 	return gulp.src([stylePaths.stylesTempFiles, allowancePaths.lintAnimateD, allowancePaths.lintPureD, allowancePaths.lintSpriteD, allowancePaths.lintRetineD])
@@ -249,7 +247,7 @@ gulp.task('compileSass', function() {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: compileSass', err, {showStack: true});
 		})
-		.pipe(gulp.dest(stylePaths.stylesTemp));
+		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 
 gulp.task('cssAutofix', function () {
@@ -267,7 +265,7 @@ gulp.task('cssAutofix', function () {
 		.on('error', function(err){
 			new gulpUtil.PluginError('Task error: cssAutofix - cssComb', err, {showStack: true});
 		})
-		.pipe(gulp.dest(stylePaths.stylesTemp));
+		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('cssLint:dev', function() {
 	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixCssD, allowancePaths.fixPureD, allowancePaths.fixAnimateD])
@@ -306,7 +304,7 @@ gulp.task('base64Css', function() {
 			new gulpUtil.PluginError('Task error: base64', err, {showStack: true});
 		})
 		.pipe(cssLint.reporter())
-		.pipe(gulp.dest(stylePaths.stylesTemp));
+		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('minifyCss', function () {
 	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixMinifieD])
