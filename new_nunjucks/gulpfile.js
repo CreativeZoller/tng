@@ -1,4 +1,4 @@
-
+"use strict";
 var gulp = require('gulp'),
 	fs = require('fs'),
 	data = require('gulp-data'),
@@ -100,8 +100,9 @@ gulp.task('bowerSetup', function() { 
 	return bower()
  		.pipe(gulp.dest(basePaths.bowerDir)) 
 		.pipe(bower({ cmd: 'prune'}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: bowerSetup', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'bowerSetup error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		});
 });
 
@@ -113,8 +114,9 @@ gulp.task('nunjucksGenerate', function() {
 		}))
 		.once('data', devTimer.start)
 		.pipe(nunjucksRender())
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: nunjucksGenerate', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'nunjucksGenerate error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(nunjPaths.nunjBuilt));
 });
@@ -122,15 +124,17 @@ gulp.task('nunjucksGenerate', function() {
 gulp.task('checkHtml', function() {
 	return gulp.src(htmlPaths.htmlSrc)
 		.pipe(htmlHint('.htmlhintrc'))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: checkHtml', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'checkHtml error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(htmlHint.reporter("htmlhint-stylish")) ;
 });
 gulp.task('copyHtml', function() { 
 	return gulp.src(htmlPaths.htmlSrc) 
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: copyHtml', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'copyHtml error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(basePaths.builDir)); 
 });
@@ -146,11 +150,13 @@ gulp.task('minifyHtml', function() {
 			preserveLineBreaks: true,
 			removeScriptTypeAttributes: true
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: minifyHtml', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'minifyHtml error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(basePaths.builDir));
 });
+
 gulp.task('sprites', function () {
 	return sprity.src({
 			src: spritePaths.spriteSrc,
@@ -175,15 +181,17 @@ gulp.task('retinaSprites', function() {
 });
 gulp.task('copyImgs:dev', function() { 
 	return gulp.src([spritePaths.spriteSrc, spritePaths.imageTemp]) 
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: copyImgs:dev', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'copyImgs:dev error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.imageBuilt));
 });
 gulp.task('copyImgs', function() { 
 	return gulp.src(spritePaths.spriteSrc) 
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: copyImgs', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'copyImgs error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.spriteIBuilt));
 });
@@ -195,16 +203,18 @@ gulp.task('minifyImgs', function() {
 			optimizationLevel: 6,
 			use: [pngQuant()]
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: minifyImgs', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'minifyImgs error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.imageBuilt));
 });
 
 gulp.task('copySass', function() { 
 	return gulp.src(stylePaths.stylesSrc) 
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: copySass', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'copySass error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
@@ -216,8 +226,9 @@ gulp.task('replaceSassPx', function() {
 				replacement: '0'
 			}]
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: replaceSassPx', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'replaceSassPx error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
@@ -229,23 +240,26 @@ gulp.task('replaceSpriteUrl', function() {
 				replacement: '../images/retina'
 			}]
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: replaceSassPx', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'replaceSpriteUrl error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('lintSass', function() {
 	return gulp.src([stylePaths.stylesTempFiles, allowancePaths.lintAnimateD, allowancePaths.lintPureD, allowancePaths.lintSpriteD, allowancePaths.lintRetineD])
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: lintSass', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'lintSass error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(scssLint({'config': 'lint.yml'}));
 });
 gulp.task('compileSass', function() {
 	return gulp.src([stylePaths.stylesTempFiles, allowancePaths.lintSpriteD, allowancePaths.lintRetineD])
 		.pipe(sass())
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: compileSass', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'compileSass error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
@@ -256,22 +270,25 @@ gulp.task('cssAutofix', function () {
 			browsers: ['> 10%', 'last 2 Chrome versions', 'last 2 Firefox versions', 'last 2 Opera versions', 'last 2 Safari versions', 'not ie <= 10'],
 			cascade: false
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: cssAutofix - autoPrefixing', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'cssPrefixing error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(cssComb({
 			config: './csscomb.json'
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: cssAutofix - cssComb', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'cssComb error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(spritePaths.spriteSBuilt));
 });
 gulp.task('cssLint:dev', function() {
 	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixCssD, allowancePaths.fixPureD, allowancePaths.fixAnimateD])
 		.pipe(cssLint('csslintrc.json'))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: cssLint:dev', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'cssLint:dev error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(cssLint.reporter('compact'))
 		.pipe(gulp.dest(stylePaths.stylesBuild))
@@ -281,15 +298,17 @@ gulp.task('cssLint:dev', function() {
 gulp.task('cssLint', function() {
 	return gulp.src([allowancePaths.fixCssE, allowancePaths.fixCssD, allowancePaths.fixPureD, allowancePaths.fixAnimateD])
 		.pipe(cssLint('csslintrc.json'))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: cssLint', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'cssLint error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(cssLint.reporter('junit-xml'));
 });
 gulp.task('3rdPartyCss', function() {
 	return gulp.src([allowancePaths.fixPureE, allowancePaths.fixAnimateE])
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: 3rdPartyCss copy', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: '3rdPartyCss copy error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(stylePaths.stylesBuild))
 });
@@ -300,8 +319,9 @@ gulp.task('base64Css', function() {
 			maxImageSize: 20*1024,
 			debug: true
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: base64', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'base64 error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(cssLint.reporter())
 		.pipe(gulp.dest(spritePaths.spriteSBuilt));
@@ -312,13 +332,15 @@ gulp.task('minifyCss', function () {
 		.pipe(minifyCss({
 			keepSpecialComments : 0
 		}))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: minifyCss - minifying', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'minifyCss error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		//.pipe(rename({suffix: '.min'}))
 		.pipe(sourceMaps.write('.'))
-		.on('error', function(err){
-			new gulpUtil.PluginError('Task error: minifyCss - generating', err, {showStack: true});
+		.on('error', function(err) {
+			notify.onError({ title: 'sourceWriting error!', message: '<%= error.message %>', sound: 'Frog' })(err);
+			this.emit('end');
 		})
 		.pipe(gulp.dest(stylePaths.stylesBuild))
 		.pipe(notify({ message: "Deployment build was successful", onLast: true }));
