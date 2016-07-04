@@ -1,13 +1,14 @@
 {% macro genContent(contentData) %}
 						{% for contentEntries in contentData %}
 							{% if contentEntries.type == 'text' %}
-							{% if contentEntries.title %}<h3>{{ contentEntries.title }}</h3>{% endif %}
-							{% if contentEntries.subTitle %}<h4>{{ contentEntries.subTitle }}</h4>{% endif %}
-							{% if contentEntries.content %}
-							<p>
-								{{ contentEntries.content }}
-							</p>
+								{% if contentEntries.title %}<h3>{{ contentEntries.title }}</h3>{% endif %}
+								{% if contentEntries.subTitle %}<h4>{{ contentEntries.subTitle }}</h4>{% endif %}
+								{% if contentEntries.content %}
+									<p>
+										{{ contentEntries.content }}
+									</p>
 							{% endif %}
+
 							{% elif contentEntries.type == 'quote' %}
 							<blockquote>
 								<p>{{ contentEntries.content }}</p>
